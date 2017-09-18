@@ -1,0 +1,850 @@
+[ 2017-09-14T10:05:11+08:00 ] ::1 /Jzc/index.php/Home/Login/nickname
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.003000s ]
+SQL: UPDATE `yaj_user` SET `username`='哇哈哈' WHERE `id` = 14 [ RunTime:0.082000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-09-14T10:05:44+08:00 ] ::1 /Jzc/index.php/Home/Login/nickname
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.012000s ]
+SQL: UPDATE `yaj_user` SET `username`='哇哈哈' WHERE `id` = 14 [ RunTime:0.059000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T10:11:34+08:00 ] ::1 /Jzc/index.php/Home/Login/getcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 30 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_code` [ RunTime:0.001000s ]
+SQL: DELETE FROM `yaj_code` WHERE `phoneNum` = '13555555555' [ RunTime:0.056000s ]
+NOTIC: [2] include(MessageSend.class.php): failed to open stream: No such file or directory D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 43 行.
+NOTIC: [2] include(): Failed opening 'MessageSend.class.php' for inclusion (include_path='.;D:\xampp\php\PEAR') D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 43 行.
+SQL: SELECT * FROM `yaj_code` WHERE `phoneNum` = '13555555555'  [ RunTime:0.000000s ]
+SQL: INSERT INTO `yaj_code` (`phoneNum`,`code`) VALUES ('13555555555','96e79218965eb72c92a549dd5a330112') [ RunTime:0.058000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-14T10:11:53+08:00 ] ::1 /Jzc/index.php/Home/Login/loginto
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '13555555555' LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 126 行.
+NOTIC: [8] Undefined index: password D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 129 行.
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '13555555555' AND `password` = '74be16979710d4c4e7c6647856088456' LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T10:12:11+08:00 ] ::1 /Jzc/index.php/Home/Login/loginto
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '13555555555' LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 126 行.
+NOTIC: [8] Undefined index: password D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 129 行.
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '13555555555' AND `password` = '74be16979710d4c4e7c6647856088456' LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-14T10:14:42+08:00 ] ::1 /Jzc/index.php/Home/Login/loginto
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '13555555555' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_code` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `yaj_code` WHERE `phoneNum` = '13555555555' AND `code` = '96e79218965eb72c92a549dd5a330112' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '13555555555' LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `yaj_user` SET `usertoken`='b55b1bce6d1da9b6a5fd8501108cf9b3' WHERE `id` = 14 [ RunTime:0.053000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-14T10:16:28+08:00 ] ::1 /Jzc/index.php/Home/Login/getcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 30 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_code` [ RunTime:0.001000s ]
+SQL: DELETE FROM `yaj_code` WHERE `phoneNum` = '13666666666' [ RunTime:0.001000s ]
+NOTIC: [2] include(MessageSend.class.php): failed to open stream: No such file or directory D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 43 行.
+NOTIC: [2] include(): Failed opening 'MessageSend.class.php' for inclusion (include_path='.;D:\xampp\php\PEAR') D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 43 行.
+SQL: SELECT * FROM `yaj_code` WHERE `phoneNum` = '13666666666'  [ RunTime:0.001000s ]
+SQL: INSERT INTO `yaj_code` (`phoneNum`,`code`) VALUES ('13666666666','96e79218965eb72c92a549dd5a330112') [ RunTime:0.049000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-14T10:16:41+08:00 ] ::1 /Jzc/index.php/Home/Login/loginto
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '13666666666' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_code` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `yaj_code` WHERE `phoneNum` = '13666666666' AND `code` = '96e79218965eb72c92a549dd5a330112' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '13666666666' LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `yaj_user` SET `hx_id`='17' WHERE ( id='17' ) [ RunTime:0.050000s ]
+SQL: UPDATE `yaj_user` SET `usertoken`='625d848fab7dc2a55c74605d7403bd21' WHERE `id` = 17 [ RunTime:0.024000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T10:16:47+08:00 ] ::1 /Jzc/index.php/Home/Login/loginto
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '13666666666' LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: password D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 129 行.
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '13666666666' AND `password` = '74be16979710d4c4e7c6647856088456' LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-14T10:16:53+08:00 ] ::1 /Jzc/index.php/Home/Login/loginto
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '13666666666' LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_code` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `yaj_code` WHERE `phoneNum` = '13666666666' AND `code` = '96e79218965eb72c92a549dd5a330112' LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '13666666666' LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `yaj_user` SET `usertoken`='2e8845bbabf58a36e36515ce5e84fe75' WHERE `id` = 17 [ RunTime:0.180000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T10:20:13+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 230 行.
+
+[ 2017-09-14T10:20:31+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: prove D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 242 行.
+NOTIC: [8] Undefined index: goodcase D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 247 行.
+NOTIC: [8] Undefined index: sarve D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 258 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 266 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: INSERT INTO `yaj_user` (`username`,`phoneNum`,`userpic`,`type`,`status`) VALUES ('太子','1377777777','',2,2) [ RunTime:0.041000s ]
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.005000s ]
+SQL: INSERT INTO `yaj_userdetails` (`status`,`worktime`,`cardpic`,`goods`,`serve`,`card`,`education`,`native`,`uid`) VALUES (2,1347589231,'','12',null,'12331231231','大学','北京',18) [ RunTime:0.045000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '1377777777' LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `yaj_user` SET `hx_id`='18' WHERE ( id='18' ) [ RunTime:0.046000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-14T10:21:51+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: prove D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 242 行.
+NOTIC: [8] Undefined index: goodcase D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 247 行.
+NOTIC: [8] Undefined index: sarve D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 258 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 266 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: INSERT INTO `yaj_user` (`username`,`phoneNum`,`userpic`,`type`,`status`) VALUES ('太子','1377777777','/2017-09-14/59b9e7bf569f1.jpg',2,2) [ RunTime:0.058000s ]
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.006000s ]
+SQL: INSERT INTO `yaj_userdetails` (`status`,`worktime`,`cardpic`,`goods`,`serve`,`card`,`education`,`native`,`uid`) VALUES (2,1347589311,'/2017-09-14/59b9e7bf56609.jpg','12',null,'12331231231','大学','北京',19) [ RunTime:0.044000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '1377777777' LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T10:23:29+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: prove D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 242 行.
+NOTIC: [8] Undefined index: goodcase D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 247 行.
+NOTIC: [8] Undefined index: sarve D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 258 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 267 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: INSERT INTO `yaj_user` (`username`,`phoneNum`,`userpic`,`type`,`status`,`usertoken`) VALUES ('不爽','1388888888','/2017-09-14/59b9e820d2669.jpg',2,2,'715fc0c26ba16b53199d441c011d9d68') [ RunTime:0.046000s ]
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.005000s ]
+SQL: INSERT INTO `yaj_userdetails` (`status`,`worktime`,`cardpic`,`goods`,`serve`,`card`,`education`,`native`,`uid`) VALUES (2,1347589408,'/2017-09-14/59b9e820d1e99.jpg','12',null,'12331231231','大学','北京',20) [ RunTime:0.027000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '1388888888' LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `yaj_user` SET `hx_id`='20' WHERE ( id='20' ) [ RunTime:0.044000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-14T11:06:38+08:00 ] ::1 /Jzc/index.php/Home/Login/start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT `username`,`phoneNum`,`type`,`signatrue`,`status`,`userpic`,`registertime`,`weixin`,`email`,`city`,`usertoken`,`alipay` FROM `yaj_user` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 360 行.
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 361 行.
+SQL: SELECT * FROM `yaj_userdetails` WHERE `uid` = null LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-14T11:07:00+08:00 ] ::1 /Jzc/index.php/Home/Login/start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT `username`,`phoneNum`,`type`,`signatrue`,`status`,`userpic`,`registertime`,`weixin`,`email`,`city`,`usertoken`,`alipay` FROM `yaj_user` WHERE `id` = 17 LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 360 行.
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 361 行.
+SQL: SELECT * FROM `yaj_userdetails` WHERE `uid` = null LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-14T11:08:23+08:00 ] ::1 /Jzc/index.php/Home/Login/start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT `username`,`phoneNum`,`type`,`signatrue`,`status`,`userpic`,`registertime`,`weixin`,`email`,`city`,`usertoken`,`alipay` FROM `yaj_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 360 行.
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 361 行.
+SQL: SELECT * FROM `yaj_userdetails` WHERE `uid` = null LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-14T11:18:14+08:00 ] ::1 /Jzc/index.php/Home/Login/start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT `username`,`phoneNum`,`type`,`signatrue`,`status`,`userpic`,`registertime`,`weixin`,`email`,`city`,`usertoken`,`alipay` FROM `yaj_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 360 行.
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 361 行.
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php on line 361 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+SQL: SELECT * FROM `yaj_userdetails` WHERE `uid` = null LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-14T11:18:38+08:00 ] ::1 /Jzc/index.php/Home/Login/start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT `username`,`phoneNum`,`type`,`signatrue`,`status`,`userpic`,`registertime`,`weixin`,`email`,`city`,`usertoken`,`alipay` FROM `yaj_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 360 行.
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 361 行.
+SQL: SELECT * FROM `yaj_userdetails` WHERE `uid` = null  [ RunTime:0.001000s ]
+
+[ 2017-09-14T11:19:01+08:00 ] ::1 /Jzc/index.php/Home/Login/start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT `username`,`phoneNum`,`type`,`signatrue`,`status`,`userpic`,`registertime`,`weixin`,`email`,`city`,`usertoken`,`alipay` FROM `yaj_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 360 行.
+
+[ 2017-09-14T11:19:12+08:00 ] ::1 /Jzc/index.php/Home/Login/start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT `username`,`phoneNum`,`type`,`signatrue`,`status`,`userpic`,`registertime`,`weixin`,`email`,`city`,`usertoken`,`alipay` FROM `yaj_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-14T11:19:22+08:00 ] ::1 /Jzc/index.php/Home/Login/start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT `username`,`phoneNum`,`type`,`signatrue`,`status`,`userpic`,`registertime`,`weixin`,`email`,`city`,`usertoken`,`alipay` FROM `yaj_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 361 行.
+SQL: SELECT * FROM `yaj_userdetails` WHERE `uid` = null  [ RunTime:0.000000s ]
+
+[ 2017-09-14T11:19:51+08:00 ] ::1 /Jzc/index.php/Home/Login/start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT `username`,`phoneNum`,`type`,`signatrue`,`status`,`userpic`,`registertime`,`weixin`,`email`,`city`,`usertoken`,`alipay` FROM `yaj_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 361 行.
+
+[ 2017-09-14T11:20:03+08:00 ] ::1 /Jzc/index.php/Home/Login/start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT `username`,`phoneNum`,`type`,`signatrue`,`status`,`userpic`,`registertime`,`weixin`,`email`,`city`,`usertoken`,`alipay` FROM `yaj_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 361 行.
+
+[ 2017-09-14T11:20:23+08:00 ] ::1 /Jzc/index.php/Home/Login/start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`username`,`phoneNum`,`type`,`signatrue`,`status`,`userpic`,`registertime`,`weixin`,`email`,`city`,`usertoken`,`alipay` FROM `yaj_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 362 行.
+SQL: SELECT * FROM `yaj_userdetails` WHERE `uid` = null  [ RunTime:0.001000s ]
+
+[ 2017-09-14T11:20:43+08:00 ] ::1 /Jzc/index.php/Home/Login/start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`username`,`phoneNum`,`type`,`signatrue`,`status`,`userpic`,`registertime`,`weixin`,`email`,`city`,`usertoken`,`alipay` FROM `yaj_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-14T11:36:44+08:00 ] ::1 /Jzc/index.php/Home/Login/start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`username`,`phoneNum`,`type`,`signatrue`,`status`,`userpic`,`registertime`,`weixin`,`email`,`city`,`usertoken`,`alipay` FROM `yaj_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 361 行.
+SQL: SELECT * FROM `yaj_userdetails` WHERE `uid` = null LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-14T11:36:51+08:00 ] ::1 /Jzc/index.php/Home/Login/start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`username`,`phoneNum`,`type`,`signatrue`,`status`,`userpic`,`registertime`,`weixin`,`email`,`city`,`usertoken`,`alipay` FROM `yaj_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 361 行.
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php on line 361 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+SQL: SELECT * FROM `yaj_userdetails` WHERE `uid` = null  [ RunTime:0.000000s ]
+
+[ 2017-09-14T11:36:58+08:00 ] ::1 /Jzc/index.php/Home/Login/start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`username`,`phoneNum`,`type`,`signatrue`,`status`,`userpic`,`registertime`,`weixin`,`email`,`city`,`usertoken`,`alipay` FROM `yaj_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 361 行.
+SQL: SELECT `id` FROM `yaj_userdetails` WHERE `uid` = null  [ RunTime:0.000000s ]
+
+[ 2017-09-14T11:36:59+08:00 ] ::1 /Jzc/index.php/Home/Login/start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`username`,`phoneNum`,`type`,`signatrue`,`status`,`userpic`,`registertime`,`weixin`,`email`,`city`,`usertoken`,`alipay` FROM `yaj_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 361 行.
+SQL: SELECT `id` FROM `yaj_userdetails` WHERE `uid` = null  [ RunTime:0.000000s ]
+
+[ 2017-09-14T11:37:21+08:00 ] ::1 /Jzc/index.php/Home/Login/start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`username`,`phoneNum`,`type`,`signatrue`,`status`,`userpic`,`registertime`,`weixin`,`email`,`city`,`usertoken`,`alipay` FROM `yaj_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 361 行.
+NOTIC: [8] Undefined variable:  D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 361 行.
+
+[ 2017-09-14T11:37:30+08:00 ] ::1 /Jzc/index.php/Home/Login/start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`username`,`phoneNum`,`type`,`signatrue`,`status`,`userpic`,`registertime`,`weixin`,`email`,`city`,`usertoken`,`alipay` FROM `yaj_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 361 行.
+
+[ 2017-09-14T11:37:35+08:00 ] ::1 /Jzc/index.php/Home/Login/start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`username`,`phoneNum`,`type`,`signatrue`,`status`,`userpic`,`registertime`,`weixin`,`email`,`city`,`usertoken`,`alipay` FROM `yaj_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-14T11:37:44+08:00 ] ::1 /Jzc/index.php/Home/Login/start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`username`,`phoneNum`,`type`,`signatrue`,`status`,`userpic`,`registertime`,`weixin`,`email`,`city`,`usertoken`,`alipay` FROM `yaj_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.002000s ]
+SQL: SELECT `id` FROM `yaj_userdetails` WHERE `uid` = 20  [ RunTime:0.000000s ]
+
+[ 2017-09-14T11:37:50+08:00 ] ::1 /Jzc/index.php/Home/Login/start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.003000s ]
+SQL: SELECT `id`,`username`,`phoneNum`,`type`,`signatrue`,`status`,`userpic`,`registertime`,`weixin`,`email`,`city`,`usertoken`,`alipay` FROM `yaj_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php on line 361 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+SQL: SELECT * FROM `yaj_userdetails` WHERE `uid` = 20  [ RunTime:0.001000s ]
+
+[ 2017-09-14T11:47:39+08:00 ] ::1 /Jzc/index.php/Home/Login/start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`username`,`phoneNum`,`type`,`signatrue`,`status`,`userpic`,`registertime`,`weixin`,`email`,`city`,`usertoken`,`alipay` FROM `yaj_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: res D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 366 行.
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php on line 366 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+SQL: SELECT * FROM `yaj_userdetails` WHERE `uid` = null  [ RunTime:0.001000s ]
+
+[ 2017-09-14T11:48:10+08:00 ] ::1 /Jzc/index.php/Home/Login/start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`username`,`phoneNum`,`type`,`signatrue`,`status`,`userpic`,`registertime`,`weixin`,`email`,`city`,`usertoken`,`alipay` FROM `yaj_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: res D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 364 行.
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php on line 364 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+SQL: SELECT * FROM `yaj_userdetails` WHERE `uid` = null  [ RunTime:0.001000s ]
+
+[ 2017-09-14T11:48:26+08:00 ] ::1 /Jzc/index.php/Home/Login/start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`username`,`phoneNum`,`type`,`signatrue`,`status`,`userpic`,`registertime`,`weixin`,`email`,`city`,`usertoken`,`alipay` FROM `yaj_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php on line 364 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+SQL: SELECT * FROM `yaj_userdetails` WHERE `uid` = 20  [ RunTime:0.000000s ]
+
+[ 2017-09-14T11:48:34+08:00 ] ::1 /Jzc/index.php/Home/Login/start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`username`,`phoneNum`,`type`,`signatrue`,`status`,`userpic`,`registertime`,`weixin`,`email`,`city`,`usertoken`,`alipay` FROM `yaj_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php on line 364 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+SQL: SELECT * FROM `yaj_userdetails` WHERE `uid` = 20  [ RunTime:0.000000s ]
+
+[ 2017-09-14T11:49:22+08:00 ] ::1 /Jzc/index.php/Home/Login/start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`username`,`phoneNum`,`type`,`userpic`,`signatrue`,`status`,`userpic`,`registertime`,`weixin`,`email`,`city`,`usertoken`,`alipay` FROM `yaj_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php on line 364 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+SQL: SELECT * FROM `yaj_userdetails` WHERE `uid` = 20  [ RunTime:0.000000s ]
+
+[ 2017-09-14T11:50:37+08:00 ] ::1 /Jzc/index.php/Home/Login/start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`username`,`phoneNum`,`type`,`signatrue`,`status`,`userpic`,`registertime`,`weixin`,`email`,`city`,`usertoken`,`alipay` FROM `yaj_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-14T11:50:50+08:00 ] ::1 /Jzc/index.php/Home/Login/start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`username`,`phoneNum`,`type`,`signatrue`,`status`,`userpic`,`registertime`,`weixin`,`email`,`city`,`usertoken`,`alipay` FROM `yaj_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-14T11:51:06+08:00 ] ::1 /Jzc/index.php/Home/Login/start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`username`,`phoneNum`,`type`,`signatrue`,`status`,`userpic`,`registertime`,`weixin`,`email`,`city`,`usertoken`,`alipay` FROM `yaj_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.003000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php on line 364 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+SQL: SELECT * FROM `yaj_userdetails` WHERE `uid` = 20  [ RunTime:0.001000s ]
+
+[ 2017-09-14T11:53:34+08:00 ] ::1 /Jzc/index.php/Home/Login/start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`username`,`phoneNum`,`type`,`signatrue`,`status`,`userpic`,`registertime`,`weixin`,`email`,`city`,`usertoken`,`alipay` FROM `yaj_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php on line 364 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+SQL: SELECT * FROM `yaj_userdetails` WHERE `uid` = 20  [ RunTime:0.000000s ]
+
+[ 2017-09-14T11:53:57+08:00 ] ::1 /Jzc/index.php/Home/Login/start
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`username`,`phoneNum`,`type`,`signatrue`,`status`,`userpic`,`registertime`,`weixin`,`email`,`city`,`usertoken`,`alipay` FROM `yaj_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php on line 364 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+SQL: SELECT * FROM `yaj_userdetails` WHERE `uid` = 20 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-14T14:34:26+08:00 ] ::1 /Jzc/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_carousel` [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php on line 7 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+SQL: SELECT * FROM `yaj_carousel` WHERE `state` = 1  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-14T14:34:58+08:00 ] ::1 /Jzc/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_carousel` [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php on line 7 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+SQL: SELECT * FROM `yaj_carousel` WHERE `state` = 1  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-14T14:35:45+08:00 ] ::1 /Jzc/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant pase - assumed 'pase' D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 7 行.
+NOTIC: [8] Undefined variable: pase D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 8 行.
+
+[ 2017-09-14T14:35:51+08:00 ] ::1 /Jzc/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pase D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 8 行.
+
+[ 2017-09-14T14:35:58+08:00 ] ::1 /Jzc/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pase D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 8 行.
+
+[ 2017-09-14T14:36:06+08:00 ] ::1 /Jzc/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-14T14:36:14+08:00 ] ::1 /Jzc/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant PASE - assumed 'PASE' D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 7 行.
+
+[ 2017-09-14T14:36:48+08:00 ] ::1 /Jzc/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_carousel` [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php on line 8 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+SQL: SELECT * FROM `yaj_carousel` WHERE `state` = 1  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: img D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-14T14:38:27+08:00 ] ::1 /Jzc/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_carousel` [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php on line 8 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+SQL: SELECT * FROM `yaj_carousel` WHERE `state` = 1  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-14T15:27:56+08:00 ] ::1 /Jzc/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_carousel` [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php on line 8 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+SQL: SELECT * FROM `yaj_carousel` WHERE `state` = 1  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-14T15:28:04+08:00 ] ::1 /Jzc/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_carousel` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`img`,`is_package` FROM `yaj_carousel` WHERE `state` = 1  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-14T15:28:24+08:00 ] ::1 /Jzc/index.php/Home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_carousel` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`img`,`is_package` FROM `yaj_carousel` WHERE `state` = 1  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

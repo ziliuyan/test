@@ -1,0 +1,1232 @@
+[ 2017-09-13T10:22:06+08:00 ] ::1 /Jzc/index.php/Home/Login/loginto
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+
+[ 2017-09-13T10:22:10+08:00 ] ::1 /Jzc/index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T10:22:29+08:00 ] ::1 /Jzc/index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:register
+
+[ 2017-09-13T10:22:47+08:00 ] ::1 /Jzc/index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:register
+
+[ 2017-09-13T10:23:33+08:00 ] ::1 /Jzc/index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:register
+
+[ 2017-09-13T10:24:12+08:00 ] ::1 /Jzc/index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:register
+
+[ 2017-09-13T10:24:21+08:00 ] ::1 /Jzc/index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:register
+
+[ 2017-09-13T10:24:35+08:00 ] ::1 /Jzc/index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:register
+
+[ 2017-09-13T10:24:51+08:00 ] ::1 /Jzc/index.php/Home/Login/getcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 21 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 30 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_code` [ RunTime:0.002000s ]
+SQL: DELETE FROM `yaj_code` WHERE `phoneNum` = '13555555555' [ RunTime:0.069000s ]
+NOTIC: [2] include(MessageSend.class.php): failed to open stream: No such file or directory D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 43 行.
+NOTIC: [2] include(): Failed opening 'MessageSend.class.php' for inclusion (include_path='.;D:\xampp\php\PEAR') D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 43 行.
+SQL: SELECT * FROM `yaj_code` WHERE `phoneNum` = '13555555555'  [ RunTime:0.000000s ]
+SQL: INSERT INTO `yaj_code` (`phoneNum`,`code`) VALUES ('13555555555','96e79218965eb72c92a549dd5a330112') [ RunTime:0.055000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019000s ]
+
+[ 2017-09-13T10:25:08+08:00 ] ::1 /Jzc/index.php/Home/Login/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:register
+
+[ 2017-09-13T10:25:31+08:00 ] ::1 /Jzc/index.php/Home/Login/loginto
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '15501154286' LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 126 行.
+NOTIC: [8] Undefined index: password D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 129 行.
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '15501154286' AND `password` = '74be16979710d4c4e7c6647856088456' LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T10:25:50+08:00 ] ::1 /Jzc/index.php/Home/Login/loginto
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '13555555555' LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 126 行.
+NOTIC: [8] Undefined index: password D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 129 行.
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '13555555555' AND `password` = '74be16979710d4c4e7c6647856088456' LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T10:27:05+08:00 ] ::1 /Jzc/index.php/Home/Login/loginto
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: code D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 81 行.
+
+[ 2017-09-13T10:27:26+08:00 ] ::1 /Jzc/index.php/Home/Login/changepwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: UPDATE `yaj_user` SET `phoneNum`='15501154286',`password`='123456' WHERE `phoneNum` = '15501154286' [ RunTime:0.104000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T10:27:46+08:00 ] ::1 /Jzc/index.php/Home/Login/changepwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: UPDATE `yaj_user` SET `phoneNum`='15501154286',`password`='123456' WHERE `phoneNum` = '15501154286' [ RunTime:0.054000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T10:28:08+08:00 ] ::1 /Jzc/index.php/Home/Login/changepwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: UPDATE `yaj_user` SET `phoneNum`='15501154286',`password`='123456' WHERE `phoneNum` = '15501154286' [ RunTime:0.056000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T10:28:26+08:00 ] ::1 /Jzc/index.php/Home/Login/changepwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: UPDATE `yaj_user` SET `phoneNum`='15501154286',`password`='123456' WHERE `phoneNum` = '15501154286' [ RunTime:0.052000s ]
+
+[ 2017-09-13T10:28:50+08:00 ] ::1 /Jzc/index.php/Home/Login/changepwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: UPDATE `yaj_user` SET `phoneNum`='15501154286',`password`='123456' WHERE `phoneNum` = '15501154286' [ RunTime:0.071000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T10:39:42+08:00 ] ::1 /Jzc/index.php/Home/Login/change_pwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: UPDATE `yaj_user` SET `phoneNum`='1550115428',`password`='123456' WHERE `phoneNum` = '1550115428' [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T10:39:54+08:00 ] ::1 /Jzc/index.php/Home/Login/change_pwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: UPDATE `yaj_user` SET `phoneNum`='15501154',`password`='123456' WHERE `phoneNum` = '15501154' [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T10:43:26+08:00 ] ::1 /Jzc/index.php/Home/Login/change_pwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '15501154'  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T10:44:33+08:00 ] ::1 /Jzc/index.php/Home/Login/loginto
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '15501154286' LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 126 行.
+NOTIC: [8] Undefined index: password D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 129 行.
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '15501154286' AND `password` = '74be16979710d4c4e7c6647856088456' LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T10:56:44+08:00 ] ::1 /Jzc/index.php/Home/Login/get_img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T10:59:36+08:00 ] ::1 /Jzc/index.php/Home/Login/get_img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T11:01:33+08:00 ] ::1 /Jzc/index.php/Home/Login/get_img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined variable: path D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 211 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T11:01:49+08:00 ] ::1 /Jzc/index.php/Home/Login/get_img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T11:08:29+08:00 ] ::1 /Jzc/index.php/Home/Login/get_img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant PASE - assumed 'PASE' D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 204 行.
+
+[ 2017-09-13T11:08:45+08:00 ] ::1 /Jzc/index.php/Home/Login/get_img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant PASE - assumed 'PASE' D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 204 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T11:17:16+08:00 ] ::1 /Jzc/index.php/Home/Login/datum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T11:17:23+08:00 ] ::1 /Jzc/index.php/Home/Login/datum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T11:40:48+08:00 ] ::1 /Jzc/index.php/Home/Login/change_pwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '15501154'  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T11:40:56+08:00 ] ::1 /Jzc/index.php/Home/Login/change_pwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '155011544285'  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T11:41:06+08:00 ] ::1 /Jzc/index.php/Home/Login/change_pwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '15501154285'  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_code` [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: code D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 185 行.
+SQL: SELECT * FROM `yaj_code` WHERE `phoneNum` = '15501154285' AND `code` = 'd41d8cd98f00b204e9800998ecf8427e'  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T14:23:46+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T14:24:16+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 225 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 225 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: prove D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 238 行.
+NOTIC: [8] Undefined index: goodcase D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 244 行.
+NOTIC: [8] Undefined index: guild D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 253 行.
+NOTIC: [8] Undefined index: sarve D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 254 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 255 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 256 行.
+NOTIC: [8] Undefined index: sex D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 259 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 266 行.
+NOTIC: [8] Undefined index: weixin D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 269 行.
+NOTIC: [8] Undefined index: email D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 272 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 276 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 278 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 281 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.014000s ]
+ERR: 非法数据对象！:[guild=>]
+
+[ 2017-09-13T14:31:21+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 225 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 225 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: prove D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 238 行.
+NOTIC: [8] Undefined index: goodcase D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 244 行.
+NOTIC: [8] Undefined index: sarve D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 254 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 255 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 256 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 266 行.
+NOTIC: [8] Undefined index: weixin D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 269 行.
+NOTIC: [8] Undefined index: email D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 272 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 278 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.002000s ]
+SQL: INSERT INTO `yaj_userdetails` (`worktime`,`cardpic`,`goods`,`serve`,`uid`,`card`,`education`,`native`) VALUES (1347517881,'/2017-09-13/59b8d0b96cfd4.jpg','12',null,null,null,'大学','北京') [ RunTime:0.000000s ]
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `yaj_userdetails` (`worktime`,`cardpic`,`goods`,`serve`,`uid`,`card`,`education`,`native`) VALUES (1347517881,'/2017-09-13/59b8d0b96cfd4.jpg','12',null,null,null,'大学','北京')
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: INSERT INTO `yaj_user` (`userpic`,`type`,`username`,`status`) VALUES ('/2017-09-13/59b8d0b96d3bc.jpg',null,'太子',2) [ RunTime:0.000000s ]
+ERR: 1048:Column 'type' cannot be null
+ [ SQL语句 ] : INSERT INTO `yaj_user` (`userpic`,`type`,`username`,`status`) VALUES ('/2017-09-13/59b8d0b96d3bc.jpg',null,'太子',2)
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T14:32:12+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 225 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 225 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: prove D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 238 行.
+NOTIC: [8] Undefined index: goodcase D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 244 行.
+NOTIC: [8] Undefined index: sarve D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 254 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 255 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 256 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 266 行.
+NOTIC: [8] Undefined index: weixin D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 269 行.
+NOTIC: [8] Undefined index: email D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 272 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 278 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.002000s ]
+SQL: INSERT INTO `yaj_userdetails` (`worktime`,`cardpic`,`goods`,`serve`,`uid`,`card`,`education`,`native`) VALUES (1347517932,'/2017-09-13/59b8d0ec6b094.jpg','12',null,null,null,'大学','北京') [ RunTime:0.000000s ]
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `yaj_userdetails` (`worktime`,`cardpic`,`goods`,`serve`,`uid`,`card`,`education`,`native`) VALUES (1347517932,'/2017-09-13/59b8d0ec6b094.jpg','12',null,null,null,'大学','北京')
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: INSERT INTO `yaj_user` (`userpic`,`type`,`username`,`status`) VALUES ('/2017-09-13/59b8d0ec6b47c.jpg',null,'太子',2) [ RunTime:0.001000s ]
+ERR: 1048:Column 'type' cannot be null
+ [ SQL语句 ] : INSERT INTO `yaj_user` (`userpic`,`type`,`username`,`status`) VALUES ('/2017-09-13/59b8d0ec6b47c.jpg',null,'太子',2)
+
+[ 2017-09-13T14:32:30+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 225 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 225 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: prove D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 238 行.
+NOTIC: [8] Undefined index: goodcase D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 244 行.
+NOTIC: [8] Undefined index: sarve D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 254 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 255 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 256 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 266 行.
+NOTIC: [8] Undefined index: weixin D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 269 行.
+NOTIC: [8] Undefined index: email D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 272 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.002000s ]
+SQL: INSERT INTO `yaj_userdetails` (`worktime`,`cardpic`,`goods`,`serve`,`uid`,`card`,`education`,`native`) VALUES (1347517950,'/2017-09-13/59b8d0fe63394.jpg','12',null,null,null,'大学','北京') [ RunTime:0.000000s ]
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `yaj_userdetails` (`worktime`,`cardpic`,`goods`,`serve`,`uid`,`card`,`education`,`native`) VALUES (1347517950,'/2017-09-13/59b8d0fe63394.jpg','12',null,null,null,'大学','北京')
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: INSERT INTO `yaj_user` (`userpic`,`type`,`username`,`status`) VALUES ('/2017-09-13/59b8d0fe6377c.jpg',null,'太子',2) [ RunTime:0.000000s ]
+ERR: 1048:Column 'type' cannot be null
+ [ SQL语句 ] : INSERT INTO `yaj_user` (`userpic`,`type`,`username`,`status`) VALUES ('/2017-09-13/59b8d0fe6377c.jpg',null,'太子',2)
+
+[ 2017-09-13T14:32:37+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 225 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 225 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: prove D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 238 行.
+NOTIC: [8] Undefined index: goodcase D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 244 行.
+NOTIC: [8] Undefined index: sarve D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 254 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 255 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 256 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 266 行.
+NOTIC: [8] Undefined index: weixin D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 269 行.
+NOTIC: [8] Undefined index: email D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 272 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.002000s ]
+SQL: INSERT INTO `yaj_userdetails` (`worktime`,`cardpic`,`goods`,`serve`,`uid`,`card`,`education`,`native`) VALUES (1347517957,'/2017-09-13/59b8d1053f55c.jpg','12',null,null,null,'大学','北京') [ RunTime:0.000000s ]
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `yaj_userdetails` (`worktime`,`cardpic`,`goods`,`serve`,`uid`,`card`,`education`,`native`) VALUES (1347517957,'/2017-09-13/59b8d1053f55c.jpg','12',null,null,null,'大学','北京')
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: INSERT INTO `yaj_user` (`userpic`,`type`,`username`,`status`) VALUES ('/2017-09-13/59b8d1053f944.jpg',null,'太子',2) [ RunTime:0.000000s ]
+ERR: 1048:Column 'type' cannot be null
+ [ SQL语句 ] : INSERT INTO `yaj_user` (`userpic`,`type`,`username`,`status`) VALUES ('/2017-09-13/59b8d1053f944.jpg',null,'太子',2)
+
+[ 2017-09-13T14:32:55+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 225 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 225 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: prove D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 238 行.
+NOTIC: [8] Undefined index: goodcase D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 244 行.
+NOTIC: [8] Undefined index: sarve D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 254 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 255 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 256 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 266 行.
+NOTIC: [8] Undefined index: weixin D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 269 行.
+NOTIC: [8] Undefined index: email D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 272 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.002000s ]
+SQL: INSERT INTO `yaj_userdetails` (`worktime`,`cardpic`,`goods`,`serve`,`uid`,`card`,`education`,`native`) VALUES (1347517975,'/2017-09-13/59b8d117c88ac.jpg','12',null,null,null,'大学','北京') [ RunTime:0.000000s ]
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `yaj_userdetails` (`worktime`,`cardpic`,`goods`,`serve`,`uid`,`card`,`education`,`native`) VALUES (1347517975,'/2017-09-13/59b8d117c88ac.jpg','12',null,null,null,'大学','北京')
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: INSERT INTO `yaj_user` (`userpic`,`type`,`username`,`status`) VALUES ('/2017-09-13/59b8d117c8c94.jpg',null,'太子',2) [ RunTime:0.000000s ]
+ERR: 1048:Column 'type' cannot be null
+ [ SQL语句 ] : INSERT INTO `yaj_user` (`userpic`,`type`,`username`,`status`) VALUES ('/2017-09-13/59b8d117c8c94.jpg',null,'太子',2)
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 280 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 281 行.
+
+[ 2017-09-13T14:32:58+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 225 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 225 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: prove D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 238 行.
+NOTIC: [8] Undefined index: goodcase D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 244 行.
+NOTIC: [8] Undefined index: sarve D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 254 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 255 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 256 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 266 行.
+NOTIC: [8] Undefined index: weixin D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 269 行.
+NOTIC: [8] Undefined index: email D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 272 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.001000s ]
+SQL: INSERT INTO `yaj_userdetails` (`worktime`,`cardpic`,`goods`,`serve`,`uid`,`card`,`education`,`native`) VALUES (1347517978,'/2017-09-13/59b8d11a1af54.jpg','12',null,null,null,'大学','北京') [ RunTime:0.000000s ]
+ERR: 1048:Column 'uid' cannot be null
+ [ SQL语句 ] : INSERT INTO `yaj_userdetails` (`worktime`,`cardpic`,`goods`,`serve`,`uid`,`card`,`education`,`native`) VALUES (1347517978,'/2017-09-13/59b8d11a1af54.jpg','12',null,null,null,'大学','北京')
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: INSERT INTO `yaj_user` (`userpic`,`type`,`username`,`status`) VALUES ('/2017-09-13/59b8d11a1b33c.jpg',null,'太子',2) [ RunTime:0.000000s ]
+ERR: 1048:Column 'type' cannot be null
+ [ SQL语句 ] : INSERT INTO `yaj_user` (`userpic`,`type`,`username`,`status`) VALUES ('/2017-09-13/59b8d11a1b33c.jpg',null,'太子',2)
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 280 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 281 行.
+
+[ 2017-09-13T14:33:16+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T14:34:10+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 226 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 226 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-09-13T14:34:21+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 226 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 226 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-09-13T14:35:07+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 226 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 226 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: prove D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 239 行.
+NOTIC: [8] Undefined index: goodcase D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 245 行.
+NOTIC: [8] Undefined index: sarve D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 255 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 256 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 257 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 267 行.
+NOTIC: [8] Undefined index: weixin D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 270 行.
+NOTIC: [8] Undefined index: email D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 273 行.
+
+[ 2017-09-13T14:37:18+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 226 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 226 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: prove D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 239 行.
+NOTIC: [8] Undefined index: goodcase D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 245 行.
+NOTIC: [8] Undefined index: sarve D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 255 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 256 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 266 行.
+NOTIC: [8] Undefined index: weixin D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 269 行.
+NOTIC: [8] Undefined index: email D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 272 行.
+
+[ 2017-09-13T14:37:28+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 226 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 226 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: prove D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 239 行.
+NOTIC: [8] Undefined index: goodcase D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 245 行.
+NOTIC: [8] Undefined index: sarve D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 255 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 256 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 266 行.
+NOTIC: [8] Undefined index: weixin D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 269 行.
+NOTIC: [8] Undefined index: email D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 272 行.
+
+[ 2017-09-13T14:37:48+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 226 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 226 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: prove D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 239 行.
+NOTIC: [8] Undefined index: goodcase D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 245 行.
+NOTIC: [8] Undefined index: sarve D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 255 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 256 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 266 行.
+NOTIC: [8] Undefined index: weixin D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 269 行.
+NOTIC: [8] Undefined index: email D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 272 行.
+
+[ 2017-09-13T14:38:41+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 226 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 226 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: prove D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 239 行.
+NOTIC: [8] Undefined index: goodcase D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 245 行.
+NOTIC: [8] Undefined index: sarve D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 256 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 257 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 267 行.
+NOTIC: [8] Undefined index: weixin D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 270 行.
+NOTIC: [8] Undefined index: email D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 273 行.
+
+[ 2017-09-13T14:39:08+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 226 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 226 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: prove D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 239 行.
+NOTIC: [8] Undefined index: goodcase D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 245 行.
+NOTIC: [8] Undefined index: sarve D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 256 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 257 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 267 行.
+NOTIC: [8] Undefined index: weixin D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 270 行.
+NOTIC: [8] Undefined index: email D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 273 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+ERR: 非法数据对象！:[name=>太子]
+
+[ 2017-09-13T14:39:24+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 226 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 226 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: prove D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 239 行.
+NOTIC: [8] Undefined index: goodcase D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 245 行.
+NOTIC: [8] Undefined index: sarve D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 256 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 257 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 267 行.
+NOTIC: [8] Undefined index: weixin D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 270 行.
+NOTIC: [8] Undefined index: email D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 273 行.
+
+[ 2017-09-13T14:39:52+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 226 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 226 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: prove D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 239 行.
+NOTIC: [8] Undefined index: goodcase D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 245 行.
+NOTIC: [8] Undefined index: sarve D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 256 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 257 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 267 行.
+NOTIC: [8] Undefined index: weixin D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 270 行.
+NOTIC: [8] Undefined index: email D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 273 行.
+
+[ 2017-09-13T14:40:12+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 226 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 226 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: prove D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 239 行.
+NOTIC: [8] Undefined index: goodcase D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 245 行.
+NOTIC: [8] Undefined index: sarve D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 256 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 257 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 267 行.
+NOTIC: [8] Undefined index: weixin D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 270 行.
+NOTIC: [8] Undefined index: email D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 273 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: INSERT INTO `yaj_user` (`username`,`phoneNum`,`userpic`,`type`,`status`) VALUES ('太子','13555555555','/2017-09-13/59b8d2ccbec6c.jpg',null,2) [ RunTime:0.000000s ]
+ERR: 1048:Column 'type' cannot be null
+ [ SQL语句 ] : INSERT INTO `yaj_user` (`username`,`phoneNum`,`userpic`,`type`,`status`) VALUES ('太子','13555555555','/2017-09-13/59b8d2ccbec6c.jpg',null,2)
+
+[ 2017-09-13T14:40:33+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 226 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 226 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: prove D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 239 行.
+NOTIC: [8] Undefined index: goodcase D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 245 行.
+NOTIC: [8] Undefined index: sarve D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 256 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 257 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 267 行.
+NOTIC: [8] Undefined index: weixin D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 270 行.
+NOTIC: [8] Undefined index: email D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 273 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: INSERT INTO `yaj_user` (`username`,`phoneNum`,`userpic`,`type`,`status`) VALUES ('太子','13666666666','/2017-09-13/59b8d2e1a0424.jpg',null,2) [ RunTime:0.000000s ]
+ERR: 1048:Column 'type' cannot be null
+ [ SQL语句 ] : INSERT INTO `yaj_user` (`username`,`phoneNum`,`userpic`,`type`,`status`) VALUES ('太子','13666666666','/2017-09-13/59b8d2e1a0424.jpg',null,2)
+
+[ 2017-09-13T14:40:51+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 226 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 226 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: prove D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 239 行.
+NOTIC: [8] Undefined index: goodcase D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 245 行.
+NOTIC: [8] Undefined index: sarve D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 256 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 257 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 267 行.
+NOTIC: [8] Undefined index: weixin D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 270 行.
+NOTIC: [8] Undefined index: email D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 273 行.
+
+[ 2017-09-13T14:41:35+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T14:41:42+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 226 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 226 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: prove D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 239 行.
+NOTIC: [8] Undefined index: goodcase D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 245 行.
+NOTIC: [8] Undefined index: sarve D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 256 行.
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 257 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 267 行.
+NOTIC: [8] Undefined index: weixin D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 270 行.
+NOTIC: [8] Undefined index: email D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 273 行.
+
+[ 2017-09-13T14:42:19+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 226 行.
+
+[ 2017-09-13T14:42:26+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 226 行.
+
+[ 2017-09-13T14:42:39+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 226 行.
+
+[ 2017-09-13T14:43:06+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: prove D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 239 行.
+NOTIC: [8] Undefined index: goodcase D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 245 行.
+NOTIC: [8] Undefined index: sarve D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 256 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: weixin D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 270 行.
+NOTIC: [8] Undefined index: email D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 273 行.
+
+[ 2017-09-13T14:43:23+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: prove D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 239 行.
+NOTIC: [8] Undefined index: goodcase D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 245 行.
+NOTIC: [8] Undefined index: sarve D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 256 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: weixin D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 270 行.
+NOTIC: [8] Undefined index: email D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 273 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: INSERT INTO `yaj_user` (`username`,`phoneNum`,`userpic`,`type`,`status`) VALUES ('太子','13666666666','/2017-09-13/59b8d38b404fc.jpg',2,2) [ RunTime:0.044000s ]
+
+[ 2017-09-13T14:44:07+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: prove D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 239 行.
+NOTIC: [8] Undefined index: goodcase D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 245 行.
+NOTIC: [8] Undefined index: sarve D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 256 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: weixin D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 270 行.
+NOTIC: [8] Undefined index: email D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 273 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: INSERT INTO `yaj_user` (`username`,`phoneNum`,`userpic`,`type`,`status`) VALUES ('太子','13666666666','/2017-09-13/59b8d3b7c88ac.jpg',2,2) [ RunTime:0.053000s ]
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.002000s ]
+SQL: INSERT INTO `yaj_userdetails` (`status`,`worktime`,`cardpic`,`goods`,`serve`,`card`,`education`,`native`,`uid`) VALUES (2,1347518647,'/2017-09-13/59b8d3b7c84c4.jpg','12',null,'12331231231','大学','北京',16) [ RunTime:0.033000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 285 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T14:44:42+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: prove D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 239 行.
+NOTIC: [8] Undefined index: goodcase D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 245 行.
+NOTIC: [8] Undefined index: sarve D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 256 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: weixin D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 270 行.
+NOTIC: [8] Undefined index: email D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 273 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: INSERT INTO `yaj_user` (`username`,`phoneNum`,`userpic`,`type`,`status`) VALUES ('太子','13666666666','/2017-09-13/59b8d3da6859c.jpg',2,2) [ RunTime:0.027000s ]
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.002000s ]
+SQL: INSERT INTO `yaj_userdetails` (`status`,`worktime`,`cardpic`,`goods`,`serve`,`card`,`education`,`native`,`uid`) VALUES (2,1347518682,'/2017-09-13/59b8d3da681b4.jpg','12',null,'12331231231','大学','北京',17) [ RunTime:0.024000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T15:03:08+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: card D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 226 行.
+
+[ 2017-09-13T15:09:31+08:00 ] ::1 /Jzc/index.php/Home/Login/city
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_area` [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `level` = 1 ORDER BY id  [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `yaj_area` WHERE `level` = 1  [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 110000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 120000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 130000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 140000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 150000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 210000 ORDER BY upid  [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 220000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 230000 ORDER BY upid  [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 310000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 320000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 330000 ORDER BY upid  [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 340000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 350000 ORDER BY upid  [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 360000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 370000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 410000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 420000 ORDER BY upid  [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 430000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 440000 ORDER BY upid  [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 450000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 460000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 500000 ORDER BY upid  [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 510000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 520000 ORDER BY upid  [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 530000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 540000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 610000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 620000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 630000 ORDER BY upid  [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 640000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 650000 ORDER BY upid  [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 710000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 810000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 820000 ORDER BY upid  [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `level` = 2 ORDER BY click desc LIMIT 6   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T15:14:32+08:00 ] ::1 /Jzc/index.php/Home/Login/city
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_area` [ RunTime:0.002000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `level` = 1 ORDER BY id  [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `yaj_area` WHERE `level` = 1  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 110000 ORDER BY upid  [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 120000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 130000 ORDER BY upid  [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 140000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 150000 ORDER BY upid  [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 210000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 220000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 230000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 310000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 320000 ORDER BY upid  [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 330000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 340000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 350000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 360000 ORDER BY upid  [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 370000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 410000 ORDER BY upid  [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 420000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 430000 ORDER BY upid  [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 440000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 450000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 460000 ORDER BY upid  [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 500000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 510000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 520000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 530000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 540000 ORDER BY upid  [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 610000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 620000 ORDER BY upid  [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 630000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 640000 ORDER BY upid  [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 650000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 710000 ORDER BY upid  [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 810000 ORDER BY upid  [ RunTime:0.000000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `upid` = 820000 ORDER BY upid  [ RunTime:0.001000s ]
+SQL: SELECT `name` FROM `yaj_area` WHERE `level` = 2 ORDER BY click desc LIMIT 6   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T15:34:20+08:00 ] ::1 /Jzc/index.php/Home/Login/guild
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_guild` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `yaj_guild` WHERE `type` = 2  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T15:36:22+08:00 ] ::1 /Jzc/index.php/Home/Login/guild
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_guild` [ RunTime:0.001000s ]
+SQL: SELECT `name`,`type`,`is_show` FROM `yaj_guild` WHERE `type` = 2 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T15:36:38+08:00 ] ::1 /Jzc/index.php/Home/Login/guild
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_guild` [ RunTime:0.002000s ]
+SQL: SELECT `name`,`type`,`is_show` FROM `yaj_guild` WHERE `type` = 2  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T15:37:00+08:00 ] ::1 /Jzc/index.php/Home/Login/guild
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_guild` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name` FROM `yaj_guild` WHERE `type` = 2  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T15:38:37+08:00 ] ::1 /Jzc/index.php/Home/Login/guild
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 304 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T15:39:58+08:00 ] ::1 /Jzc/index.php/Home/Login/guild
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 304 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-13T15:40:06+08:00 ] ::1 /Jzc/index.php/Home/Login/guild
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_guild` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name` FROM `yaj_guild` WHERE `type` = 3  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-13T15:51:55+08:00 ] ::1 /Jzc/index.php/Home/Login/nickname
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 324 行.
+
+[ 2017-09-13T15:52:25+08:00 ] ::1 /Jzc/index.php/Home/Login/nickname
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: UPDATE `yaj_user` SET `username`='哇哈哈' WHERE `id` = 14 [ RunTime:0.047000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
