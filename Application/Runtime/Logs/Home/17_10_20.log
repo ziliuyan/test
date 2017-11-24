@@ -1,0 +1,11 @@
+[ 2017-10-20T09:04:28+08:00 ] ::1 /Jzc/index.php/Home/shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.055000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.036000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.037000s ]
+

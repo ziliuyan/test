@@ -1,0 +1,1103 @@
+[ 2017-09-21T09:30:20+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 113 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.069000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php on line 127 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+SQL: SELECT * FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid   [ RunTime:0.019000s ]
+
+[ 2017-09-21T09:40:28+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 113 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.002000s ]
+SQL: SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.025000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.025000s ]
+
+[ 2017-09-21T09:41:02+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 113 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.002000s ]
+SQL: SELECT p.id,p.lunbo_img,p.fans,p.name,d.img,p.style FROM `yaj_package` as p LEFT JOIN yaj_packageimg d on p.id=d.pid  WHERE ( p.keyword LIKE '%%' OR p.name LIKE '%%' OR p.style LIKE '%%' OR p.depict LIKE '%%' ) GROUP BY p.id ORDER BY p.click desc LIMIT 0,3   [ RunTime:0.029000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-21T09:41:26+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 113 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.002000s ]
+SQL: SELECT p.id,p.lunbo_img,p.fans,p.name,d.img,p.style FROM `yaj_package` as p LEFT JOIN yaj_packageimg d on p.id=d.pid  WHERE ( p.keyword LIKE '%%' OR p.name LIKE '%%' OR p.style LIKE '%%' OR p.depict LIKE '%%' ) GROUP BY p.id ORDER BY p.click desc LIMIT 0,3   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-21T09:42:03+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 113 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.002000s ]
+SQL: SELECT p.id,p.lunbo_img,p.fans,p.name,d.img,p.style FROM `yaj_package` as p LEFT JOIN yaj_packageimg d on p.id=d.pid  WHERE ( p.keyword LIKE '%%' OR p.name LIKE '%%' OR p.style LIKE '%%' OR p.depict LIKE '%%' ) GROUP BY p.id ORDER BY p.click desc LIMIT 0,3   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-21T09:42:12+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 113 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.001000s ]
+SQL: SELECT p.id,p.lunbo_img,p.fans,p.name,d.img,p.style FROM `yaj_package` as p LEFT JOIN yaj_packageimg d on p.id=d.pid  WHERE ( p.keyword LIKE '%%' OR p.name LIKE '%%' OR p.style LIKE '%%' OR p.depict LIKE '%%' ) GROUP BY p.id ORDER BY p.click desc LIMIT 0,3   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-21T09:43:45+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 113 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.002000s ]
+SQL: SELECT p.id,p.lunbo_img,p.fans,p.name,d.img,p.style FROM `yaj_package` as p LEFT JOIN yaj_packageimg d on p.id=d.pid  WHERE ( p.keyword LIKE '%%' OR p.name LIKE '%%' OR p.style LIKE '%%' OR p.depict LIKE '%%' ) GROUP BY p.id ORDER BY p.click desc  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-21T09:45:56+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 113 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.001000s ]
+SQL: SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-21T10:15:34+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 113 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php on line 128 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+SQL: SELECT * FROM `yaj_fitment` LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-21T10:15:42+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 113 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php on line 128 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+SQL: SELECT * FROM `yaj_fitment`  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-21T10:30:10+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 113 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.001000s ]
+SQL: SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f RIGHT JOIN yaj_fitmentimg d on f.id=d.pid   [ RunTime:0.081000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-21T10:30:21+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 113 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.002000s ]
+SQL: SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-21T11:22:30+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 113 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.004000s ]
+SQL: SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-21T11:24:04+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 113 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.001000s ]
+SQL: SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  WHERE ( p.keyword LIKE '%%' OR p.name LIKE '%%' OR p.style LIKE '%%' OR p.depict LIKE '%%' ) GROUP BY f.id ORDER BY f.edittime  [ RunTime:0.008000s ]
+ERR: 1054:Unknown column 'p.keyword' in 'where clause'
+ [ SQL语句 ] : SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  WHERE ( p.keyword LIKE '%%' OR p.name LIKE '%%' OR p.style LIKE '%%' OR p.depict LIKE '%%' ) GROUP BY f.id ORDER BY f.edittime 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-21T11:24:23+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 113 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.001000s ]
+SQL: SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  GROUP BY f.id ORDER BY f.edittime  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-21T11:25:34+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 113 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.001000s ]
+SQL: SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  GROUP BY f.id ORDER BY f.edittime  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-21T11:25:48+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 113 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.002000s ]
+SQL: SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  GROUP BY f.id ORDER BY f.edittime  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-21T11:26:04+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.003000s ]
+SQL: SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  GROUP BY f.id ORDER BY f.edittime  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-21T11:26:33+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-21T11:26:54+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-21T11:27:17+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-21T11:27:23+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.002000s ]
+SQL: SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  GROUP BY f.id ORDER BY f.edittime  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-21T11:27:50+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.001000s ]
+SQL: SELECT p.id,p.lunbo_img,p.fans,p.name,d.img,p.style FROM `yaj_package` as p LEFT JOIN yaj_packageimg d on p.id=d.pid  WHERE ( p.keyword LIKE '%低调%' OR p.name LIKE '%低调%' OR p.style LIKE '%低调%' OR p.depict LIKE '%低调%' ) GROUP BY p.id ORDER BY p.click desc LIMIT 0,3   [ RunTime:0.076000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-21T11:27:58+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.002000s ]
+SQL: SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  GROUP BY f.id ORDER BY f.edittime  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-21T11:28:10+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.002000s ]
+SQL: SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  GROUP BY f.id ORDER BY f.edittime  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-21T11:31:02+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.002000s ]
+SQL: SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  WHERE ( p.descrobe LIKE '%理想三旬%' OR p.name LIKE '%理想三旬%' ) GROUP BY f.id ORDER BY f.edittime  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'p.descrobe' in 'where clause'
+ [ SQL语句 ] : SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  WHERE ( p.descrobe LIKE '%理想三旬%' OR p.name LIKE '%理想三旬%' ) GROUP BY f.id ORDER BY f.edittime 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-21T11:31:13+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.001000s ]
+SQL: SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  WHERE ( p.descrobe LIKE '%%' OR p.name LIKE '%%' ) GROUP BY f.id ORDER BY f.edittime  [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'p.descrobe' in 'where clause'
+ [ SQL语句 ] : SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  WHERE ( p.descrobe LIKE '%%' OR p.name LIKE '%%' ) GROUP BY f.id ORDER BY f.edittime 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-21T11:31:48+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.001000s ]
+SQL: SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  WHERE ( f.descrobe LIKE '%%' OR f.name LIKE '%%' OR f.style LIKE '%%' ) GROUP BY f.id ORDER BY f.edittime  [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'f.descrobe' in 'where clause'
+ [ SQL语句 ] : SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  WHERE ( f.descrobe LIKE '%%' OR f.name LIKE '%%' OR f.style LIKE '%%' ) GROUP BY f.id ORDER BY f.edittime 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-21T11:32:34+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.002000s ]
+SQL: SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  WHERE ( f.descrobe LIKE '%%' OR f.name LIKE '%%' OR f.style LIKE '%%' ) GROUP BY f.id ORDER BY f.edittime  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'f.descrobe' in 'where clause'
+ [ SQL语句 ] : SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  WHERE ( f.descrobe LIKE '%%' OR f.name LIKE '%%' OR f.style LIKE '%%' ) GROUP BY f.id ORDER BY f.edittime 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-21T11:32:47+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.002000s ]
+SQL: SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  WHERE ( f.descrobe LIKE '%%' OR f.name LIKE '%%' OR f.style LIKE '%%' ) GROUP BY f.id ORDER BY f.edittime  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'f.descrobe' in 'where clause'
+ [ SQL语句 ] : SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  WHERE ( f.descrobe LIKE '%%' OR f.name LIKE '%%' OR f.style LIKE '%%' ) GROUP BY f.id ORDER BY f.edittime 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-21T11:32:58+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.002000s ]
+SQL: SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  WHERE ( f.descrobe LIKE '%%' OR f.name LIKE '%%' OR f.style LIKE '%%' ) GROUP BY f.id ORDER BY f.edittime  [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'f.descrobe' in 'where clause'
+ [ SQL语句 ] : SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  WHERE ( f.descrobe LIKE '%%' OR f.name LIKE '%%' OR f.style LIKE '%%' ) GROUP BY f.id ORDER BY f.edittime 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-21T11:37:58+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.001000s ]
+SQL: SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  WHERE ( f.descrobe LIKE '%%' OR f.name LIKE '%%' OR f.style LIKE '%%' ) AND `is_topo` = 1 GROUP BY f.id ORDER BY f.edittime  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'f.descrobe' in 'where clause'
+ [ SQL语句 ] : SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  WHERE ( f.descrobe LIKE '%%' OR f.name LIKE '%%' OR f.style LIKE '%%' ) AND `is_topo` = 1 GROUP BY f.id ORDER BY f.edittime 
+NOTIC: [8] Undefined variable: model D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 134 行.
+
+[ 2017-09-21T11:38:08+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.001000s ]
+SQL: SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  WHERE ( f.descrobe LIKE '%%' OR f.name LIKE '%%' OR f.style LIKE '%%' ) GROUP BY f.id ORDER BY f.edittime  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'f.descrobe' in 'where clause'
+ [ SQL语句 ] : SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  WHERE ( f.descrobe LIKE '%%' OR f.name LIKE '%%' OR f.style LIKE '%%' ) GROUP BY f.id ORDER BY f.edittime 
+NOTIC: [8] Undefined variable: model D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 134 行.
+
+[ 2017-09-21T11:38:22+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.001000s ]
+SQL: SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  WHERE ( f.descrobe LIKE '%%' OR f.name LIKE '%%' OR f.style LIKE '%%' ) GROUP BY f.id ORDER BY f.edittime  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'f.descrobe' in 'where clause'
+ [ SQL语句 ] : SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  WHERE ( f.descrobe LIKE '%%' OR f.name LIKE '%%' OR f.style LIKE '%%' ) GROUP BY f.id ORDER BY f.edittime 
+NOTIC: [8] Undefined variable: fitment D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 134 行.
+
+[ 2017-09-21T11:39:07+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.001000s ]
+SQL: SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  WHERE ( f.descrobe LIKE '%%' OR f.name LIKE '%%' OR f.style LIKE '%%' ) GROUP BY f.id ORDER BY f.edittime  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'f.descrobe' in 'where clause'
+ [ SQL语句 ] : SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  WHERE ( f.descrobe LIKE '%%' OR f.name LIKE '%%' OR f.style LIKE '%%' ) GROUP BY f.id ORDER BY f.edittime 
+
+[ 2017-09-21T11:39:36+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.001000s ]
+SQL: SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  WHERE ( f.descrobe LIKE '%理想%' OR f.name LIKE '%理想%' OR f.style LIKE '%理想%' ) GROUP BY f.id ORDER BY f.edittime  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'f.descrobe' in 'where clause'
+ [ SQL语句 ] : SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  WHERE ( f.descrobe LIKE '%理想%' OR f.name LIKE '%理想%' OR f.style LIKE '%理想%' ) GROUP BY f.id ORDER BY f.edittime 
+
+[ 2017-09-21T11:39:53+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.002000s ]
+SQL: SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  WHERE ( f.descrobe LIKE '%理想%' OR f.name LIKE '%理想%' OR f.style LIKE '%理想%' ) GROUP BY f.id ORDER BY f.edittime  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'f.descrobe' in 'where clause'
+ [ SQL语句 ] : SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  WHERE ( f.descrobe LIKE '%理想%' OR f.name LIKE '%理想%' OR f.style LIKE '%理想%' ) GROUP BY f.id ORDER BY f.edittime 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-21T11:39:57+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.002000s ]
+SQL: SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  WHERE ( f.descrobe LIKE '%理想%' OR f.name LIKE '%理想%' OR f.style LIKE '%理想%' ) GROUP BY f.id ORDER BY f.edittime  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'f.descrobe' in 'where clause'
+ [ SQL语句 ] : SELECT f.name,f.list,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  WHERE ( f.descrobe LIKE '%理想%' OR f.name LIKE '%理想%' OR f.style LIKE '%理想%' ) GROUP BY f.id ORDER BY f.edittime 
+
+[ 2017-09-21T11:43:28+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.024000s ]
+SQL: SELECT f.name,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  WHERE ( f.descrobe LIKE '%理想%' OR f.name LIKE '%理想%' OR f.style LIKE '%理想%' ) GROUP BY f.id ORDER BY f.edittime  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'f.descrobe' in 'where clause'
+ [ SQL语句 ] : SELECT f.name,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg d on f.id=d.pid  WHERE ( f.descrobe LIKE '%理想%' OR f.name LIKE '%理想%' OR f.style LIKE '%理想%' ) GROUP BY f.id ORDER BY f.edittime 
+
+[ 2017-09-21T11:44:38+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.002000s ]
+SQL: SELECT f.name,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg as d on f.id=d.pid  WHERE ( f.descrobe LIKE '%理想%' OR f.name LIKE '%理想%' OR f.style LIKE '%理想%' ) GROUP BY f.id ORDER BY f.edittime  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'f.descrobe' in 'where clause'
+ [ SQL语句 ] : SELECT f.name,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg as d on f.id=d.pid  WHERE ( f.descrobe LIKE '%理想%' OR f.name LIKE '%理想%' OR f.style LIKE '%理想%' ) GROUP BY f.id ORDER BY f.edittime 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-21T11:44:42+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.002000s ]
+SQL: SELECT f.name,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg as d on f.id=d.pid  WHERE ( f.descrobe LIKE '%理想%' OR f.name LIKE '%理想%' OR f.style LIKE '%理想%' ) GROUP BY f.id ORDER BY f.edittime  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'f.descrobe' in 'where clause'
+ [ SQL语句 ] : SELECT f.name,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg as d on f.id=d.pid  WHERE ( f.descrobe LIKE '%理想%' OR f.name LIKE '%理想%' OR f.style LIKE '%理想%' ) GROUP BY f.id ORDER BY f.edittime 
+
+[ 2017-09-21T11:46:48+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.002000s ]
+SQL: SELECT f.name,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg as d on f.id=d.pid  WHERE ( f.descrobe LIKE '%理想%' OR f.name LIKE '%理想%' OR f.style LIKE '%理想%' )  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'f.descrobe' in 'where clause'
+ [ SQL语句 ] : SELECT f.name,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg as d on f.id=d.pid  WHERE ( f.descrobe LIKE '%理想%' OR f.name LIKE '%理想%' OR f.style LIKE '%理想%' ) 
+
+[ 2017-09-21T11:47:00+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.011000s ]
+SQL: SELECT f.name,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg as d on f.id=d.pid  WHERE ( f.descrobe LIKE '%理想%' OR f.name LIKE '%理想%' OR f.style LIKE '%理想%' )  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'f.descrobe' in 'where clause'
+ [ SQL语句 ] : SELECT f.name,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg as d on f.id=d.pid  WHERE ( f.descrobe LIKE '%理想%' OR f.name LIKE '%理想%' OR f.style LIKE '%理想%' ) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-21T11:47:30+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.001000s ]
+SQL: SELECT f.name,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg as d on f.id=d.pid  WHERE ( f.descrobe LIKE '%理想%' OR f.name LIKE '%理想%' OR f.style LIKE '%理想%' ) GROUP BY f.id ORDER BY f.edittime  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'f.descrobe' in 'where clause'
+ [ SQL语句 ] : SELECT f.name,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg as d on f.id=d.pid  WHERE ( f.descrobe LIKE '%理想%' OR f.name LIKE '%理想%' OR f.style LIKE '%理想%' ) GROUP BY f.id ORDER BY f.edittime 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-21T11:47:37+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.001000s ]
+SQL: SELECT p.id,p.lunbo_img,p.fans,p.name,d.img,p.style FROM `yaj_package` as p LEFT JOIN yaj_packageimg d on p.id=d.pid  WHERE ( p.keyword LIKE '%理想%' OR p.name LIKE '%理想%' OR p.style LIKE '%理想%' OR p.depict LIKE '%理想%' ) GROUP BY p.id ORDER BY p.click desc LIMIT 0,3   [ RunTime:0.000000s ]
+
+[ 2017-09-21T11:48:45+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.002000s ]
+SQL: SELECT p.id,p.lunbo_img,p.fans,p.name,d.img,p.style FROM `yaj_package` as p LEFT JOIN yaj_packageimg d on p.id=d.pid  WHERE ( p.keyword LIKE '%理想%' OR p.name LIKE '%理想%' OR p.style LIKE '%理想%' OR p.depict LIKE '%理想%' ) GROUP BY p.id ORDER BY p.click desc LIMIT 0,3   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-21T11:48:51+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.002000s ]
+SQL: SELECT p.id,p.lunbo_img,p.fans,p.name,d.img,p.style FROM `yaj_package` as p LEFT JOIN yaj_packageimg d on p.id=d.pid  WHERE ( p.keyword LIKE '%理想%' OR p.name LIKE '%理想%' OR p.style LIKE '%理想%' OR p.depict LIKE '%理想%' ) GROUP BY p.id ORDER BY p.click desc LIMIT 0,3   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-21T11:48:57+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.002000s ]
+SQL: SELECT f.name,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg as d on f.id=d.pid  WHERE ( f.descrobe LIKE '%理想%' OR f.name LIKE '%理想%' OR f.style LIKE '%理想%' ) GROUP BY f.id ORDER BY f.edittime  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'f.descrobe' in 'where clause'
+ [ SQL语句 ] : SELECT f.name,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg as d on f.id=d.pid  WHERE ( f.descrobe LIKE '%理想%' OR f.name LIKE '%理想%' OR f.style LIKE '%理想%' ) GROUP BY f.id ORDER BY f.edittime 
+
+[ 2017-09-21T11:51:14+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.002000s ]
+SQL: SELECT f.name,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg as d on f.id=d.pid  WHERE ( f.describe LIKE '%理想%' OR f.name LIKE '%理想%' OR f.style LIKE '%理想%' ) GROUP BY f.id ORDER BY f.edittime  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-21T11:51:53+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.001000s ]
+SQL: SELECT f.name,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg as d on f.id=d.pid  WHERE ( f.describe LIKE '%理想%' OR f.name LIKE '%理想%' OR f.style LIKE '%理想%' ) AND `is_topo` = 1 GROUP BY f.id ORDER BY f.edittime  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'is_topo' in 'where clause'
+ [ SQL语句 ] : SELECT f.name,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg as d on f.id=d.pid  WHERE ( f.describe LIKE '%理想%' OR f.name LIKE '%理想%' OR f.style LIKE '%理想%' ) AND `is_topo` = 1 GROUP BY f.id ORDER BY f.edittime 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-21T11:52:14+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.001000s ]
+SQL: SELECT f.name,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg as d on f.id=d.pid  WHERE ( f.describe LIKE '%理想%' OR f.name LIKE '%理想%' OR f.style LIKE '%理想%' ) AND `is_topo` = 1 GROUP BY f.id ORDER BY f.edittime  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-21T11:52:20+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.019000s ]
+SQL: SELECT f.name,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg as d on f.id=d.pid  WHERE ( f.describe LIKE '%%' OR f.name LIKE '%%' OR f.style LIKE '%%' ) AND `is_topo` = 1 GROUP BY f.id ORDER BY f.edittime  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-21T11:53:29+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.001000s ]
+SQL: SELECT f.name,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg as d on f.id=d.pid  WHERE ( f.describe LIKE '%%' OR f.name LIKE '%%' OR f.style LIKE '%%' ) AND `is_topo` = 1 GROUP BY f.id ORDER BY f.edittime  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-21T11:53:35+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.002000s ]
+SQL: SELECT f.name,f.style,f.fans,f.id,d.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg as d on f.id=d.pid  WHERE ( f.describe LIKE '%%' OR f.name LIKE '%%' OR f.style LIKE '%%' ) AND `is_topo` = 0 GROUP BY f.id ORDER BY f.edittime  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-21T11:58:56+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.013000s ]
+SQL: SELECT f.name,f.style,f.fans,f.id,f.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg as d on f.id=d.pid  WHERE ( f.describe LIKE '%%' OR f.name LIKE '%%' OR f.style LIKE '%%' ) AND `is_topo` = 0 GROUP BY f.id ORDER BY f.edittime  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-21T13:45:17+08:00 ] ::1 /Jzc/index.php/Home/index/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-21T13:56:39+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.002000s ]
+SQL: SELECT f.name,f.style,f.fans,f.id,f.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg as d on f.id=d.pid  WHERE ( f.describe LIKE '%%' OR f.name LIKE '%%' OR f.style LIKE '%%' ) AND `is_topo` = 0 GROUP BY f.id ORDER BY f.edittime LIMIT 0,3   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-21T13:59:03+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.002000s ]
+SQL: SELECT f.name,f.style,f.fans,f.id,f.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg as d on f.id=d.pid  WHERE ( f.describe LIKE '%%' OR f.name LIKE '%%' OR f.style LIKE '%%' ) AND `is_topo` = 0 GROUP BY f.id ORDER BY f.edittime LIMIT 0,3   [ RunTime:0.000000s ]
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 155 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 155 行.
+NOTIC: [2] Cannot use a scalar value as an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 155 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-21T13:59:33+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.002000s ]
+SQL: SELECT f.name,f.style,f.fans,f.id,f.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg as d on f.id=d.pid  WHERE ( f.describe LIKE '%%' OR f.name LIKE '%%' OR f.style LIKE '%%' ) AND `is_topo` = 0 GROUP BY f.id ORDER BY f.edittime LIMIT 0,3   [ RunTime:0.000000s ]
+
+[ 2017-09-21T13:59:56+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.001000s ]
+SQL: SELECT f.name,f.style,f.fans,f.id,f.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg as d on f.id=d.pid  WHERE ( f.describe LIKE '%%' OR f.name LIKE '%%' OR f.style LIKE '%%' ) AND `is_topo` = 0 GROUP BY f.id ORDER BY f.edittime LIMIT 0,3   [ RunTime:0.000000s ]
+
+[ 2017-09-21T14:00:29+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.001000s ]
+SQL: SELECT f.name,f.style,f.fans,f.id,f.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg as d on f.id=d.pid  WHERE ( f.describe LIKE '%%' OR f.name LIKE '%%' OR f.style LIKE '%%' ) AND `is_topo` = 0 GROUP BY f.id ORDER BY f.edittime LIMIT 0,3   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: k D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 156 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-21T14:01:15+08:00 ] ::1 /Jzc/index.php/Home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.001000s ]
+SQL: SELECT f.name,f.style,f.fans,f.id,f.id,d.img FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg as d on f.id=d.pid  WHERE ( f.describe LIKE '%%' OR f.name LIKE '%%' OR f.style LIKE '%%' ) AND `is_topo` = 0 GROUP BY f.id ORDER BY f.edittime LIMIT 0,3   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-21T14:23:42+08:00 ] ::1 /Jzc/index.php/Home/index/detail_afflatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 168 行.
+NOTIC: [8] Undefined variable: res D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 171 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-21T14:24:06+08:00 ] ::1 /Jzc/index.php/Home/index/detail_afflatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php on line 169 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+SQL: SELECT * FROM `yaj_package` WHERE `id` = 2 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-21T14:25:37+08:00 ] ::1 /Jzc/index.php/Home/index/detail_afflatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php on line 169 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+SQL: SELECT * FROM `yaj_package` WHERE `id` = 2 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.033000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 170 行.
+SQL: SELECT `id`,`username`,`userpic` FROM `yaj_user` WHERE `id` = null  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-21T14:25:47+08:00 ] ::1 /Jzc/index.php/Home/index/detail_afflatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php on line 169 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+SQL: SELECT * FROM `yaj_package` WHERE `id` = 2 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`username`,`userpic` FROM `yaj_user` WHERE `id` = 14  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-21T14:26:34+08:00 ] ::1 /Jzc/index.php/Home/index/detail_afflatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php on line 169 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+SQL: SELECT * FROM `yaj_package` WHERE `id` = 2 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`username`,`userpic` FROM `yaj_user` WHERE `id` = 14  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: username D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 172 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-21T14:26:42+08:00 ] ::1 /Jzc/index.php/Home/index/detail_afflatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php on line 169 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+SQL: SELECT * FROM `yaj_package` WHERE `id` = 2 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`username`,`userpic` FROM `yaj_user` WHERE `id` = 14  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-21T15:01:20+08:00 ] ::1 /Jzc/index.php/Home/index/detail_afflatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php on line 169 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+SQL: SELECT * FROM `yaj_package` WHERE `id` = 2 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`username`,`userpic` FROM `yaj_user` WHERE `id` = 14  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_packageimg` [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: pid D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 171 行.
+SQL: SELECT `img`,`id` FROM `yaj_packageimg` WHERE `id` = null LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-21T15:01:32+08:00 ] ::1 /Jzc/index.php/Home/index/detail_afflatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php on line 169 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+SQL: SELECT * FROM `yaj_package` WHERE `id` = 2 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`username`,`userpic` FROM `yaj_user` WHERE `id` = 14  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_packageimg` [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: pid D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 171 行.
+SQL: SELECT `img`,`id` FROM `yaj_packageimg` WHERE `id` = null LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: pid D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 173 行.
+NOTIC: [8] Undefined variable:  D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 173 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-21T15:01:43+08:00 ] ::1 /Jzc/index.php/Home/index/detail_afflatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php on line 169 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+SQL: SELECT * FROM `yaj_package` WHERE `id` = 2 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`username`,`userpic` FROM `yaj_user` WHERE `id` = 14  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_packageimg` [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: pid D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 171 行.
+SQL: SELECT `img`,`id` FROM `yaj_packageimg` WHERE `id` = null LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 173 行.
+NOTIC: [8] Undefined variable: Array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 173 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-21T15:02:01+08:00 ] ::1 /Jzc/index.php/Home/index/detail_afflatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php on line 169 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+SQL: SELECT * FROM `yaj_package` WHERE `id` = 2 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`username`,`userpic` FROM `yaj_user` WHERE `id` = 14  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_packageimg` [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: pid D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 171 行.
+SQL: SELECT `img`,`id` FROM `yaj_packageimg` WHERE `id` = null LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-21T15:02:40+08:00 ] ::1 /Jzc/index.php/Home/index/detail_afflatus
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php on line 169 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+SQL: SELECT * FROM `yaj_package` WHERE `id` = 2 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.003000s ]
+SQL: SELECT `id`,`username`,`userpic` FROM `yaj_user` WHERE `id` = 14  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_packageimg` [ RunTime:0.001000s ]
+SQL: SELECT `img`,`id` FROM `yaj_packageimg` WHERE `pid` = 2 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

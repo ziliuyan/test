@@ -24,7 +24,7 @@
   			$img =new \Think\Image();//实例化
 	        $img->open($path.$filename);//打开物理图片
 	       // 使用thumb方法生成缩略图并改名为：som_.$filename此时在项目根目录上
-	        $img->thumb(350,350)->save(som_.$filename);
+	        $img->thumb(750,750)->save(som_.$filename);
 	        //重新赋值方便处理
 	        $oldfile=som_.$filename;
 	        //rename()更改成新的文件名，此时还在项目根目录上
@@ -42,6 +42,18 @@
   		// }
   
 	}
+	// 旋转图片
+	 // function rotate($filename,$degrees){
+  //       //创建图像资源，以jpeg格式为例
+  //       $source = imagecreatefromjpeg($filename);
+  //       //使用imagerotate()函数按指定的角度旋转
+  //       $rotate = imagerotate($source, $degrees, 0);
+  //       //旋转后的图片保存
+  //       $imagejpeg($rotate,$filename);
+  //   }
+ 
+    //把一幅图像brophp.jpg旋转180度
+    // rotate("brophp", 180);
 
 	function get_imgs($bb){
 		$upload = new \Think\Upload();// 实例化上传类
@@ -72,7 +84,7 @@
       			$img =new \Think\Image();//实例化
 		        $img->open($path.$filename);//打开物理图片
 		       //使用thumb方法生成缩略图并改名为：som_.$filename此时在项目根目录上
-		        $img->thumb(350,350)->save(som_.$filename);
+		        $img->thumb(750,750)->save(som_.$filename);
 		        //重新赋值方便处理
 		        $oldfile=som_.$filename;
 		        //rename()更改成新的文件名，此时还在项目根目录上
@@ -386,7 +398,7 @@
 	    return curl_exec($ch);
 	}
 
-    function my_array_unique($arr,$key){  
+    function my_array_unique($arr,$key){
 	    $tmp_arr = array();
 	    foreach($arr as $k => $v)
 	    {
@@ -415,7 +427,7 @@
         header('Content-Disposition: attachment; filename='.$fileinfo['basename']);
         readfile($filename);
 	}
-	function download($file_url,$new_name=''){  
+	function download($file_url,$new_name=''){
         if(!isset($file_url)||trim($file_url)==''){  
             echo '500';  
         }  

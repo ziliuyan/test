@@ -1,0 +1,1724 @@
+[ 2017-09-26T09:57:47+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.032000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.005000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' ORDER BY d.worktime desc  [ RunTime:0.018000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-26T09:58:05+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+ERR: 表达式错误:ge
+
+[ 2017-09-26T09:58:10+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+ERR: 表达式错误:ge
+
+[ 2017-09-26T09:58:25+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND `grade` > 4 ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-26T10:03:49+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND `grade` > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND `grade` > 4 AND `greade` < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'greade' in 'where clause'
+ [ SQL语句 ] : SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND `grade` > 4 AND `greade` < 4 ORDER BY d.worktime desc,d.num desc 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-26T10:03:56+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND `grade` > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND `grade` > 4 AND `greade` < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'greade' in 'where clause'
+ [ SQL语句 ] : SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND `grade` > 4 AND `greade` < 4 ORDER BY d.worktime desc,d.num desc 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-26T10:04:48+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND `grade` > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND `grade` > 4 AND `greade` < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'greade' in 'where clause'
+ [ SQL语句 ] : SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND `grade` > 4 AND `greade` < 4 ORDER BY d.worktime desc,d.num desc 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-26T10:05:18+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND `grade` > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND `grade` < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+
+[ 2017-09-26T10:05:39+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND `grade` > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND `grade` < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+
+[ 2017-09-26T10:05:43+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND `grade` > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND `grade` < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+
+[ 2017-09-26T10:05:53+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND `grade` > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND `grade` < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+
+[ 2017-09-26T10:06:04+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.141000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND `grade` > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND `grade` < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-26T10:06:24+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND `grade` > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND `grade` < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-26T10:06:46+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.003000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.003000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-26T10:06:55+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-26T10:16:38+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-26T10:18:45+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-26T10:19:01+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-26T10:19:21+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-26T10:19:55+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-26T10:20:02+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-26T10:20:11+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-26T10:20:44+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-26T10:21:07+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-26T10:24:06+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+ERR: Think\Model:json方法不存在！
+
+[ 2017-09-26T10:24:44+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+ERR: Think\Model:json方法不存在！
+
+[ 2017-09-26T10:26:01+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE (  `id` = '21' AND `username` = '不爽' AND `style` = '简约' AND `worktime` = '1347959781' AND `education` = '大学' ) AND (  `id` = '20' AND `username` = '不爽' AND `style` = '田园' AND `worktime` = '1347589408' AND `education` = '大学' ) AND (  `id` = '19' AND `username` = '太子' AND `style` = '欧式' AND `worktime` = '1347589311' AND `education` = '大学' ) AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+ERR: 1052:Column 'id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE (  `id` = '21' AND `username` = '不爽' AND `style` = '简约' AND `worktime` = '1347959781' AND `education` = '大学' ) AND (  `id` = '20' AND `username` = '不爽' AND `style` = '田园' AND `worktime` = '1347589408' AND `education` = '大学' ) AND (  `id` = '19' AND `username` = '太子' AND `style` = '欧式' AND `worktime` = '1347589311' AND `education` = '大学' ) AND d.grade > 4 ORDER BY d.worktime desc,d.num desc 
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE (  `id` = '21' AND `username` = '不爽' AND `style` = '简约' AND `worktime` = '1347959781' AND `education` = '大学' ) AND (  `id` = '20' AND `username` = '不爽' AND `style` = '田园' AND `worktime` = '1347589408' AND `education` = '大学' ) AND (  `id` = '19' AND `username` = '太子' AND `style` = '欧式' AND `worktime` = '1347589311' AND `education` = '大学' ) AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+ERR: 1052:Column 'id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE (  `id` = '21' AND `username` = '不爽' AND `style` = '简约' AND `worktime` = '1347959781' AND `education` = '大学' ) AND (  `id` = '20' AND `username` = '不爽' AND `style` = '田园' AND `worktime` = '1347589408' AND `education` = '大学' ) AND (  `id` = '19' AND `username` = '太子' AND `style` = '欧式' AND `worktime` = '1347589311' AND `education` = '大学' ) AND d.grade < 4 ORDER BY d.worktime desc,d.num desc 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-26T10:27:30+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+
+[ 2017-09-26T10:27:57+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 304 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-26T10:28:18+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 304 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-26T10:28:41+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 304 行.
+
+[ 2017-09-26T10:28:49+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 304 行.
+
+[ 2017-09-26T10:28:59+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 304 行.
+
+[ 2017-09-26T10:29:06+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 304 行.
+
+[ 2017-09-26T10:30:01+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 305 行.
+
+[ 2017-09-26T10:31:31+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+
+[ 2017-09-26T10:31:43+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 306 行.
+
+[ 2017-09-26T10:31:57+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 306 行.
+
+[ 2017-09-26T10:32:04+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 306 行.
+
+[ 2017-09-26T10:32:05+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 306 行.
+
+[ 2017-09-26T10:32:16+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+
+[ 2017-09-26T10:34:31+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 305 行.
+
+[ 2017-09-26T10:41:56+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 305 行.
+
+[ 2017-09-26T10:42:01+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 305 行.
+
+[ 2017-09-26T10:43:00+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 305 行.
+
+[ 2017-09-26T10:43:06+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 305 行.
+
+[ 2017-09-26T10:43:16+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 305 行.
+
+[ 2017-09-26T10:44:20+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 305 行.
+
+[ 2017-09-26T10:54:00+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 305 行.
+
+[ 2017-09-26T10:54:09+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 305 行.
+
+[ 2017-09-26T10:54:19+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 305 行.
+
+[ 2017-09-26T10:54:44+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 305 行.
+
+[ 2017-09-26T10:57:00+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' AND d.serve = '北京' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' AND d.serve <> '北京' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 269 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 270 行.
+
+[ 2017-09-26T11:38:09+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' AND d.serve = '北京' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' AND d.serve <> '北京' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 269 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 270 行.
+
+[ 2017-09-26T11:38:22+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' AND d.serve = '北京' ORDER BY d.worktime desc  [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' AND d.serve <> '北京' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 269 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 270 行.
+
+[ 2017-09-26T11:38:36+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.003000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.serve = '北京' AND d.is_all <> 1 AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 305 行.
+
+[ 2017-09-26T11:39:01+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.022000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' AND d.serve = '北京' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' AND d.serve <> '北京' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 269 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 270 行.
+
+[ 2017-09-26T11:39:06+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 257 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' AND d.serve = null ORDER BY d.worktime desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 263 行.
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' AND d.serve <> null ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 269 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 270 行.
+
+[ 2017-09-26T11:39:18+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 257 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' AND d.serve = null ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 263 行.
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' AND d.serve <> null ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 269 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 270 行.
+
+[ 2017-09-26T11:39:24+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 257 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' AND d.serve = null ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 263 行.
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' AND d.serve <> null ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 269 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 270 行.
+
+[ 2017-09-26T11:39:49+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 257 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.003000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' AND d.serve = null ORDER BY d.worktime desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 263 行.
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' AND d.serve <> null ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_merge(): Argument #1 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 269 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 270 行.
+
+[ 2017-09-26T11:40:41+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 257 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.003000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 265 行.
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' AND d.serve <> null ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 271 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 272 行.
+
+[ 2017-09-26T11:41:30+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 257 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 265 行.
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_drawing` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 18 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_drawingimg` [ RunTime:0.024000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 7  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 17 AND `state` = 1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = null  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 18 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 7  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 17 AND `state` = 1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = null  [ RunTime:0.000000s ]
+
+[ 2017-09-26T11:41:38+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 257 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 265 行.
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_drawing` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 18 AND `state` = 1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_drawingimg` [ RunTime:0.001000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 7  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 17 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = null  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 18 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 7  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 17 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = null  [ RunTime:0.000000s ]
+
+[ 2017-09-26T11:43:00+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 286 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.is_all <> 1 AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.is_all <> 1 AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 307 行.
+
+[ 2017-09-26T11:43:08+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 286 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.is_all <> 1 AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.is_all <> 1 AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 307 行.
+
+[ 2017-09-26T11:43:35+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 257 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.userpic,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 265 行.
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_drawing` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 18 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_drawingimg` [ RunTime:0.001000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 7  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 17 AND `state` = 1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = null  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 18 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 7  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 17 AND `state` = 1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = null  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res2 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 309 行.
+
+[ 2017-09-26T11:43:45+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 257 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.userpic,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 265 行.
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_drawing` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 18 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_drawingimg` [ RunTime:0.002000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 7  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 17 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = null  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 18 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 7  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 17 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = null  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-26T12:01:49+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 257 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.userpic,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 265 行.
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_drawing` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 18 AND `state` = 1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_drawingimg` [ RunTime:0.001000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 7  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 17 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = null  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 18 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 7  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 17 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = null  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-26T12:03:08+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 257 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.userpic,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 265 行.
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_drawing` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 18 AND `state` = 1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_drawingimg` [ RunTime:0.001000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 7  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 17 AND `state` = 1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = null  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 18 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 7  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 17 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = null  [ RunTime:0.011000s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 280 行.
+
+[ 2017-09-26T12:03:40+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 257 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.userpic,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 265 行.
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_drawing` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 18 AND `state` = 1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_drawingimg` [ RunTime:0.001000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 7  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 17 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = null  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 18 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 7  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 17 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = null  [ RunTime:0.000000s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 280 行.
+
+[ 2017-09-26T12:05:17+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 257 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.userpic,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 266 行.
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_drawing` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 18 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_drawingimg` [ RunTime:0.002000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 7  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 17 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = null  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 18 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 7  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 17 AND `state` = 1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = null  [ RunTime:0.000000s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 281 行.
+
+[ 2017-09-26T12:05:24+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 257 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.userpic,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 265 行.
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_drawing` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 18 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_drawingimg` [ RunTime:0.001000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 7  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 17 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = null  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 18 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 7  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 17 AND `state` = 1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = null  [ RunTime:0.000000s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 280 行.
+
+[ 2017-09-26T12:05:34+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 257 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.userpic,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 265 行.
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_drawing` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 18 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_drawingimg` [ RunTime:0.001000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 7  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 17 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = null  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 18 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 7  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 17 AND `state` = 1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = null  [ RunTime:0.000000s ]
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 280 行.
+
+[ 2017-09-26T12:05:48+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 257 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.userpic,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 265 行.
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_drawing` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 18 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_drawingimg` [ RunTime:0.002000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 7  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 17 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = null  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 18 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 7  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 17 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = null  [ RunTime:0.000000s ]
+
+[ 2017-09-26T12:06:04+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 257 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.userpic,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 265 行.
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_drawing` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 18 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_drawingimg` [ RunTime:0.001000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 7  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 17 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = null  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 18 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 7  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 17 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = null  [ RunTime:0.000000s ]
+
+[ 2017-09-26T12:06:44+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 257 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.userpic,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 265 行.
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+
+[ 2017-09-26T12:07:00+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 257 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.userpic,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 265 行.
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+
+[ 2017-09-26T12:07:07+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 257 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.userpic,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 265 行.
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.001000s ]
+
+[ 2017-09-26T12:07:38+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 257 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.userpic,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 265 行.
+NOTIC: [8] Undefined variable: res1 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 273 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 273 行.
+NOTIC: [8] Undefined variable: res1 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 274 行.
+
+[ 2017-09-26T12:07:45+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 257 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.userpic,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 265 行.
+NOTIC: [8] Undefined variable: res1 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 273 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 273 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 274 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-26T12:08:07+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 257 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.userpic,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 265 行.
+NOTIC: [8] Undefined variable: res1 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 273 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 273 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 274 行.
+
+[ 2017-09-26T12:08:08+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 257 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.userpic,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 265 行.
+NOTIC: [8] Undefined variable: res1 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 273 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 273 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 274 行.
+
+[ 2017-09-26T12:08:18+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 257 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.userpic,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 265 行.
+NOTIC: [8] Undefined variable: res1 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 273 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 273 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 274 行.
+
+[ 2017-09-26T12:08:27+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 257 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.userpic,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 265 行.
+NOTIC: [8] Undefined variable: res1 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 273 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 273 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 274 行.
+
+[ 2017-09-26T12:08:45+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 257 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.userpic,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 265 行.
+NOTIC: [8] Undefined variable: res1 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 274 行.
+
+[ 2017-09-26T12:09:49+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 257 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.userpic,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 265 行.
+NOTIC: [8] Undefined variable: res1 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 274 行.
+
+[ 2017-09-26T13:20:09+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 257 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.userpic,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 265 行.
+NOTIC: [8] Undefined variable: res1 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 273 行.
+SQL: SHOW COLUMNS FROM `yaj_drawing` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 18 AND `state` = 1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_drawingimg` [ RunTime:0.001000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 7  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`describe` FROM `yaj_drawing` WHERE `stylistId` = 17 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = null  [ RunTime:0.000000s ]
+
+[ 2017-09-26T13:20:42+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 288 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.is_all <> 1 AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.is_all <> 1 AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-26T13:49:09+08:00 ] ::1 /Jzc/index.php/Home/index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+ERR: Think\Model:filed方法不存在！
+
+[ 2017-09-26T13:49:20+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 249 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 289 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.is_all <> 1 AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.is_all <> 1 AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-26T13:49:46+08:00 ] ::1 /Jzc/index.php/Home/index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: res D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 329 行.
+
+[ 2017-09-26T13:51:35+08:00 ] ::1 /Jzc/index.php/Home/index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-26T13:52:08+08:00 ] ::1 /Jzc/index.php/Home/index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+ERR: Think\Model:filed方法不存在！
+
+[ 2017-09-26T13:52:34+08:00 ] ::1 /Jzc/index.php/Home/index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+ERR: Think\Model:filed方法不存在！
+
+[ 2017-09-26T13:53:01+08:00 ] ::1 /Jzc/index.php/Home/index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT `username`,`userpic` FROM `yaj_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-09-26T13:53:18+08:00 ] ::1 /Jzc/index.php/Home/index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT `username`,`userpic` FROM `yaj_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-26T14:13:29+08:00 ] ::1 /Jzc/index.php/Home/index/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`username`,`userpic` FROM `yaj_user` WHERE `id` = 20 LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2017-09-26T15:23:56+08:00 ] ::1 /Jzc/index.php/Home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 250 行.
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 251 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 291 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.is_all <> 1 AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.is_all <> 1 AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

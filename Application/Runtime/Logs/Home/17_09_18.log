@@ -1,0 +1,83 @@
+[ 2017-09-18T17:16:11+08:00 ] ::1 /Jzc/index.php/Home/Login/get_img
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant PASE - assumed 'PASE' D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 210 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-18T17:16:22+08:00 ] ::1 /Jzc/index.php/Home/Login/audit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: prove D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 242 行.
+NOTIC: [8] Undefined index: goodcase D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 247 行.
+NOTIC: [8] Undefined index: sarve D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 258 行.
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 268 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.740000s ]
+SQL: INSERT INTO `yaj_user` (`username`,`phoneNum`,`userpic`,`type`,`status`,`usertoken`,`registertime`) VALUES ('不爽','1388888888','',2,2,'c304e397ed6ae04a3dccb8d2c87a8ff0',1505726181) [ RunTime:0.132000s ]
+SQL: SHOW COLUMNS FROM `yaj_userdetails` [ RunTime:0.115000s ]
+SQL: INSERT INTO `yaj_userdetails` (`status`,`worktime`,`cardpic`,`goods`,`serve`,`card`,`education`,`native`,`uid`) VALUES (2,1347959781,'','12',null,'12331231231','大学','北京',21) [ RunTime:0.072000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '1388888888' LIMIT 1   [ RunTime:0.013000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-09-18T17:17:42+08:00 ] ::1 /jzc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_carousel` [ RunTime:0.047000s ]
+SQL: SELECT `id`,`img`,`is_package` FROM `yaj_carousel` WHERE `state` = 1  [ RunTime:0.017000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-09-18T17:22:05+08:00 ] ::1 /jzc/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_carousel` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`img`,`is_package` FROM `yaj_carousel` WHERE `state` = 1  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-09-18T17:22:19+08:00 ] ::1 /jzc/index.php/home/aa/_initialize
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Aa
+
+[ 2017-09-18T17:23:25+08:00 ] ::1 /jzc/index.php/home/aa/_initialize
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant HOME_PATH - assumed 'HOME_PATH' D:\xampp\htdocs\Jzc\Application\Home\Controller\AaController.class.php 第 11 行.
+NOTIC: [512] log4php: Configuration failed. File not found at [HOME_PATH/log4php.xml]. Using default configuration. D:\xampp\htdocs\Jzc\ThinkPHP\Library\Vendor\log4php\configurators\LoggerConfiguratorDefault.php 第 475 行.
+ERR: 非法操作:_initialize
+

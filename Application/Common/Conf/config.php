@@ -26,11 +26,13 @@ return array(
 	/* 数据库配置 */
 	'DB_TYPE'   => 'mysql', // 数据库类型
 	//服务器数据库地址
-	'DB_HOST'   => 'localhost', // 服务器地址
+	'DB_HOST'   => '47.93.55.250', // 服务器地址
 	'DB_NAME'   => 'yaj', // 数据库名
 	'DB_USER'   => 'root', // 用户名
-	'DB_PWD'    => '123456',  // 密码
+	'DB_PWD'    => '104613',  // 密码
 	
+
+
 	//本机测试数据库
 	// 'DB_HOST'   => 'localhost', // 服务器地址
 	// 'DB_NAME'   => 'yianju', // 数据库名

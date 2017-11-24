@@ -1,0 +1,1223 @@
+[ 2017-10-12T09:18:45+08:00 ] 192.168.31.214 /Jzc/index.php/home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.031200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 286 行.
+NOTIC: [8] Undefined index: style D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 288 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 293 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.078000s ]
+SQL: SELECT u.id,u.userpic,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.031200s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 301 行.
+NOTIC: [8] Undefined variable: res1 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 309 行.
+SQL: SHOW COLUMNS FROM `yaj_drawing` [ RunTime:0.031200s ]
+SQL: SELECT `id`,`name`,`depict` FROM `yaj_drawing` WHERE `stylistId` = 19 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_drawingimg` [ RunTime:0.015600s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 1 LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`depict` FROM `yaj_drawing` WHERE `stylistId` = 18 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 7 LIMIT 3   [ RunTime:0.015600s ]
+SQL: SELECT `id`,`name`,`depict` FROM `yaj_drawing` WHERE `stylistId` = 17 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 3 LIMIT 3   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 356 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 356 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 356 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-12T09:36:32+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.011000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.025000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `yaj_share` WHERE `label` LIKE '%漂亮%'  [ RunTime:0.023000s ]
+SQL: SELECT * FROM `yaj_share` WHERE `label` LIKE '%简约%'  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `yaj_share` WHERE `label` LIKE '%好看%'  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `yaj_share` WHERE `label` LIKE '%不好看%'  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `yaj_share` WHERE `label` LIKE '%难看%'  [ RunTime:0.001000s ]
+
+[ 2017-10-12T09:40:16+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.001000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.001000s ]
+NOTIC: [2] implode(): Argument must be an array D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 66 行.
+NOTIC: [2] implode(): Argument must be an array D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 66 行.
+
+[ 2017-10-12T09:40:36+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.002000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+
+[ 2017-10-12T09:40:55+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.001000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.001000s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 66 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 66 行.
+
+[ 2017-10-12T09:41:17+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.001000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: label D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 66 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 66 行.
+NOTIC: [8] Undefined index: label D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 66 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 66 行.
+
+[ 2017-10-12T09:41:30+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.001000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+NOTIC: [2] implode(): Invalid arguments passed D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 66 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 66 行.
+
+[ 2017-10-12T09:41:55+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.001000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+
+[ 2017-10-12T09:42:19+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.002000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.001000s ]
+
+[ 2017-10-12T09:42:31+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.003000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.001000s ]
+
+[ 2017-10-12T09:44:11+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.002000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+
+[ 2017-10-12T09:44:53+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.002000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+
+[ 2017-10-12T09:45:12+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.002000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+
+[ 2017-10-12T09:45:34+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.001000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+
+[ 2017-10-12T10:08:49+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.001000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+
+[ 2017-10-12T10:17:50+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.001000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+
+[ 2017-10-12T10:18:08+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.002000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: value D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+
+[ 2017-10-12T10:18:22+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.002000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: value D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 97 行.
+
+[ 2017-10-12T10:18:37+08:00 ] 192.168.31.214 /Jzc/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_carousel` [ RunTime:0.012000s ]
+SQL: SELECT `id`,`img`,`is_package` FROM `yaj_carousel` WHERE `state` = 1  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`name`,`depict`,`style`,`lunbo_img` FROM `yaj_package` ORDER BY edittime desc LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_collect` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.012000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 2 AND `type` = 1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-12T10:18:39+08:00 ] 192.168.31.214 /Jzc/index.php/home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 286 行.
+NOTIC: [8] Undefined index: style D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 288 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 293 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.003000s ]
+SQL: SELECT u.id,u.userpic,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 301 行.
+NOTIC: [8] Undefined variable: res1 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 309 行.
+SQL: SHOW COLUMNS FROM `yaj_drawing` [ RunTime:0.003000s ]
+SQL: SELECT `id`,`name`,`depict` FROM `yaj_drawing` WHERE `stylistId` = 19 AND `state` = 1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_drawingimg` [ RunTime:0.002000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 1 LIMIT 3   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name`,`depict` FROM `yaj_drawing` WHERE `stylistId` = 18 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 7 LIMIT 3   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`name`,`depict` FROM `yaj_drawing` WHERE `stylistId` = 17 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 3 LIMIT 3   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 356 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 356 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 356 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-12T10:18:45+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.001000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+
+[ 2017-10-12T10:18:57+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.001000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+
+[ 2017-10-12T10:19:30+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.002000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.001000s ]
+
+[ 2017-10-12T10:19:42+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.002000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 72 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 72 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 72 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 72 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 72 行.
+
+[ 2017-10-12T10:19:57+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.002000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 69 行.
+
+[ 2017-10-12T10:20:24+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.001000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+
+[ 2017-10-12T10:22:48+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.001000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 72 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 72 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 72 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 72 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 72 行.
+
+[ 2017-10-12T10:26:49+08:00 ] 192.168.31.214 /Jzc/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_carousel` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`img`,`is_package` FROM `yaj_carousel` WHERE `state` = 1  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`name`,`depict`,`style`,`lunbo_img` FROM `yaj_package` ORDER BY edittime desc LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_collect` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 2 AND `type` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-12T10:26:51+08:00 ] 192.168.31.214 /Jzc/index.php/home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 286 行.
+NOTIC: [8] Undefined index: style D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 288 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 293 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.003000s ]
+SQL: SELECT u.id,u.userpic,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 301 行.
+NOTIC: [8] Undefined variable: res1 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 309 行.
+SQL: SHOW COLUMNS FROM `yaj_drawing` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`name`,`depict` FROM `yaj_drawing` WHERE `stylistId` = 19 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_drawingimg` [ RunTime:0.002000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 1 LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`depict` FROM `yaj_drawing` WHERE `stylistId` = 18 AND `state` = 1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 7 LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`depict` FROM `yaj_drawing` WHERE `stylistId` = 17 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 3 LIMIT 3   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 356 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 356 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 356 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-12T11:19:35+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-12T11:19:42+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.002000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.001000s ]
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+
+[ 2017-10-12T11:20:30+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-12T11:20:42+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-12T11:20:51+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.001000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+
+[ 2017-10-12T11:20:59+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.001000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [8] Undefined index: label D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 68 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [8] Undefined index: label D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 68 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [8] Undefined index: label D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 68 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [8] Undefined index: label D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 68 行.
+
+[ 2017-10-12T11:21:06+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.001000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [8] Undefined index: label D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 68 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [8] Undefined index: label D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 68 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [8] Undefined index: label D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 68 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [8] Undefined index: label D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 68 行.
+
+[ 2017-10-12T11:21:19+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.002000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.001000s ]
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [8] Undefined index: label D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 68 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [8] Undefined index: label D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 68 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [8] Undefined index: label D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 68 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [8] Undefined index: label D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 68 行.
+
+[ 2017-10-12T11:21:29+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.002000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [8] Undefined index: label D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 68 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [8] Undefined index: label D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 68 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [8] Undefined index: label D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 68 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [8] Undefined index: label D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 68 行.
+
+[ 2017-10-12T11:22:30+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.002000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+
+[ 2017-10-12T11:22:38+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.002000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+
+[ 2017-10-12T11:22:53+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.002000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [2] array_push() expects at least 2 parameters, 1 given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+
+[ 2017-10-12T11:24:14+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.001000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.001000s ]
+NOTIC: [2] array_push() expects parameter 1 to be array, integer given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+
+[ 2017-10-12T11:25:25+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.002000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+NOTIC: [2] array_push() expects parameter 1 to be array, integer given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+NOTIC: [2] array_push() expects parameter 1 to be array, null given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 73 行.
+
+[ 2017-10-12T11:26:08+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.002000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+
+[ 2017-10-12T11:26:25+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.002000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.001000s ]
+
+[ 2017-10-12T11:28:50+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.002000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+
+[ 2017-10-12T11:38:22+08:00 ] 192.168.31.214 /Jzc/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_carousel` [ RunTime:0.003000s ]
+SQL: SELECT `id`,`img`,`is_package` FROM `yaj_carousel` WHERE `state` = 1  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.003000s ]
+SQL: SELECT `id`,`name`,`depict`,`style`,`lunbo_img` FROM `yaj_package` ORDER BY edittime desc LIMIT 0,3   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_collect` [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 2 AND `type` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-12T11:38:25+08:00 ] 192.168.31.214 /Jzc/index.php/home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 286 行.
+NOTIC: [8] Undefined index: style D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 288 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 293 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.003000s ]
+SQL: SELECT u.id,u.userpic,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 301 行.
+NOTIC: [8] Undefined variable: res1 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 309 行.
+SQL: SHOW COLUMNS FROM `yaj_drawing` [ RunTime:0.003000s ]
+SQL: SELECT `id`,`name`,`depict` FROM `yaj_drawing` WHERE `stylistId` = 19 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_drawingimg` [ RunTime:0.002000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 1 LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`depict` FROM `yaj_drawing` WHERE `stylistId` = 18 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 7 LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`depict` FROM `yaj_drawing` WHERE `stylistId` = 17 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 3 LIMIT 3   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 356 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 356 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 356 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-12T11:44:26+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.001000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+
+[ 2017-10-12T11:44:32+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.001000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.001000s ]
+
+[ 2017-10-12T11:45:51+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.001000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.001000s ]
+
+[ 2017-10-12T11:45:57+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.003000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.001000s ]
+
+[ 2017-10-12T11:51:52+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.001000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 68 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 68 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 68 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 68 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 68 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 68 行.
+
+[ 2017-10-12T11:56:09+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-12T11:56:15+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.001000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+
+[ 2017-10-12T11:56:37+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.003000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.001000s ]
+
+[ 2017-10-12T11:56:53+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.003000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+
+[ 2017-10-12T11:57:03+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.002000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+
+[ 2017-10-12T11:57:12+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.002000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+
+[ 2017-10-12T11:57:18+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.001000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+
+[ 2017-10-12T11:57:24+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.002000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.003000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.001000s ]
+
+[ 2017-10-12T11:57:36+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.001000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+
+[ 2017-10-12T11:57:45+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.001000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+
+[ 2017-10-12T11:58:30+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.002000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 66 行.
+
+[ 2017-10-12T11:58:36+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.001000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 66 行.
+
+[ 2017-10-12T11:58:50+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.001000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 14 ORDER BY num desc LIMIT 9   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.001000s ]
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 66 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 66 行.
+
+[ 2017-10-12T17:05:28+08:00 ] 192.168.31.214 /Jzc/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_carousel` [ RunTime:0.003000s ]
+SQL: SELECT `id`,`img`,`is_package` FROM `yaj_carousel` WHERE `state` = 1  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`name`,`depict`,`style`,`lunbo_img` FROM `yaj_package` ORDER BY edittime desc LIMIT 0,3   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yaj_collect` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 2 AND `type` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-12T17:05:39+08:00 ] 192.168.31.214 /Jzc/index.php/home/index/list_search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_fitment` [ RunTime:0.120000s ]
+SQL: SELECT f.name,f.style,f.fans,f.id,f.id,d.img,f.depict FROM `yaj_fitment` as f LEFT JOIN yaj_fitmentimg as d on f.id=d.pid  WHERE ( f.depict LIKE '%%' OR f.name LIKE '%%' OR f.style LIKE '%%' ) AND `is_topo` = 1 GROUP BY f.id ORDER BY f.edittime LIMIT 0,3   [ RunTime:0.031000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-12T17:05:42+08:00 ] 192.168.31.214 /Jzc/index.php/home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 286 行.
+NOTIC: [8] Undefined index: style D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 288 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 293 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.003000s ]
+SQL: SELECT u.id,u.userpic,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 301 行.
+NOTIC: [8] Undefined variable: res1 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 309 行.
+SQL: SHOW COLUMNS FROM `yaj_drawing` [ RunTime:0.003000s ]
+SQL: SELECT `id`,`name`,`depict` FROM `yaj_drawing` WHERE `stylistId` = 19 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_drawingimg` [ RunTime:0.002000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 1 LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`depict` FROM `yaj_drawing` WHERE `stylistId` = 18 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 7 LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`depict` FROM `yaj_drawing` WHERE `stylistId` = 17 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 3 LIMIT 3   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 356 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 356 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 356 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-12T17:06:05+08:00 ] 192.168.31.214 /Jzc/index.php/home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 286 行.
+NOTIC: [8] Undefined index: style D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 288 行.
+NOTIC: [8] Undefined index: style D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 324 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 328 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education,u.userpic,d.process,d.place FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.075000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education,u.userpic,d.process,d.place FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.is_all <> 1 AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education,u.userpic,d.process,d.place FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.is_all <> 1 AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 356 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 356 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-12T17:06:43+08:00 ] 192.168.31.214 /Jzc/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`name`,`depict`,`style`,`lunbo_img` FROM `yaj_package` ORDER BY edittime desc LIMIT 0,3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_collect` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 2 AND `type` = 1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-12T17:06:44+08:00 ] 192.168.31.214 /Jzc/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.003000s ]
+SQL: SELECT `id`,`name`,`depict`,`style`,`lunbo_img` FROM `yaj_package` ORDER BY edittime desc LIMIT 3,3   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_collect` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 4 AND `type` = 1 LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-12T17:06:51+08:00 ] 192.168.31.214 /Jzc/index.php/home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 286 行.
+NOTIC: [8] Undefined index: style D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 288 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 293 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.userpic,u.username,d.style,d.worktime,d.education FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '2' ORDER BY d.worktime desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 301 行.
+NOTIC: [8] Undefined variable: res1 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 309 行.
+SQL: SHOW COLUMNS FROM `yaj_drawing` [ RunTime:0.003000s ]
+SQL: SELECT `id`,`name`,`depict` FROM `yaj_drawing` WHERE `stylistId` = 19 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yaj_drawingimg` [ RunTime:0.002000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 1 LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`depict` FROM `yaj_drawing` WHERE `stylistId` = 18 AND `state` = 1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 7 LIMIT 3   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`name`,`depict` FROM `yaj_drawing` WHERE `stylistId` = 17 AND `state` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `img` FROM `yaj_drawingimg` WHERE `pid` = 3 LIMIT 3   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 356 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 356 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 356 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-12T17:06:57+08:00 ] 192.168.31.214 /Jzc/index.php/home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 286 行.
+NOTIC: [8] Undefined index: style D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 288 行.
+NOTIC: [8] Undefined index: style D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 324 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 328 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education,u.userpic,d.process,d.place FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education,u.userpic,d.process,d.place FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.is_all <> 1 AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education,u.userpic,d.process,d.place FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.is_all <> 1 AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 356 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 356 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-12T17:07:01+08:00 ] 192.168.31.214 /Jzc/index.php/home/index/user_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 286 行.
+NOTIC: [8] Undefined index: style D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 288 行.
+NOTIC: [8] Undefined index: style D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 324 行.
+NOTIC: [8] Undefined index: serve D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 328 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.002000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education,u.userpic,d.process,d.place FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = 3 AND d.is_all = 1 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education,u.userpic,d.process,d.place FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.is_all <> 1 AND d.grade > 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.001000s ]
+SQL: SELECT u.id,u.username,d.style,d.worktime,d.education,u.userpic,d.process,d.place FROM `yaj_user` as u LEFT JOIN yaj_userdetails d on u.id=d.uid  WHERE u.type = '3' AND d.is_all <> 1 AND d.grade < 4 ORDER BY d.worktime desc,d.num desc  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 356 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 356 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

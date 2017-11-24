@@ -1,0 +1,886 @@
+[ 2017-10-19T09:45:45+08:00 ] ::1 /Jzc/index.php/Home/share/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.008000s ]
+SQL: SELECT `username`,`userpic` FROM `yaj_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_collect` [ RunTime:0.007000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 188 行.
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php on line 188 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 469 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+SQL: SELECT * FROM `yaj_share_collect` WHERE ( `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null  ) AND `uid` = null AND `type` = 1 LIMIT 1   [ RunTime:0.008000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 194 行.
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php on line 194 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 469 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+SQL: SELECT * FROM `yaj_share_collect` WHERE ( `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null  ) AND `uid` = null AND `type` = 2 LIMIT 1   [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-19T09:46:06+08:00 ] ::1 /Jzc/index.php/Home/share/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.172000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic` FROM `yaj_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.006000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `yaj_share_comment` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`content`,`help`,`addtime` FROM `yaj_share_comment` WHERE `pid` = 3 ORDER BY praise desc  [ RunTime:0.005000s ]
+SQL: SELECT `username`,`userpic` FROM `yaj_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_img` [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 1 AND `type` = 2 LIMIT 1   [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_collect` [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 188 行.
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php on line 188 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 469 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+SQL: SELECT * FROM `yaj_share_collect` WHERE ( `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null  ) AND `uid` = null AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 194 行.
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php on line 194 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 469 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+SQL: SELECT * FROM `yaj_share_collect` WHERE ( `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null  ) AND `uid` = null AND `type` = 2 LIMIT 1   [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-19T10:10:45+08:00 ] ::1 /Jzc/index.php/Home/share/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 2 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.008000s ]
+SQL: SELECT `username`,`userpic` FROM `yaj_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.006000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `yaj_share_comment` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`content`,`help`,`addtime` FROM `yaj_share_comment` WHERE `pid` = 2 ORDER BY praise desc  [ RunTime:0.006000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 178 行.
+SQL: SHOW COLUMNS FROM `yaj_share_collect` [ RunTime:0.006000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 188 行.
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php on line 188 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 469 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+SQL: SELECT * FROM `yaj_share_collect` WHERE ( `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null  ) AND `uid` = null AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 194 行.
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php on line 194 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 469 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+SQL: SELECT * FROM `yaj_share_collect` WHERE ( `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null  ) AND `uid` = null AND `type` = 2 LIMIT 1   [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T10:12:19+08:00 ] ::1 /Jzc/index.php/Home/share/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 2 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.005000s ]
+SQL: SELECT `username`,`userpic` FROM `yaj_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `yaj_share_comment` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`content`,`help`,`addtime` FROM `yaj_share_comment` WHERE `pid` = 2 ORDER BY praise desc  [ RunTime:0.005000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 178 行.
+SQL: SHOW COLUMNS FROM `yaj_share_collect` [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 192 行.
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php on line 192 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 469 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+SQL: SELECT * FROM `yaj_share_collect` WHERE ( `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null  ) AND `uid` = null AND `type` = 1 LIMIT 1   [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 198 行.
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php on line 198 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 469 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+SQL: SELECT * FROM `yaj_share_collect` WHERE ( `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null  ) AND `uid` = null AND `type` = 2 LIMIT 1   [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-19T10:12:33+08:00 ] ::1 /Jzc/index.php/Home/share/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.005000s ]
+SQL: SELECT `username`,`userpic` FROM `yaj_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.006000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `yaj_share_comment` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`uid`,`content`,`help`,`addtime` FROM `yaj_share_comment` WHERE `pid` = 3 ORDER BY praise desc  [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic` FROM `yaj_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_img` [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 1 AND `type` = 2 LIMIT 1   [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_collect` [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 192 行.
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php on line 192 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 469 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+SQL: SELECT * FROM `yaj_share_collect` WHERE ( `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null  ) AND `uid` = null AND `type` = 1 LIMIT 1   [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 198 行.
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php on line 198 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 469 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+SQL: SELECT * FROM `yaj_share_collect` WHERE ( `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null  ) AND `uid` = null AND `type` = 2 LIMIT 1   [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T10:13:23+08:00 ] ::1 /Jzc/index.php/Home/share/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic` FROM `yaj_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.007000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `yaj_share_comment` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`content`,`help`,`addtime` FROM `yaj_share_comment` WHERE `pid` = 3 ORDER BY praise desc  [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic` FROM `yaj_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_img` [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 1 AND `type` = 2 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_collect` [ RunTime:0.004000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php on line 192 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 469 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+SQL: SELECT * FROM `yaj_share_collect` WHERE ( `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null  ) AND `uid` = 22 AND `type` = 1 LIMIT 1   [ RunTime:0.013000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php on line 198 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 469 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+SQL: SELECT * FROM `yaj_share_collect` WHERE ( `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null  ) AND `uid` = 22 AND `type` = 2 LIMIT 1   [ RunTime:0.008000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-19T10:40:29+08:00 ] ::1 /Jzc/index.php/Home/share/details
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 LIMIT 1   [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.005000s ]
+SQL: SELECT `username`,`userpic` FROM `yaj_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: type D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 173 行.
+SQL: SHOW COLUMNS FROM `yaj_share_comment` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`content`,`help`,`addtime` FROM `yaj_share_comment` WHERE `pid` = 3 ORDER BY praise desc  [ RunTime:0.004000s ]
+SQL: SELECT `username`,`userpic` FROM `yaj_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_img` [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 1 AND `type` = 2 LIMIT 1   [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_collect` [ RunTime:0.007000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php on line 192 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 469 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+SQL: SELECT * FROM `yaj_share_collect` WHERE ( `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null  ) AND `uid` = 22 AND `type` = 1 LIMIT 1   [ RunTime:0.005000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php on line 198 and defined D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1553 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1554 行.
+NOTIC: [8] Undefined variable: field D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Model.class.php 第 1564 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 469 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 0 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 1 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 2 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 3 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 4 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 5 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 6 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 7 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 8 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 9 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 10 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 513 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 514 行.
+NOTIC: [8] Undefined offset: 11 D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db.class.php 第 517 行.
+SQL: SELECT * FROM `yaj_share_collect` WHERE ( `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null AND `collect_id` = null  ) AND `uid` = 22 AND `type` = 2 LIMIT 1   [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T13:32:43+08:00 ] ::1 /Jzc/index.php/Home/shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

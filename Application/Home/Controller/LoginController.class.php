@@ -48,7 +48,7 @@ class LoginController extends Controller {
     $extno = "";
     $content="【金织巢】验证码：".$code."，该验证码用于金织巢APP注册或修改信息时使用，10分钟内有效。";
     $sendtime = "";
-    $code = md5($code);   //验证码md5加密保存
+    $code = $code;   //验证码md5加密保存
     $result=WsMessageSend::send($account,$password,$mobiles,$extno,$content,$sendtime);
     $xml = simplexml_load_string($result);
     $retustatus = $xml->returnstatus;
@@ -78,12 +78,6 @@ class LoginController extends Controller {
     $url = 'http://192.168.31.210/Jzc/Uploads/';
     $data = I('post.');
     $value = array();
-    if(!$data['phoneNum'] || !$data['code']){
-      $value['state'] = 0;
-      $value['error'] = '参数不全~';
-      echo json_encode($value);
-      exit;
-    }
     $user = M('user')->where(array('phoneNum'=>$data['phoneNum']))->find();
     if(!$user){
         $data['username'] = substr_replace($data['phoneNum'],'****',3,4);
@@ -92,14 +86,13 @@ class LoginController extends Controller {
 	    if($int){
 	      // 通过验证，插入
 	      $map['phoneNum'] = $data['phoneNum'];
-	      $map['userpic'] = '2017-04-18/s_58f5be302d18e.jpg'; // 默认头像保密的
+	      $map['userpic'] = '2017-09-14/59b9e820d1e99.jpg'; // 默认头像保密的
 	      $map['username'] = $data['username'];
 	      $map['registertime'] = time();
 	      $map['usertoken'] = md5(time());
 	      $uid = M('user')->data($map)->add();
 	      if($uid){
 	          $users=M("user")->where("id='$uid'")->find();
-
 	          if(!$users['hx_id']){
 	            $hx_name=$uid;
 	            $result=accreditRegister(array('username'=>$hx_name,'password'=>'123456'));
@@ -128,7 +121,6 @@ class LoginController extends Controller {
     	}else{
     		$int = M('user')->where(array('phoneNum'=>$data['phoneNum'],'password'=>md5(md5($data['password']))))->find();
     	}
-	    
 	    if($int){
 	    	$res = M('user')->where(array('phoneNum'=>$data['phoneNum']))->find();
 	        if(empty($res['hx_id'])){
@@ -206,7 +198,7 @@ class LoginController extends Controller {
    * 图片上传
    * @param file  $userpic   用户图片 	
    */
-  public function get_img(){
+  public function get_img1(){
   	$url = C(PASE);
   	$value['path'] = $url.get_img($_FILES['userpic']);
   	if($value['path']){
@@ -218,6 +210,60 @@ class LoginController extends Controller {
   	echo json_encode($value);
   }
   /**
+   * 设计师/施工队必填资料
+   * @return [type] [description]
+   */
+  public function must_info(){
+      $data = I('post.');
+      if(!$_FILES['userpic']['name']){
+      	$value['state'] = 0;
+          $value['error'] = '缺少图片~';
+      	echo json_encode($value);
+      	exit;
+      }
+      if(!$data['username']){
+      	$value['state'] = 0;
+          $value['error'] = '缺少名称~';
+      	echo json_encode($value);
+      	exit;
+      }
+      if(!$data['type']){
+      	$value['state'] = 0;
+          $value['error'] = '缺少类型';
+      	echo json_encode($value);
+      	exit;
+      }
+      if(!$data['phoneNum']){
+      	$value['state'] = 0;
+          $value['error'] = '缺少电话~';
+      	echo json_encode($value);
+      	exit;
+      }
+      $int = M('user')->where(array('phoneNum'=>$data['phoneNum']))->field('id')->find();
+      if($int){
+          $value['state'] = 0;
+          $value['error'] = "该用户已注册，请直接登录";
+          echo json_encode($value);
+          exit;
+      }
+
+      $map['userpic'] = get_img($_FILES['userpic']);
+      
+      $map['username'] = $data['username'];
+      $map['phoneNum'] = $data['phoneNum'];
+      $map['type'] = $data['type'];
+      $map['registertime'] = time();
+      $id = M('user')->add($map);
+      if($id){
+      	$value['uid'] = $id;
+      	$value['state'] = 1;
+      }else{
+      	$value['state'] = 0;
+      	$value['error'] = "输入失败";
+      }
+      echo json_encode($value);
+  }
+  /**
    * 审核资料填写
    * @return [file] [userpic]  头像
    * @return [string] [name]  姓名
@@ -227,7 +273,7 @@ class LoginController extends Controller {
   public function audit(){
   	$data = I('post.');
 
-  	if(!$_FILES['userpic']['name'] || !$data['name'] || !$data['phoneNum'] ||  ! $data['serve'] || !$data['worktime'] || !$data['goods'] || !$data['education'] || !$data['native'] || !$_FILES['cardpic']['name'] || !$data['type'] || !$data['card']){
+  	if(!$data['serve'] || !$data['worktime'] || !$data['goods'] || !$data['education'] || !$data['place'] || !$_FILES['cardpic']['name'] || !$data['type'] || !$data['card']){
         $value['state'] = 0;
         $value['error'] = '缺少参数~';
         echo json_encode($value);
@@ -264,7 +310,8 @@ class LoginController extends Controller {
     $newsinfo['usertoken'] = md5(time());
     $newsinfo['registertime'] = time();
     $list['education'] = $data['education'];  //学历
-    $list['native'] = $data['native'];  //籍贯
+    $list['place'] = $data['place'];  //籍贯
+    $list['background'] = '2017-09-14/59b9e820d1e99.jpg';
     if(!$data['uid']){
     	$int = M('user')->add($newsinfo);
 	    $list['uid'] = $int;
@@ -324,7 +371,7 @@ class LoginController extends Controller {
 			$value['state'] = 0;
 			$value['error'] = '请选择用户类型';
 		}else{
-			$value = M('guild')->where($data)->field('id,name')->select();
+			$value['list'] = M('guild')->where($data)->field('id,name')->select();
 			$value['state'] = 1;
 		}
 		echo json_encode($value);
@@ -347,7 +394,7 @@ class LoginController extends Controller {
 		if($int !== null){
 			$value['state'] = 1;
 		}else{
-			$value['state'] = 0;
+			$value['state'] = 0; 
 			$value['error'] = '更改失败';
 		}
 		echo json_encode($value);
@@ -373,5 +420,81 @@ class LoginController extends Controller {
 		echo json_encode($value);
 		exit;
 	}
-  	
+	/**
+   * 设计师/施工队必填资料
+   * @return [type] [description]
+   */
+  public function must_info1(){
+      $data = I('post.');
+      if(!$_FILES['userpic']['name']){
+      	$value['state'] = 0;
+          $value['error'] = $_FILES['userpic'];
+      	echo json_encode($value);
+      	exit;
+      }
+      if(!$data['username']){
+      	$value['state'] = 0;
+          $value['error'] = '缺少名称~';
+      	echo json_encode($value);
+      	exit;
+      }
+      if(!$data['type']){
+      	$value['state'] = 0;
+          $value['error'] = '缺少类型';
+      	echo json_encode($value);
+      	exit;
+      }
+      if(!$data['phoneNum']){
+      	$value['state'] = 0;
+          $value['error'] = '缺少电话~';
+      	echo json_encode($value);
+      	exit;
+      }
+
+      $int = M('user')->where(array('phoneNum'=>$data['phoneNum']))->field('id')->find();
+      if($int){
+          $value['state'] = 0;
+          $value['error'] = "该用户已注册，请直接登录";
+          echo json_encode($value);
+          exit;
+      }
+      $map['userpic'] = get_img($_FILES['userpic']);
+      $map['username'] = $data['username'];
+      $map['phoneNum'] = $data['phoneNum'];
+      $map['type'] = $data['type'];
+      $id = M('user')->add($map);
+      if($id){
+      	$value['uid'] = $id;
+      	$value['state'] = 1;
+      }else{
+      	$value['state'] = 0;
+      	$value['error'] = "输入失败";
+      }
+      echo json_encode($value);
+
+  }
+  /**
+   * 地址查询
+   * @return [new] [更新次数]
+   */
+  public function area(){
+  	$new = I('post.');
+  	//地址未更新
+  	if($new['newstNum'] == 0){
+  		$value['area'] = M('area')->select();
+  		$value['newstNum'] = 0;
+  		//地址已更新
+  	}else{
+  		$map['is_new'] = array('lt',$new);
+  		$value['area'] = M('area')->where($map)->select();
+  		$value['newstNum'] = M('area')->order('is_new desc')->getField('is_new');
+  	}
+  	if($value){
+  		$value['state'] = 1;
+  	}else{
+  		$value['state'] = 0;
+  		$value['error'] = "读取城市失败";
+  	}
+  	echo json_encode($value);
+  }
 }

@@ -1,0 +1,880 @@
+[ 2017-10-25T10:33:36+08:00 ] ::1 /Jzc/index.php/Home/shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.030000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_goods_banner` [ RunTime:0.005000s ]
+SQL: SELECT `img` FROM `yaj_goods_banner` LIMIT 1   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_classify` [ RunTime:0.005000s ]
+SQL: SELECT `name` FROM `yaj_classify` WHERE `pid` = 0 AND `state` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-25T10:33:57+08:00 ] ::1 /Jzc/index.php/Home/shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_goods_banner` [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_goods_banner` LIMIT 1   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_classify` [ RunTime:0.007000s ]
+SQL: SELECT `name` FROM `yaj_classify` WHERE `pid` = 0 AND `state` = 1 AND `is_show` = 1  [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T10:34:23+08:00 ] ::1 /Jzc/index.php/Home/shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_goods_banner` [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_goods_banner` LIMIT 1   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yaj_classify` [ RunTime:0.007000s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' D:\xampp\htdocs\Jzc\Application\Home\Controller\ShopController.class.php 第 9 行.
+SQL: SELECT `name` FROM `yaj_classify` WHERE `pid` = 0 AND `state` = 1 AND `is_show` = 1 LIMIT 1   [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-25T10:34:32+08:00 ] ::1 /Jzc/index.php/Home/shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_goods_banner` [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_goods_banner` LIMIT 1   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_classify` [ RunTime:0.006000s ]
+SQL: SELECT `name` FROM `yaj_classify` WHERE `pid` = 0 AND `state` = 1 AND `is_show` = 1  [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-25T10:34:53+08:00 ] ::1 /Jzc/index.php/Home/shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_goods_banner` [ RunTime:0.005000s ]
+SQL: SELECT `img` FROM `yaj_goods_banner` LIMIT 1   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yaj_classify` [ RunTime:0.004000s ]
+SQL: SELECT `name` FROM `yaj_classify` WHERE `pid` = 0 AND `state` = 1 AND `is_show` = 1 LIMIT 2   [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T10:35:01+08:00 ] ::1 /Jzc/index.php/Home/shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_goods_banner` [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_goods_banner` LIMIT 1   [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `yaj_classify` [ RunTime:0.007000s ]
+SQL: SELECT `name` FROM `yaj_classify` WHERE `pid` = 0 AND `state` = 1 AND `is_show` = 1 LIMIT 4   [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T10:52:25+08:00 ] ::1 /Jzc/index.php/Home/shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-25T10:52:40+08:00 ] ::1 /Jzc/index.php/Home/shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_goods_banner` [ RunTime:0.005000s ]
+SQL: SELECT `img` FROM `yaj_goods_banner` WHERE `type` = 1 LIMIT 1   [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `yaj_classify` [ RunTime:0.004000s ]
+SQL: SELECT `name` FROM `yaj_classify` WHERE `pid` = 0 AND `state` = 1 AND `is_show` = 1 LIMIT 4   [ RunTime:0.005000s ]
+SQL: SELECT `img` FROM `yaj_goods_banner` WHERE `type` = 2 LIMIT 1   [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-25T13:47:56+08:00 ] ::1 /Jzc/index.php/Home/shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_goods_banner` [ RunTime:0.164000s ]
+SQL: SELECT `img` FROM `yaj_goods_banner` WHERE `type` = 1 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `yaj_classify` [ RunTime:0.010000s ]
+SQL: SELECT `name` FROM `yaj_classify` WHERE `pid` = 0 AND `state` = 1 AND `is_show` = 1 LIMIT 4   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_goods_banner` WHERE `type` = 2 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_goods_make` [ RunTime:0.012000s ]
+SQL: SELECT `id`,`img` FROM `yaj_goods_make` WHERE `state` = 1  [ RunTime:0.034000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T14:15:30+08:00 ] 192.168.31.96 /Jzc/index.php/home/login/loginto
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600026191' LIMIT 1   [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `yaj_code` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `yaj_code` WHERE `phoneNum` = '17600026191' AND `code` = '111111' LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600026191' LIMIT 1   [ RunTime:0.009000s ]
+SQL: UPDATE `yaj_user` SET `usertoken`='7ceeeb6667ad91301ace813e7a04a69a' WHERE `id` = 22 [ RunTime:0.019000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T14:15:30+08:00 ] 192.168.31.96 /Jzc/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_carousel` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`img`,`is_package` FROM `yaj_carousel` WHERE `state` = 1  [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`name`,`depict`,`style`,`lunbo_img` FROM `yaj_package` ORDER BY edittime desc LIMIT 0,3   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yaj_collect` [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 2 AND `type` = 1 LIMIT 1   [ RunTime:0.004000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T14:20:45+08:00 ] 192.168.31.96 /Jzc/index.php/home/login/loginto
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600026191' LIMIT 1   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yaj_code` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `yaj_code` WHERE `phoneNum` = '17600026191' AND `code` = '111111' LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600026191' LIMIT 1   [ RunTime:0.005000s ]
+SQL: UPDATE `yaj_user` SET `usertoken`='16ad7a172b7d5dfdafac9097ad7e9712' WHERE `id` = 22 [ RunTime:0.016000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T14:20:45+08:00 ] 192.168.31.96 /Jzc/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_carousel` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`img`,`is_package` FROM `yaj_carousel` WHERE `state` = 1  [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.014000s ]
+SQL: SELECT `id`,`name`,`depict`,`style`,`lunbo_img` FROM `yaj_package` ORDER BY edittime desc LIMIT 0,3   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_collect` [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 2 AND `type` = 1 LIMIT 1   [ RunTime:0.004000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T14:22:36+08:00 ] 192.168.31.96 /Jzc/index.php/home/login/loginto
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600026191' LIMIT 1   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yaj_code` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `yaj_code` WHERE `phoneNum` = '17600026191' AND `code` = '111111' LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600026191' LIMIT 1   [ RunTime:0.006000s ]
+SQL: UPDATE `yaj_user` SET `usertoken`='98126378c39109969606d5821008bb49' WHERE `id` = 22 [ RunTime:0.018000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T14:22:36+08:00 ] 192.168.31.96 /Jzc/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_carousel` [ RunTime:0.008000s ]
+SQL: SELECT `id`,`img`,`is_package` FROM `yaj_carousel` WHERE `state` = 1  [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`name`,`depict`,`style`,`lunbo_img` FROM `yaj_package` ORDER BY edittime desc LIMIT 0,3   [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `yaj_collect` [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 2 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T14:23:03+08:00 ] 192.168.31.96 /Jzc/index.php/home/login/loginto
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600026191' LIMIT 1   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_code` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `yaj_code` WHERE `phoneNum` = '17600026191' AND `code` = '111111' LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600026191' LIMIT 1   [ RunTime:0.006000s ]
+SQL: UPDATE `yaj_user` SET `usertoken`='c33283e26e9eca784f656d5f65127625' WHERE `id` = 22 [ RunTime:0.009000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T14:23:03+08:00 ] 192.168.31.96 /Jzc/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_carousel` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`img`,`is_package` FROM `yaj_carousel` WHERE `state` = 1  [ RunTime:0.008000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`name`,`depict`,`style`,`lunbo_img` FROM `yaj_package` ORDER BY edittime desc LIMIT 0,3   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yaj_collect` [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 2 AND `type` = 1 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T14:25:51+08:00 ] 192.168.31.96 /Jzc/index.php/home/login/loginto
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600026191' LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_code` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `yaj_code` WHERE `phoneNum` = '17600026191' AND `code` = '111111' LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600026191' LIMIT 1   [ RunTime:0.008000s ]
+SQL: UPDATE `yaj_user` SET `usertoken`='c309e546d4771154067e0a555bf5afa5' WHERE `id` = 22 [ RunTime:0.019000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T14:25:51+08:00 ] 192.168.31.96 /Jzc/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_carousel` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`img`,`is_package` FROM `yaj_carousel` WHERE `state` = 1  [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`name`,`depict`,`style`,`lunbo_img` FROM `yaj_package` ORDER BY edittime desc LIMIT 0,3   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_collect` [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 2 AND `type` = 1 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T14:30:02+08:00 ] 192.168.31.96 /Jzc/index.php/home/login/loginto
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600026191' LIMIT 1   [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `yaj_code` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `yaj_code` WHERE `phoneNum` = '17600026191' AND `code` = '111111' LIMIT 1   [ RunTime:0.004000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600026191' LIMIT 1   [ RunTime:0.005000s ]
+SQL: UPDATE `yaj_user` SET `usertoken`='558ceaf51b9a44b7e514ddf4d400297c' WHERE `id` = 22 [ RunTime:0.018000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T14:30:02+08:00 ] 192.168.31.96 /Jzc/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_carousel` [ RunTime:0.011000s ]
+SQL: SELECT `id`,`img`,`is_package` FROM `yaj_carousel` WHERE `state` = 1  [ RunTime:0.010000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`name`,`depict`,`style`,`lunbo_img` FROM `yaj_package` ORDER BY edittime desc LIMIT 0,3   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yaj_collect` [ RunTime:0.009000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 2 AND `type` = 1 LIMIT 1   [ RunTime:0.004000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.008000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T14:38:16+08:00 ] 192.168.31.96 /Jzc/index.php/home/login/loginto
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600026191' LIMIT 1   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_code` [ RunTime:0.013000s ]
+SQL: SELECT * FROM `yaj_code` WHERE `phoneNum` = '17600026191' AND `code` = '111111' LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600026191' LIMIT 1   [ RunTime:0.008000s ]
+SQL: UPDATE `yaj_user` SET `usertoken`='83f32840a6d734e2d5ad09999e9d79ca' WHERE `id` = 22 [ RunTime:0.012000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T14:38:17+08:00 ] 192.168.31.96 /Jzc/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_carousel` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`img`,`is_package` FROM `yaj_carousel` WHERE `state` = 1  [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.008000s ]
+SQL: SELECT `id`,`name`,`depict`,`style`,`lunbo_img` FROM `yaj_package` ORDER BY edittime desc LIMIT 0,3   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yaj_collect` [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.004000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 2 AND `type` = 1 LIMIT 1   [ RunTime:0.004000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T14:40:58+08:00 ] 192.168.31.96 /Jzc/index.php/home/login/loginto
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600026191' LIMIT 1   [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `yaj_code` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `yaj_code` WHERE `phoneNum` = '17600026191' AND `code` = '111111' LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600026191' LIMIT 1   [ RunTime:0.007000s ]
+SQL: UPDATE `yaj_user` SET `usertoken`='25f566e7f0656a9f2d7f0d8fb41844dd' WHERE `id` = 22 [ RunTime:0.012000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T14:40:59+08:00 ] 192.168.31.96 /Jzc/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_carousel` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`img`,`is_package` FROM `yaj_carousel` WHERE `state` = 1  [ RunTime:0.007000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.008000s ]
+SQL: SELECT `id`,`name`,`depict`,`style`,`lunbo_img` FROM `yaj_package` ORDER BY edittime desc LIMIT 0,3   [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `yaj_collect` [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 2 AND `type` = 1 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T14:42:09+08:00 ] 192.168.31.96 /Jzc/index.php/home/login/loginto
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600026519' LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_code` [ RunTime:0.015000s ]
+SQL: SELECT * FROM `yaj_code` WHERE `phoneNum` = '17600026519' AND `code` = '111111' LIMIT 1   [ RunTime:0.007000s ]
+
+[ 2017-10-25T14:42:14+08:00 ] 192.168.31.96 /Jzc/index.php/home/login/loginto
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600026191' LIMIT 1   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_code` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `yaj_code` WHERE `phoneNum` = '17600026191' AND `code` = '111111' LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600026191' LIMIT 1   [ RunTime:0.007000s ]
+SQL: UPDATE `yaj_user` SET `usertoken`='2379919e79ced07f2a33d33e1d9043aa' WHERE `id` = 22 [ RunTime:0.019000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T14:42:15+08:00 ] 192.168.31.96 /Jzc/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_carousel` [ RunTime:0.013000s ]
+SQL: SELECT `id`,`img`,`is_package` FROM `yaj_carousel` WHERE `state` = 1  [ RunTime:0.006000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`name`,`depict`,`style`,`lunbo_img` FROM `yaj_package` ORDER BY edittime desc LIMIT 0,3   [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `yaj_collect` [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 2 AND `type` = 1 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T14:44:55+08:00 ] ::1 /Jzc/index.php/Home/share/textstr
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_test` [ RunTime:0.013000s ]
+SQL: INSERT INTO `yaj_test` (`test`) VALUES ('1234') [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T14:50:52+08:00 ] 192.168.31.96 /Jzc/index.php/home/login/loginto
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600026191' LIMIT 1   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_code` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `yaj_code` WHERE `phoneNum` = '17600026191' AND `code` = '111111' LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600026191' LIMIT 1   [ RunTime:0.007000s ]
+SQL: UPDATE `yaj_user` SET `usertoken`='500b5ba5d2fb66f957dc1c5dcc0fa46e' WHERE `id` = 22 [ RunTime:0.018000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-25T14:50:52+08:00 ] 192.168.31.96 /Jzc/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_carousel` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`img`,`is_package` FROM `yaj_carousel` WHERE `state` = 1  [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`name`,`depict`,`style`,`lunbo_img` FROM `yaj_package` ORDER BY edittime desc LIMIT 0,3   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_collect` [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.010000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 2 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T14:51:17+08:00 ] 192.168.31.96 /Jzc/index.php/home/share/textstr
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_test` [ RunTime:0.007000s ]
+SQL: INSERT INTO `yaj_test` (`test`) VALUES ('123123123123123123{\n    NSFont = \"<UICTFont: 0x7fc83460cd40> font-family: \\\".SFUIText\\\"; font-weight: normal; font-style: normal; font-size: 14.00pt\";\n    NSParagraphStyle = \"Alignment 0, LineSpacing 0, ParagraphSpacing 0, ParagraphSpacingBefore 0, HeadIndent 0, TailIndent 0, FirstLineHeadIndent 0, LineHeight 0/0, LineHeightMultiple 0, LineBreakMode 0, Tabs (\\n    28L,\\n    56L,\\n    84L,\\n    112L,\\n    140L,\\n    168L,\\n    196L,\\n    224L,\\n    252L,\\n    280L,\\n    308L,\\n    336L\\n), DefaultTabInterval 0, Blocks (\\n), Lists (\\n), BaseWritingDirection 0, HyphenationFactor 0, TighteningForTruncation NO, HeaderLevel 0\";\n}￼{\n    NSAttachment = \"<NSTextAttachment: 0x6040000c67b0>\";\n    NSFont = \"<UICTFont: 0x7fc83452b170> font-family: \\\"Helvetica\\\"; font-weight: normal; font-style: normal; font-size: 12.00pt\";\n    NSOriginalFont = \"<UICTFont: 0x7fc83452b170> font-family: \\\"Helvetica\\\"; font-weight: normal; font-style: normal; font-size: 12.00pt\";\n    NSParagraphStyle = \"Alignment 0, LineSpacing 0, ParagraphSpacing 0, ParagraphSpacingBefore 0, HeadIndent 0, TailIndent 0, FirstLineHeadIndent 0, LineHeight 0/0, LineHeightMultiple 0, LineBreakMode 0, Tabs (\\n    28L,\\n    56L,\\n    84L,\\n    112L,\\n    140L,\\n    168L,\\n    196L,\\n    224L,\\n    252L,\\n    280L,\\n    308L,\\n    336L\\n), DefaultTabInterval 0, Blocks (\\n), Lists (\\n), BaseWritingDirection 0, HyphenationFactor 0, TighteningForTruncation NO, HeaderLevel 0\";\n}123123123123123{\n    NSFont = \"<UICTFont: 0x7fc83460cd40> font-family: \\\".SFUIText\\\"; font-weight: normal; font-style: normal; font-size: 14.00pt\";\n    NSParagraphStyle = \"Alignment 0, LineSpacing 0, ParagraphSpacing 0, ParagraphSpacingBefore 0, HeadIndent 0, TailIndent 0, FirstLineHeadIndent 0, LineHeight 0/0, LineHeightMultiple 0, LineBreakMode 0, Tabs (\\n    28L,\\n    56L,\\n    84L,\\n    112L,\\n    140L,\\n    168L,\\n    196L,\\n    224L,\\n    252L,\\n    280L,\\n    308L,\\n    336L\\n), DefaultTabInterval 0, Blocks (\\n), Lists (\\n), BaseWritingDirection 0, HyphenationFactor 0, TighteningForTruncation NO, HeaderLevel 0\";\n}￼{\n    NSAttachment = \"<NSTextAttachment: 0x6000000de140>\";\n    NSFont = \"<UICTFont: 0x7fc83452b170> font-family: \\\"Helvetica\\\"; font-weight: normal; font-style: normal; font-size: 12.00pt\";\n    NSOriginalFont = \"<UICTFont: 0x7fc83452b170> font-family: \\\"Helvetica\\\"; font-weight: normal; font-style: normal; font-size: 12.00pt\";\n    NSParagraphStyle = \"Alignment 0, LineSpacing 0, ParagraphSpacing 0, ParagraphSpacingBefore 0, HeadIndent 0, TailIndent 0, FirstLineHeadIndent 0, LineHeight 0/0, LineHeightMultiple 0, LineBreakMode 0, Tabs (\\n    28L,\\n    56L,\\n    84L,\\n    112L,\\n    140L,\\n    168L,\\n    196L,\\n    224L,\\n    252L,\\n    280L,\\n    308L,\\n    336L\\n), DefaultTabInterval 0, Blocks (\\n), Lists (\\n), BaseWritingDirection 0, HyphenationFactor 0, TighteningForTruncation NO, HeaderLevel 0\";\n}12312321{\n    NSFont = \"<UICTFont: 0x7fc83460cd40> font-family: \\\".SFUIText\\\"; font-weight: normal; font-style: normal; font-size: 14.00pt\";\n    NSParagraphStyle = \"Alignment 0, LineSpacing 0, ParagraphSpacing 0, ParagraphSpacingBefore 0, HeadIndent 0, TailIndent 0, FirstLineHeadIndent 0, LineHeight 0/0, LineHeightMultiple 0, LineBreakMode 0, Tabs (\\n    28L,\\n    56L,\\n    84L,\\n    112L,\\n    140L,\\n    168L,\\n    196L,\\n    224L,\\n    252L,\\n    280L,\\n    308L,\\n    336L\\n), DefaultTabInterval 0, Blocks (\\n), Lists (\\n), BaseWritingDirection 0, HyphenationFactor 0, TighteningForTruncation NO, HeaderLevel 0\";\n}') [ RunTime:0.009000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T14:55:03+08:00 ] 192.168.31.96 /Jzc/index.php/home/login/loginto
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600026191' LIMIT 1   [ RunTime:0.013000s ]
+SQL: SHOW COLUMNS FROM `yaj_code` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `yaj_code` WHERE `phoneNum` = '17600026191' AND `code` = '111111' LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600026191' LIMIT 1   [ RunTime:0.007000s ]
+SQL: UPDATE `yaj_user` SET `usertoken`='cf53da6411896c43f39188e137f420f8' WHERE `id` = 22 [ RunTime:0.013000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T14:55:03+08:00 ] 192.168.31.96 /Jzc/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_carousel` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`img`,`is_package` FROM `yaj_carousel` WHERE `state` = 1  [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.017000s ]
+SQL: SELECT `id`,`name`,`depict`,`style`,`lunbo_img` FROM `yaj_package` ORDER BY edittime desc LIMIT 0,3   [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `yaj_collect` [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 2 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T14:55:07+08:00 ] 192.168.31.96 /Jzc/index.php/home/share/textstr
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_test` [ RunTime:0.016000s ]
+SQL: INSERT INTO `yaj_test` (`test`) VALUES ('') [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T14:58:26+08:00 ] 192.168.31.96 /Jzc/index.php/home/login/loginto
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600026191' LIMIT 1   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_code` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `yaj_code` WHERE `phoneNum` = '17600026191' AND `code` = '111111' LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600026191' LIMIT 1   [ RunTime:0.007000s ]
+SQL: UPDATE `yaj_user` SET `usertoken`='c287a4e3980e617a2c4ed12eea4e0da3' WHERE `id` = 22 [ RunTime:0.020000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T14:58:26+08:00 ] 192.168.31.96 /Jzc/index.php/home/login/loginto
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600026191' LIMIT 1   [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `yaj_code` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `yaj_code` WHERE `phoneNum` = '17600026191' AND `code` = '111111' LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600026191' LIMIT 1   [ RunTime:0.006000s ]
+SQL: UPDATE `yaj_user` SET `usertoken`='c287a4e3980e617a2c4ed12eea4e0da3' WHERE `id` = 22 [ RunTime:0.018000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-25T14:58:27+08:00 ] 192.168.31.96 /Jzc/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_carousel` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`img`,`is_package` FROM `yaj_carousel` WHERE `state` = 1  [ RunTime:0.007000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`name`,`depict`,`style`,`lunbo_img` FROM `yaj_package` ORDER BY edittime desc LIMIT 0,3   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_collect` [ RunTime:0.008000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 2 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.008000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T14:58:27+08:00 ] 192.168.31.96 /Jzc/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_carousel` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`img`,`is_package` FROM `yaj_carousel` WHERE `state` = 1  [ RunTime:0.006000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`name`,`depict`,`style`,`lunbo_img` FROM `yaj_package` ORDER BY edittime desc LIMIT 0,3   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_collect` [ RunTime:0.009000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 2 AND `type` = 1 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T14:58:27+08:00 ] 192.168.31.96 /Jzc/index.php/home/login/loginto
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600026191' LIMIT 1   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_code` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `yaj_code` WHERE `phoneNum` = '17600026191' AND `code` = '111111' LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600026191' LIMIT 1   [ RunTime:0.008000s ]
+SQL: UPDATE `yaj_user` SET `usertoken`='31bd5242bda25688be54f5977e3d7785' WHERE `id` = 22 [ RunTime:0.019000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T14:58:27+08:00 ] 192.168.31.96 /Jzc/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_carousel` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`img`,`is_package` FROM `yaj_carousel` WHERE `state` = 1  [ RunTime:0.006000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`name`,`depict`,`style`,`lunbo_img` FROM `yaj_package` ORDER BY edittime desc LIMIT 0,3   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_collect` [ RunTime:0.013000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 2 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-25T14:58:32+08:00 ] 192.168.31.96 /Jzc/index.php/home/share/textstr
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_test` [ RunTime:0.006000s ]
+SQL: INSERT INTO `yaj_test` (`test`) VALUES ('') [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T15:00:17+08:00 ] 192.168.31.96 /Jzc/index.php/home/share/textstr
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_test` [ RunTime:0.007000s ]
+SQL: INSERT INTO `yaj_test` (`test`) VALUES ('') [ RunTime:0.005000s ]
+SQL: SELECT `test` FROM `yaj_test` WHERE `id` = 5 LIMIT 1   [ RunTime:0.009000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T15:01:23+08:00 ] 192.168.31.96 /Jzc/index.php/home/login/loginto
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600026191' LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_code` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `yaj_code` WHERE `phoneNum` = '17600026191' AND `code` = '111111' LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600026191' LIMIT 1   [ RunTime:0.006000s ]
+SQL: UPDATE `yaj_user` SET `usertoken`='23b9e4ace02f569b143b115d7eb52d4c' WHERE `id` = 22 [ RunTime:0.012000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-25T15:01:24+08:00 ] 192.168.31.96 /Jzc/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_carousel` [ RunTime:0.008000s ]
+SQL: SELECT `id`,`img`,`is_package` FROM `yaj_carousel` WHERE `state` = 1  [ RunTime:0.012000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`name`,`depict`,`style`,`lunbo_img` FROM `yaj_package` ORDER BY edittime desc LIMIT 0,3   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_collect` [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 2 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T15:01:30+08:00 ] 192.168.31.96 /Jzc/index.php/home/share/textstr
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_test` [ RunTime:0.007000s ]
+SQL: INSERT INTO `yaj_test` (`test`) VALUES ('') [ RunTime:0.006000s ]
+SQL: SELECT `test` FROM `yaj_test` WHERE `id` = 5 LIMIT 1   [ RunTime:0.009000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-25T15:32:40+08:00 ] 192.168.31.96 /Jzc/index.php/home/login/loginto
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600026191' LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_code` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `yaj_code` WHERE `phoneNum` = '17600026191' AND `code` = '111111' LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600026191' LIMIT 1   [ RunTime:0.008000s ]
+SQL: UPDATE `yaj_user` SET `usertoken`='a5d607af1e107d8f9a524c37efef67a0' WHERE `id` = 22 [ RunTime:0.019000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-25T15:32:40+08:00 ] 192.168.31.96 /Jzc/index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_carousel` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`img`,`is_package` FROM `yaj_carousel` WHERE `state` = 1  [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\IndexController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `yaj_package` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`name`,`depict`,`style`,`lunbo_img` FROM `yaj_package` ORDER BY edittime desc LIMIT 0,3   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yaj_collect` [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 1 AND `type` = 1 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 2 AND `type` = 1 LIMIT 1   [ RunTime:0.014000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_collect` WHERE `collect_id` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

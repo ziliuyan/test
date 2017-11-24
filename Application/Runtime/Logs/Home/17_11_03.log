@@ -1,0 +1,295 @@
+[ 2017-11-03T14:00:10+08:00 ] ::1 /Jzc/index.php/Home/shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\ShopController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_goods_banner` [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_goods_banner` WHERE `type` = 1 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yaj_classify` [ RunTime:0.005000s ]
+SQL: SELECT `name` FROM `yaj_classify` WHERE `pid` = 0 AND `state` = 1 AND `is_show` = 1 LIMIT 4   [ RunTime:0.005000s ]
+SQL: SELECT `img` FROM `yaj_goods_banner` WHERE `type` = 2 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_goods_make` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`img` FROM `yaj_goods_make` WHERE `state` = 1 ORDER BY addtime  [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yaj_collect` [ RunTime:0.005000s ]
+SQL: SELECT `collect_id` FROM `yaj_collect` WHERE `uid` = 14 AND `type` = 4 LIMIT 3   [ RunTime:0.005000s ]
+SQL: SELECT count(*) as count,`collect_id` FROM `yaj_collect` WHERE ( id <> 1 and id <> 2 ) GROUP BY collect_id ORDER BY count desc LIMIT 3   [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `yaj_goods` [ RunTime:0.014000s ]
+SQL: SELECT `id` FROM `yaj_goods` WHERE `id` = 1 AND `state` = 1  [ RunTime:0.005000s ]
+SQL: SELECT `id` FROM `yaj_goods` WHERE `id` = 2 AND `state` = 1  [ RunTime:0.005000s ]
+SQL: SELECT `id` FROM `yaj_goods` WHERE `state` = 1 AND `id` = 3  [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_goods` WHERE `state` = 1 AND `id` = 5  [ RunTime:0.010000s ]
+SQL: SELECT `collect_id` FROM `yaj_collect`  [ RunTime:0.005000s ]
+SQL: SELECT `id` FROM `yaj_goods` WHERE `id` NOT IN ('1','2','3','5','3','3','5')  [ RunTime:0.005000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 1 LIMIT 0,5   [ RunTime:0.005000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 2 LIMIT 0,5   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 3 LIMIT 0,5   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 5 LIMIT 0,5   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 4 LIMIT 0,5   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 6 LIMIT 0,5   [ RunTime:0.005000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 7 LIMIT 0,5   [ RunTime:0.004000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 8 LIMIT 0,5   [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-11-03T14:03:28+08:00 ] ::1 /Jzc/index.php/Home/shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\ShopController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_goods_banner` [ RunTime:0.005000s ]
+SQL: SELECT `img` FROM `yaj_goods_banner` WHERE `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_classify` [ RunTime:0.005000s ]
+SQL: SELECT `name` FROM `yaj_classify` WHERE `pid` = 0 AND `state` = 1 AND `is_show` = 1 LIMIT 3   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_goods_banner` WHERE `type` = 2 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_goods_make` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`img` FROM `yaj_goods_make` WHERE `state` = 1 ORDER BY addtime  [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_collect` [ RunTime:0.008000s ]
+SQL: SELECT `collect_id` FROM `yaj_collect` WHERE `uid` = 14 AND `type` = 4 LIMIT 3   [ RunTime:0.005000s ]
+SQL: SELECT count(*) as count,`collect_id` FROM `yaj_collect` WHERE ( id <> 1 and id <> 2 ) GROUP BY collect_id ORDER BY count desc LIMIT 3   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_goods` [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_goods` WHERE `id` = 1 AND `state` = 1  [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_goods` WHERE `id` = 2 AND `state` = 1  [ RunTime:0.009000s ]
+SQL: SELECT `id` FROM `yaj_goods` WHERE `state` = 1 AND `id` = 3  [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_goods` WHERE `state` = 1 AND `id` = 5  [ RunTime:0.006000s ]
+SQL: SELECT `collect_id` FROM `yaj_collect`  [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_goods` WHERE `id` NOT IN ('1','2','3','5','3','3','5')  [ RunTime:0.006000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 1 LIMIT 0,5   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 2 LIMIT 0,5   [ RunTime:0.005000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 3 LIMIT 0,5   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 5 LIMIT 0,5   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 4 LIMIT 0,5   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 6 LIMIT 0,5   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 7 LIMIT 0,5   [ RunTime:0.005000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 8 LIMIT 0,5   [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-03T14:24:59+08:00 ] ::1 /Jzc/index.php/Home/shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\ShopController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_goods_banner` [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_goods_banner` WHERE `type` = 1 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yaj_classify` [ RunTime:0.006000s ]
+SQL: SELECT `name` FROM `yaj_classify` WHERE `pid` = 0 AND `state` = 1 AND `is_show` = 1 LIMIT 3   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_goods_banner` WHERE `type` = 2 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_goods_make` [ RunTime:0.012000s ]
+SQL: SELECT `id`,`img` FROM `yaj_goods_make` WHERE `state` = 1 ORDER BY addtime  [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `yaj_collect` [ RunTime:0.018000s ]
+SQL: SELECT `collect_id` FROM `yaj_collect` WHERE `uid` = 14 AND `type` = 4 LIMIT 3   [ RunTime:0.011000s ]
+SQL: SELECT count(*) as count,`collect_id` FROM `yaj_collect` WHERE ( id <> 1 and id <> 2 ) GROUP BY collect_id ORDER BY count desc LIMIT 3   [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `yaj_goods` [ RunTime:0.008000s ]
+SQL: SELECT `id` FROM `yaj_goods` WHERE `id` = 1 AND `state` = 1  [ RunTime:0.010000s ]
+SQL: SELECT `id` FROM `yaj_goods` WHERE `id` = 2 AND `state` = 1  [ RunTime:0.010000s ]
+SQL: SELECT `id` FROM `yaj_goods` WHERE `state` = 1 AND `id` = 3  [ RunTime:0.012000s ]
+SQL: SELECT `id` FROM `yaj_goods` WHERE `state` = 1 AND `id` = 5  [ RunTime:0.019000s ]
+SQL: SELECT `collect_id` FROM `yaj_collect`  [ RunTime:0.008000s ]
+SQL: SELECT `id` FROM `yaj_goods` WHERE `id` NOT IN ('1','2','3','5','3','3','5')  [ RunTime:0.010000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 1 LIMIT 0,5   [ RunTime:0.012000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 2 LIMIT 0,5   [ RunTime:0.019000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 3 LIMIT 0,5   [ RunTime:0.008000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 5 LIMIT 0,5   [ RunTime:0.015000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 4 LIMIT 0,5   [ RunTime:0.009000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 6 LIMIT 0,5   [ RunTime:0.013000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 7 LIMIT 0,5   [ RunTime:0.019000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 8 LIMIT 0,5   [ RunTime:0.007000s ]
+NOTIC: [8] Undefined index: classify D:\xampp\htdocs\Jzc\Application\Home\Controller\ShopController.class.php 第 71 行.
+SQL: SELECT `name` FROM `yaj_classify` WHERE `id` = null LIMIT 1   [ RunTime:0.007000s ]
+NOTIC: [8] Undefined index: classify D:\xampp\htdocs\Jzc\Application\Home\Controller\ShopController.class.php 第 71 行.
+SQL: SELECT `name` FROM `yaj_classify` WHERE `id` = null LIMIT 1   [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: classify D:\xampp\htdocs\Jzc\Application\Home\Controller\ShopController.class.php 第 71 行.
+SQL: SELECT `name` FROM `yaj_classify` WHERE `id` = null LIMIT 1   [ RunTime:0.008000s ]
+NOTIC: [8] Undefined index: classify D:\xampp\htdocs\Jzc\Application\Home\Controller\ShopController.class.php 第 71 行.
+SQL: SELECT `name` FROM `yaj_classify` WHERE `id` = null LIMIT 1   [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: classify D:\xampp\htdocs\Jzc\Application\Home\Controller\ShopController.class.php 第 71 行.
+SQL: SELECT `name` FROM `yaj_classify` WHERE `id` = null LIMIT 1   [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: classify D:\xampp\htdocs\Jzc\Application\Home\Controller\ShopController.class.php 第 71 行.
+SQL: SELECT `name` FROM `yaj_classify` WHERE `id` = null LIMIT 1   [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: classify D:\xampp\htdocs\Jzc\Application\Home\Controller\ShopController.class.php 第 71 行.
+SQL: SELECT `name` FROM `yaj_classify` WHERE `id` = null LIMIT 1   [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: classify D:\xampp\htdocs\Jzc\Application\Home\Controller\ShopController.class.php 第 71 行.
+SQL: SELECT `name` FROM `yaj_classify` WHERE `id` = null LIMIT 1   [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-11-03T14:26:57+08:00 ] ::1 /Jzc/index.php/Home/shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\ShopController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_goods_banner` [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_goods_banner` WHERE `type` = 1 LIMIT 1   [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `yaj_classify` [ RunTime:0.007000s ]
+SQL: SELECT `name` FROM `yaj_classify` WHERE `pid` = 0 AND `state` = 1 AND `is_show` = 1 LIMIT 3   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_goods_banner` WHERE `type` = 2 LIMIT 1   [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `yaj_goods_make` [ RunTime:0.015000s ]
+SQL: SELECT `id`,`img` FROM `yaj_goods_make` WHERE `state` = 1 ORDER BY addtime  [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_collect` [ RunTime:0.007000s ]
+SQL: SELECT `collect_id` FROM `yaj_collect` WHERE `uid` = 14 AND `type` = 4 LIMIT 3   [ RunTime:0.006000s ]
+SQL: SELECT count(*) as count,`collect_id` FROM `yaj_collect` WHERE ( id <> 1 and id <> 2 ) GROUP BY collect_id ORDER BY count desc LIMIT 3   [ RunTime:0.013000s ]
+SQL: SHOW COLUMNS FROM `yaj_goods` [ RunTime:0.018000s ]
+SQL: SELECT `id` FROM `yaj_goods` WHERE `id` = 1 AND `state` = 1  [ RunTime:0.023000s ]
+SQL: SELECT `id` FROM `yaj_goods` WHERE `id` = 2 AND `state` = 1  [ RunTime:0.012000s ]
+SQL: SELECT `id` FROM `yaj_goods` WHERE `state` = 1 AND `id` = 3  [ RunTime:0.013000s ]
+SQL: SELECT `id` FROM `yaj_goods` WHERE `state` = 1 AND `id` = 5  [ RunTime:0.017000s ]
+SQL: SELECT `collect_id` FROM `yaj_collect`  [ RunTime:0.017000s ]
+SQL: SELECT `id` FROM `yaj_goods` WHERE `id` NOT IN ('1','2','3','5','3','3','5')  [ RunTime:0.051000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 1 LIMIT 0,5   [ RunTime:0.024000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 2 LIMIT 0,5   [ RunTime:0.045000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 3 LIMIT 0,5   [ RunTime:0.029000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 5 LIMIT 0,5   [ RunTime:0.033000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 4 LIMIT 0,5   [ RunTime:0.034000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 6 LIMIT 0,5   [ RunTime:0.026000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 7 LIMIT 0,5   [ RunTime:0.011000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 8 LIMIT 0,5   [ RunTime:0.009000s ]
+NOTIC: [8] Undefined index: classify D:\xampp\htdocs\Jzc\Application\Home\Controller\ShopController.class.php 第 71 行.
+SQL: SELECT `name` FROM `yaj_classify` WHERE `id` = null LIMIT 1   [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: classify D:\xampp\htdocs\Jzc\Application\Home\Controller\ShopController.class.php 第 71 行.
+SQL: SELECT `name` FROM `yaj_classify` WHERE `id` = null LIMIT 1   [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: classify D:\xampp\htdocs\Jzc\Application\Home\Controller\ShopController.class.php 第 71 行.
+SQL: SELECT `name` FROM `yaj_classify` WHERE `id` = null LIMIT 1   [ RunTime:0.011000s ]
+NOTIC: [8] Undefined index: classify D:\xampp\htdocs\Jzc\Application\Home\Controller\ShopController.class.php 第 71 行.
+SQL: SELECT `name` FROM `yaj_classify` WHERE `id` = null LIMIT 1   [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: classify D:\xampp\htdocs\Jzc\Application\Home\Controller\ShopController.class.php 第 71 行.
+SQL: SELECT `name` FROM `yaj_classify` WHERE `id` = null LIMIT 1   [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: classify D:\xampp\htdocs\Jzc\Application\Home\Controller\ShopController.class.php 第 71 行.
+SQL: SELECT `name` FROM `yaj_classify` WHERE `id` = null LIMIT 1   [ RunTime:0.007000s ]
+NOTIC: [8] Undefined index: classify D:\xampp\htdocs\Jzc\Application\Home\Controller\ShopController.class.php 第 71 行.
+SQL: SELECT `name` FROM `yaj_classify` WHERE `id` = null LIMIT 1   [ RunTime:0.005000s ]
+NOTIC: [8] Undefined index: classify D:\xampp\htdocs\Jzc\Application\Home\Controller\ShopController.class.php 第 71 行.
+SQL: SELECT `name` FROM `yaj_classify` WHERE `id` = null LIMIT 1   [ RunTime:0.008000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-03T14:29:13+08:00 ] ::1 /Jzc/index.php/Home/shop/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\xampp\htdocs\Jzc\Application\Home\Controller\ShopController.class.php 第 14 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_goods_banner` [ RunTime:0.005000s ]
+SQL: SELECT `img` FROM `yaj_goods_banner` WHERE `type` = 1 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yaj_classify` [ RunTime:0.004000s ]
+SQL: SELECT `name` FROM `yaj_classify` WHERE `pid` = 0 AND `state` = 1 AND `is_show` = 1 LIMIT 3   [ RunTime:0.005000s ]
+SQL: SELECT `img` FROM `yaj_goods_banner` WHERE `type` = 2 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yaj_goods_make` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`img` FROM `yaj_goods_make` WHERE `state` = 1 ORDER BY addtime  [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `yaj_collect` [ RunTime:0.005000s ]
+SQL: SELECT `collect_id` FROM `yaj_collect` WHERE `uid` = 14 AND `type` = 4 LIMIT 3   [ RunTime:0.011000s ]
+SQL: SELECT count(*) as count,`collect_id` FROM `yaj_collect` WHERE ( id <> 1 and id <> 2 ) GROUP BY collect_id ORDER BY count desc LIMIT 3   [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `yaj_goods` [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_goods` WHERE `id` = 1 AND `state` = 1  [ RunTime:0.005000s ]
+SQL: SELECT `id` FROM `yaj_goods` WHERE `id` = 2 AND `state` = 1  [ RunTime:0.005000s ]
+SQL: SELECT `id` FROM `yaj_goods` WHERE `state` = 1 AND `id` = 3  [ RunTime:0.005000s ]
+SQL: SELECT `id` FROM `yaj_goods` WHERE `state` = 1 AND `id` = 5  [ RunTime:0.007000s ]
+SQL: SELECT `collect_id` FROM `yaj_collect`  [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_goods` WHERE `id` NOT IN ('1','2','3','5','3','3','5')  [ RunTime:0.023000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 1 LIMIT 0,5   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 2 LIMIT 0,5   [ RunTime:0.005000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 3 LIMIT 0,5   [ RunTime:0.005000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 5 LIMIT 0,5   [ RunTime:0.005000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 4 LIMIT 0,5   [ RunTime:0.004000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 6 LIMIT 0,5   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 7 LIMIT 0,5   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`name`,`presentation`,`price`,`classifyId` FROM `yaj_goods` WHERE `id` = 8 LIMIT 0,5   [ RunTime:0.005000s ]
+SQL: SELECT `name` FROM `yaj_classify` WHERE `id` = 33 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `name` FROM `yaj_classify` WHERE `id` = 33 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `name` FROM `yaj_classify` WHERE `id` = 33 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `name` FROM `yaj_classify` WHERE `id` = 33 LIMIT 1   [ RunTime:0.004000s ]
+SQL: SELECT `name` FROM `yaj_classify` WHERE `id` = 33 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `name` FROM `yaj_classify` WHERE `id` = 33 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `name` FROM `yaj_classify` WHERE `id` = 33 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT `name` FROM `yaj_classify` WHERE `id` = 33 LIMIT 1   [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-03T14:40:14+08:00 ] ::1 /Jzc/index.php/Home/shop/makeMetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_goods_make` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`name`,`min`,`max`,`brand`,`market`,`details`,`show_img` FROM `yaj_goods_make` WHERE `id` = 1 LIMIT 1   [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-03T18:06:27+08:00 ] 192.168.31.96 /Jzc/index.php/home/Login/area
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: newstNum D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 483 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_area` [ RunTime:0.062000s ]
+SQL: SELECT * FROM `yaj_area`  [ RunTime:0.220000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-11-03T18:07:57+08:00 ] 192.168.31.96 /Jzc/index.php/home/login/getcode
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.072000s ]
+SQL: SELECT * FROM `yaj_user` WHERE `phoneNum` = '17600078761' LIMIT 1   [ RunTime:0.070000s ]
+SQL: SHOW COLUMNS FROM `yaj_code` [ RunTime:0.075000s ]
+SQL: DELETE FROM `yaj_code` WHERE `phoneNum` = '17600078761' [ RunTime:0.071000s ]
+NOTIC: [2] include(MessageSend.class.php): failed to open stream: No such file or directory D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 43 行.
+NOTIC: [2] include(): Failed opening 'MessageSend.class.php' for inclusion (include_path='.;D:\xampp\php\PEAR') D:\xampp\htdocs\Jzc\Application\Home\Controller\LoginController.class.php 第 43 行.
+SQL: SELECT * FROM `yaj_code` WHERE `phoneNum` = '17600078761'  [ RunTime:0.076000s ]
+SQL: INSERT INTO `yaj_code` (`phoneNum`,`code`) VALUES ('17600078761','111111') [ RunTime:0.081000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-03T18:08:03+08:00 ] 192.168.31.96 /Jzc/index.php/home/login/must_info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.063000s ]
+SQL: SELECT `id` FROM `yaj_user` WHERE `phoneNum` = '17600078761' LIMIT 1   [ RunTime:0.062000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `yaj_user` (`userpic`,`username`,`phoneNum`,`type`,`registertime`) VALUES ('/2017-11-03/59fc40030bbdb.jpg','123','17600078761',5,1509703683) [ RunTime:0.074000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
