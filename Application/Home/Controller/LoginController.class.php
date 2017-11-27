@@ -481,7 +481,7 @@ class LoginController extends Controller {
   	$new = I('post.');
   	//地址未更新
   	if($new['newstNum'] == 0){
-  		$value['area'] = M('area')->select();
+  		$value['area'] = M('city')->select();
   		$value['newstNum'] = 0;
   		//地址已更新
   	}else{

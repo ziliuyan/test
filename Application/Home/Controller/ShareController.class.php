@@ -162,7 +162,7 @@ class ShareController extends Controller {
 			$value['list'][$k]['num'] = $num;
 			$value['list'][$k]['img'] = $img;
 		}
-		if($value){
+		if($value['list']){
 			$value['state'] = 1;
 		}else{
 			$value['state'] = 0;
