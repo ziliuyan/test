@@ -126,12 +126,15 @@ class ShareController extends Controller {
 				// 如果没有浏览记录，按时间倒序取出
 				$value['list'] = M('share')->order('addtime desc')->page($page,$r)->field('id,uid,title,content,addtime,label,type,praise,help')->select();
 			}
+			$value['list'] = array_filter($value['list']);
 		}elseif($data['name'] == '我的关注'){
 			// 我的关注
 			$id = M('share_collect')->where(array('uid'=>$data['uid'],'type'=>3))->order('addtime desc')->field('collect_id')->select();
 			foreach($id as $k => $v){
 				$value['list'][$k] = M('share')->where(array('id'=>$id[$k]['collect_id']))->page($page,$r)->order('addtime desc')->field('id,uid,title,content,addtime,label,type,praise,help')->find();
 			}
+			$value['list'] = array_filter($value['list']);
+			// $value['list'] = array_filter($$value['list'],create_function('$v','return !empty($v);'));
 			
 		}else{
 			$value['list'] = M('share')->where(array('type' => $type))
@@ -139,6 +142,7 @@ class ShareController extends Controller {
 							->order('addtime desc')
 							->field('id,uid,title,content,addtime,label,type,praise,help')
 							->select();
+			$value['list'] = array_filter($value['list']);
 		}
 		foreach($value['list'] as $k=>$v){
 			$value['list'][$k]['content'] = str_replace('<img src="',' ',$value['list'][$k]['content']);
@@ -165,8 +169,12 @@ class ShareController extends Controller {
 		if($value['list']){
 			$value['state'] = 1;
 		}else{
-			$value['state'] = 0;
-			$value['error'] = '读取失败';
+			if($data['name'] == '我的关注'){
+				$value['state'] = 1;
+			}else{
+				$value['state'] = 0;
+				$value['error'] = '读取失败';
+			}
 		}
 		echo json_encode($value);
 	}
@@ -183,24 +191,24 @@ class ShareController extends Controller {
 		$problem['userpic'] = $url.$user['userpic'];
 		$value['problem'] = $problem;
 		// if($problem['type'] == 3){
-			if($data['type'] == 1){
-				$answer = M('share_comment')->where(array('pid'=>$problem['id']))->order('addtime desc')->field('id,uid,content,help,addtime')->select();
-			}else{
-				$answer = M('share_comment')->where(array('pid'=>$problem['id']))->order('praise desc')->field('id,uid,content,help,addtime')->select();
-			}
-			foreach($answer as $k => $v){
-				$use = M('user')->where(array('id'=>$answer[$k]['uid']))->field('username,userpic')->find();
-				$answer[$k]['name'] = $user['username'];
-				$answer[$k]['pic'] = $url.$user['userpic'];
-				$img = M('share_img')->where(array('pid'=>$answer[$k]['id'],'type'=>2))->count();
-				$answer[$k]['img'] = $img;
-				unset($use);
-			}
-			if($answer){
-				$value['answer'] = $answer;
-			}else{
-				$value['answer'] = 0;
-			}
+			// if($data['type'] == 1){
+			// 	$answer = M('share_comment')->where(array('pid'=>$problem['id']))->order('addtime desc')->field('id,uid,content,help,addtime')->select();
+			// }else{
+			// 	$answer = M('share_comment')->where(array('pid'=>$problem['id']))->order('praise desc')->field('id,uid,content,help,addtime')->select();
+			// }
+			// foreach($answer as $k => $v){
+			// 	$use = M('user')->where(array('id'=>$answer[$k]['uid']))->field('username,userpic')->find();
+			// 	$answer[$k]['name'] = $user['username'];
+			// 	$answer[$k]['pic'] = $url.$user['userpic'];
+			// 	$img = M('share_img')->where(array('pid'=>$answer[$k]['id'],'type'=>2))->count();
+			// 	$answer[$k]['img'] = $img;
+			// 	unset($use);
+			// }
+			// if($answer){
+			// 	$value['answer'] = $answer;
+			// }else{
+			// 	$value['answer'] = 0;
+			// }
 		// }else{
 			// 是否点赞
 			$is_praise = M('share_collect')->where(array('collect_id'=>$value['problem'],'uid'=>$data['uid'],'type'=>1))->field()->find();
@@ -231,6 +239,35 @@ class ShareController extends Controller {
 			$value['error'] = '网络错误';
 		}
 
+		echo json_encode($value);
+	}
+	/**
+	 * 回答
+	 */
+	public function answer($r=8){
+		$data = I('post.');
+		$page = $data['page']?$data['page']:1;
+		if($data['type'] == 1){
+			$answer = M('share_comment')->where(array('pid'=>$data['id']))->page($page,$r)->order('addtime desc')->field('id,uid,content,help,addtime')->select();
+		}else{
+			$answer = M('share_comment')->where(array('pid'=>$data['id']))->page($page,$r)->order('praise desc')->field('id,uid,content,help,addtime')->select();
+		}
+		foreach($answer as $k => $v){
+			$use = M('user')->where(array('id'=>$answer[$k]['uid']))->field('username,userpic')->find();
+			$answer[$k]['name'] = $user['username'];
+			$answer[$k]['pic'] = $url.$user['userpic'];
+			$img = M('share_img')->where(array('pid'=>$answer[$k]['id'],'type'=>2))->count();
+			$answer[$k]['img'] = $img;
+			unset($use);
+		}
+		if($answer){
+			$value['answer'] = $answer;
+		}else{
+			$value['answer'] = 0;
+		}
+	// }else{
+		// 是否点赞
+		
 		echo json_encode($value);
 	}
 	/**

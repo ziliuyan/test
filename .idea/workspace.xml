@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53bfd87c-83f0-4728-8160-2fe2ea1d2489" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Home/Controller/AaController.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Home/Controller/ShopController.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Home/17_09_18.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Common/Common/function.php" afterPath="$PROJECT_DIR$/Application/Common/Common/function.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Common/Conf/config.php" afterPath="$PROJECT_DIR$/Application/Common/Conf/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Controller/LoginController.class.php" afterPath="$PROJECT_DIR$/Application/Home/Controller/LoginController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Controller/ShareController.class.php" afterPath="$PROJECT_DIR$/Application/Home/Controller/ShareController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Controller/ShopController.class.php" afterPath="$PROJECT_DIR$/Application/Home/Controller/ShopController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Controller/UserController.class.php" afterPath="$PROJECT_DIR$/Application/Home/Controller/UserController.class.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,7 +20,46 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2628">
               <caret line="74" column="8" lean-forward="false" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
-              <folding />
+              <folding>
+                <marker date="1511921781305" expanded="true" signature="1600:1636" ph=" 分享首页 ..." />
+                <marker date="1511921781305" expanded="true" signature="8428:8458" ph="..." />
+                <marker date="1511921781305" expanded="true" signature="8464:8587" ph=" 点击有帮助 ..." />
+                <marker date="1511921781305" expanded="true" signature="8614:9738" ph="..." />
+                <marker date="1511921781305" expanded="true" signature="8668:9228" ph="..." />
+                <marker date="1511921781305" expanded="true" signature="8695:8817" ph="..." />
+                <marker date="1511921781305" expanded="true" signature="8823:8919" ph="..." />
+                <marker date="1511921781305" expanded="true" signature="9131:9160" ph="..." />
+                <marker date="1511921781305" expanded="true" signature="9166:9224" ph="..." />
+                <marker date="1511921781305" expanded="true" signature="9234:9707" ph="..." />
+                <marker date="1511921781305" expanded="true" signature="9271:9393" ph="..." />
+                <marker date="1511921781305" expanded="true" signature="9399:9495" ph="..." />
+                <marker date="1511921781305" expanded="true" signature="9610:9639" ph="..." />
+                <marker date="1511921781305" expanded="true" signature="9645:9703" ph="..." />
+                <marker date="1511921781305" expanded="true" signature="9744:9795" ph=" 点赞 ..." />
+                <marker date="1511921781305" expanded="true" signature="9824:10944" ph="..." />
+                <marker date="1511921781305" expanded="true" signature="9869:10433" ph="..." />
+                <marker date="1511921781305" expanded="true" signature="9896:10020" ph="..." />
+                <marker date="1511921781305" expanded="true" signature="10026:10124" ph="..." />
+                <marker date="1511921781305" expanded="true" signature="10336:10365" ph="..." />
+                <marker date="1511921781305" expanded="true" signature="10371:10429" ph="..." />
+                <marker date="1511921781305" expanded="true" signature="10439:10913" ph="..." />
+                <marker date="1511921781305" expanded="true" signature="10477:10599" ph="..." />
+                <marker date="1511921781305" expanded="true" signature="10605:10701" ph="..." />
+                <marker date="1511921781305" expanded="true" signature="10816:10845" ph="..." />
+                <marker date="1511921781305" expanded="true" signature="10851:10909" ph="..." />
+                <marker date="1511921781305" expanded="true" signature="10950:11001" ph=" 收藏 ..." />
+                <marker date="1511921781305" expanded="true" signature="11031:11632" ph="..." />
+                <marker date="1511921781305" expanded="true" signature="11076:11384" ph="..." />
+                <marker date="1511921781305" expanded="true" signature="11287:11316" ph="..." />
+                <marker date="1511921781305" expanded="true" signature="11322:11380" ph="..." />
+                <marker date="1511921781305" expanded="true" signature="11390:11601" ph="..." />
+                <marker date="1511921781305" expanded="true" signature="11504:11533" ph="..." />
+                <marker date="1511921781305" expanded="true" signature="11539:11597" ph="..." />
+                <marker date="1511921781305" expanded="true" signature="11638:11689" ph=" 评论 ..." />
+                <marker date="1511921781305" expanded="true" signature="11719:12070" ph="..." />
+                <marker date="1511921781305" expanded="true" signature="11950:11977" ph="..." />
+                <marker date="1511921781305" expanded="true" signature="11983:12039" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,23 +97,10 @@
       <file leaf-file-name="ShopController.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/Home/Controller/ShopController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="356" column="23" lean-forward="false" selection-start-line="356" selection-start-column="16" selection-end-line="356" selection-end-column="23" />
+            <state relative-caret-position="1419">
+              <caret line="383" column="23" lean-forward="false" selection-start-line="383" selection-start-column="23" selection-end-line="383" selection-end-column="23" />
               <folding>
                 <element signature="e#33#54#0#PHP" expanded="true" />
-                <marker date="1510819953750" expanded="true" signature="16510:17053" ph="..." />
-                <marker date="1510819953750" expanded="true" signature="17059:18669" ph="..." />
-                <marker date="1510819953750" expanded="true" signature="17245:17300" ph="..." />
-                <marker date="1510819953750" expanded="true" signature="17330:17391" ph="..." />
-                <marker date="1510819953750" expanded="true" signature="17421:17482" ph="..." />
-                <marker date="1510819953750" expanded="true" signature="17510:17603" ph="..." />
-                <marker date="1510819953750" expanded="true" signature="17634:17821" ph="..." />
-                <marker date="1510819953750" expanded="true" signature="17752:17807" ph="..." />
-                <marker date="1510819953750" expanded="true" signature="17852:18075" ph="..." />
-                <marker date="1510819953750" expanded="true" signature="18006:18061" ph="..." />
-                <marker date="1510819953750" expanded="true" signature="18103:18252" ph="..." />
-                <marker date="1510819953750" expanded="true" signature="18283:18450" ph="..." />
-                <marker date="1510819953750" expanded="true" signature="18481:18648" ph="..." />
               </folding>
             </state>
           </provider>
@@ -199,11 +221,12 @@
       <workItem from="1508809638302" duration="1023000" />
       <workItem from="1508893721851" duration="886000" />
       <workItem from="1510795395833" duration="1834000" />
+      <workItem from="1512364454899" duration="603000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26438000" />
+    <option name="totallyTimeSpent" value="27041000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -242,7 +265,119 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2628">
           <caret line="74" column="8" lean-forward="false" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+          <folding>
+            <marker date="1511921781305" expanded="true" signature="1600:1636" ph=" 分享首页 ..." />
+            <marker date="1511921781305" expanded="true" signature="8428:8458" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="8464:8587" ph=" 点击有帮助 ..." />
+            <marker date="1511921781305" expanded="true" signature="8614:9738" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="8668:9228" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="8695:8817" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="8823:8919" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9131:9160" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9166:9224" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9234:9707" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9271:9393" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9399:9495" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9610:9639" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9645:9703" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9744:9795" ph=" 点赞 ..." />
+            <marker date="1511921781305" expanded="true" signature="9824:10944" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9869:10433" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9896:10020" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10026:10124" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10336:10365" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10371:10429" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10439:10913" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10477:10599" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10605:10701" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10816:10845" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10851:10909" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10950:11001" ph=" 收藏 ..." />
+            <marker date="1511921781305" expanded="true" signature="11031:11632" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11076:11384" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11287:11316" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11322:11380" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11390:11601" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11504:11533" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11539:11597" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11638:11689" ph=" 评论 ..." />
+            <marker date="1511921781305" expanded="true" signature="11719:12070" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11950:11977" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11983:12039" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/AaController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/LoginController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8748">
+          <caret line="244" column="30" lean-forward="false" selection-start-line="244" selection-start-column="30" selection-end-line="244" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/ShopController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12780">
+          <caret line="356" column="23" lean-forward="false" selection-start-line="356" selection-start-column="16" selection-end-line="356" selection-end-column="23" />
+          <folding>
+            <element signature="e#33#54#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/ShareController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2628">
+          <caret line="74" column="8" lean-forward="false" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+          <folding>
+            <marker date="1511921781305" expanded="true" signature="1600:1636" ph=" 分享首页 ..." />
+            <marker date="1511921781305" expanded="true" signature="8428:8458" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="8464:8587" ph=" 点击有帮助 ..." />
+            <marker date="1511921781305" expanded="true" signature="8614:9738" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="8668:9228" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="8695:8817" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="8823:8919" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9131:9160" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9166:9224" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9234:9707" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9271:9393" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9399:9495" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9610:9639" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9645:9703" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9744:9795" ph=" 点赞 ..." />
+            <marker date="1511921781305" expanded="true" signature="9824:10944" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9869:10433" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9896:10020" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10026:10124" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10336:10365" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10371:10429" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10439:10913" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10477:10599" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10605:10701" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10816:10845" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10851:10909" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10950:11001" ph=" 收藏 ..." />
+            <marker date="1511921781305" expanded="true" signature="11031:11632" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11076:11384" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11287:11316" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11322:11380" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11390:11601" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11504:11533" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11539:11597" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11638:11689" ph=" 评论 ..." />
+            <marker date="1511921781305" expanded="true" signature="11719:12070" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11950:11977" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11983:12039" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -276,19 +411,6 @@
           <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
           <folding>
             <element signature="e#33#54#0#PHP" expanded="true" />
-            <marker date="1510819953750" expanded="true" signature="16510:17053" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17059:18669" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17245:17300" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17330:17391" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17421:17482" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17510:17603" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17634:17821" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17752:17807" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17852:18075" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="18006:18061" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="18103:18252" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="18283:18450" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="18481:18648" ph="..." />
           </folding>
         </state>
       </provider>
@@ -297,7 +419,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2124">
           <caret line="60" column="8" lean-forward="false" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="25" />
-          <folding />
+          <folding>
+            <marker date="1511921781305" expanded="true" signature="1600:1636" ph=" 分享首页 ..." />
+            <marker date="1511921781305" expanded="true" signature="8428:8458" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="8464:8587" ph=" 点击有帮助 ..." />
+            <marker date="1511921781305" expanded="true" signature="8614:9738" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="8668:9228" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="8695:8817" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="8823:8919" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9131:9160" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9166:9224" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9234:9707" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9271:9393" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9399:9495" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9610:9639" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9645:9703" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9744:9795" ph=" 点赞 ..." />
+            <marker date="1511921781305" expanded="true" signature="9824:10944" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9869:10433" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9896:10020" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10026:10124" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10336:10365" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10371:10429" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10439:10913" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10477:10599" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10605:10701" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10816:10845" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10851:10909" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10950:11001" ph=" 收藏 ..." />
+            <marker date="1511921781305" expanded="true" signature="11031:11632" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11076:11384" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11287:11316" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11322:11380" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11390:11601" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11504:11533" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11539:11597" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11638:11689" ph=" 评论 ..." />
+            <marker date="1511921781305" expanded="true" signature="11719:12070" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11950:11977" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11983:12039" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -331,19 +492,6 @@
           <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
           <folding>
             <element signature="e#33#54#0#PHP" expanded="true" />
-            <marker date="1510819953750" expanded="true" signature="16510:17053" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17059:18669" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17245:17300" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17330:17391" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17421:17482" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17510:17603" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17634:17821" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17752:17807" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17852:18075" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="18006:18061" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="18103:18252" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="18283:18450" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="18481:18648" ph="..." />
           </folding>
         </state>
       </provider>
@@ -352,7 +500,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2052">
           <caret line="58" column="20" lean-forward="false" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
-          <folding />
+          <folding>
+            <marker date="1511921781305" expanded="true" signature="1600:1636" ph=" 分享首页 ..." />
+            <marker date="1511921781305" expanded="true" signature="8428:8458" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="8464:8587" ph=" 点击有帮助 ..." />
+            <marker date="1511921781305" expanded="true" signature="8614:9738" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="8668:9228" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="8695:8817" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="8823:8919" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9131:9160" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9166:9224" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9234:9707" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9271:9393" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9399:9495" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9610:9639" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9645:9703" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9744:9795" ph=" 点赞 ..." />
+            <marker date="1511921781305" expanded="true" signature="9824:10944" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9869:10433" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9896:10020" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10026:10124" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10336:10365" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10371:10429" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10439:10913" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10477:10599" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10605:10701" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10816:10845" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10851:10909" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10950:11001" ph=" 收藏 ..." />
+            <marker date="1511921781305" expanded="true" signature="11031:11632" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11076:11384" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11287:11316" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11322:11380" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11390:11601" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11504:11533" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11539:11597" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11638:11689" ph=" 评论 ..." />
+            <marker date="1511921781305" expanded="true" signature="11719:12070" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11950:11977" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11983:12039" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -386,19 +573,6 @@
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding>
             <element signature="e#33#54#0#PHP" expanded="true" />
-            <marker date="1510819953750" expanded="true" signature="16510:17053" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17059:18669" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17245:17300" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17330:17391" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17421:17482" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17510:17603" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17634:17821" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17752:17807" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17852:18075" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="18006:18061" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="18103:18252" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="18283:18450" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="18481:18648" ph="..." />
           </folding>
         </state>
       </provider>
@@ -407,7 +581,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1511921781305" expanded="true" signature="1600:1636" ph=" 分享首页 ..." />
+            <marker date="1511921781305" expanded="true" signature="8428:8458" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="8464:8587" ph=" 点击有帮助 ..." />
+            <marker date="1511921781305" expanded="true" signature="8614:9738" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="8668:9228" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="8695:8817" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="8823:8919" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9131:9160" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9166:9224" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9234:9707" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9271:9393" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9399:9495" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9610:9639" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9645:9703" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9744:9795" ph=" 点赞 ..." />
+            <marker date="1511921781305" expanded="true" signature="9824:10944" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9869:10433" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9896:10020" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10026:10124" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10336:10365" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10371:10429" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10439:10913" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10477:10599" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10605:10701" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10816:10845" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10851:10909" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10950:11001" ph=" 收藏 ..." />
+            <marker date="1511921781305" expanded="true" signature="11031:11632" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11076:11384" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11287:11316" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11322:11380" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11390:11601" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11504:11533" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11539:11597" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11638:11689" ph=" 评论 ..." />
+            <marker date="1511921781305" expanded="true" signature="11719:12070" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11950:11977" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11983:12039" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -423,7 +636,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1511921781305" expanded="true" signature="1600:1636" ph=" 分享首页 ..." />
+            <marker date="1511921781305" expanded="true" signature="8428:8458" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="8464:8587" ph=" 点击有帮助 ..." />
+            <marker date="1511921781305" expanded="true" signature="8614:9738" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="8668:9228" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="8695:8817" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="8823:8919" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9131:9160" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9166:9224" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9234:9707" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9271:9393" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9399:9495" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9610:9639" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9645:9703" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9744:9795" ph=" 点赞 ..." />
+            <marker date="1511921781305" expanded="true" signature="9824:10944" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9869:10433" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9896:10020" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10026:10124" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10336:10365" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10371:10429" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10439:10913" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10477:10599" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10605:10701" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10816:10845" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10851:10909" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10950:11001" ph=" 收藏 ..." />
+            <marker date="1511921781305" expanded="true" signature="11031:11632" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11076:11384" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11287:11316" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11322:11380" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11390:11601" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11504:11533" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11539:11597" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11638:11689" ph=" 评论 ..." />
+            <marker date="1511921781305" expanded="true" signature="11719:12070" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11950:11977" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11983:12039" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -449,19 +701,6 @@
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding>
             <element signature="e#33#54#0#PHP" expanded="true" />
-            <marker date="1510819953750" expanded="true" signature="16510:17053" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17059:18669" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17245:17300" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17330:17391" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17421:17482" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17510:17603" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17634:17821" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17752:17807" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17852:18075" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="18006:18061" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="18103:18252" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="18283:18450" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="18481:18648" ph="..." />
           </folding>
         </state>
       </provider>
@@ -478,7 +717,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1511921781305" expanded="true" signature="1600:1636" ph=" 分享首页 ..." />
+            <marker date="1511921781305" expanded="true" signature="8428:8458" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="8464:8587" ph=" 点击有帮助 ..." />
+            <marker date="1511921781305" expanded="true" signature="8614:9738" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="8668:9228" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="8695:8817" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="8823:8919" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9131:9160" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9166:9224" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9234:9707" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9271:9393" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9399:9495" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9610:9639" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9645:9703" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9744:9795" ph=" 点赞 ..." />
+            <marker date="1511921781305" expanded="true" signature="9824:10944" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9869:10433" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9896:10020" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10026:10124" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10336:10365" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10371:10429" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10439:10913" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10477:10599" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10605:10701" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10816:10845" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10851:10909" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10950:11001" ph=" 收藏 ..." />
+            <marker date="1511921781305" expanded="true" signature="11031:11632" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11076:11384" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11287:11316" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11322:11380" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11390:11601" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11504:11533" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11539:11597" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11638:11689" ph=" 评论 ..." />
+            <marker date="1511921781305" expanded="true" signature="11719:12070" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11950:11977" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11983:12039" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -498,42 +776,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5904">
-          <caret line="165" column="9" lean-forward="false" selection-start-line="165" selection-start-column="9" selection-end-line="165" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/ShareController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2628">
           <caret line="74" column="8" lean-forward="false" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
-          <folding />
+          <folding>
+            <marker date="1511921781305" expanded="true" signature="1600:1636" ph=" 分享首页 ..." />
+            <marker date="1511921781305" expanded="true" signature="8428:8458" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="8464:8587" ph=" 点击有帮助 ..." />
+            <marker date="1511921781305" expanded="true" signature="8614:9738" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="8668:9228" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="8695:8817" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="8823:8919" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9131:9160" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9166:9224" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9234:9707" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9271:9393" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9399:9495" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9610:9639" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9645:9703" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9744:9795" ph=" 点赞 ..." />
+            <marker date="1511921781305" expanded="true" signature="9824:10944" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9869:10433" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="9896:10020" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10026:10124" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10336:10365" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10371:10429" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10439:10913" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10477:10599" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10605:10701" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10816:10845" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10851:10909" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="10950:11001" ph=" 收藏 ..." />
+            <marker date="1511921781305" expanded="true" signature="11031:11632" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11076:11384" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11287:11316" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11322:11380" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11390:11601" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11504:11533" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11539:11597" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11638:11689" ph=" 评论 ..." />
+            <marker date="1511921781305" expanded="true" signature="11719:12070" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11950:11977" ph="..." />
+            <marker date="1511921781305" expanded="true" signature="11983:12039" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/ShopController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="356" column="23" lean-forward="false" selection-start-line="356" selection-start-column="16" selection-end-line="356" selection-end-column="23" />
+        <state relative-caret-position="1419">
+          <caret line="383" column="23" lean-forward="false" selection-start-line="383" selection-start-column="23" selection-end-line="383" selection-end-column="23" />
           <folding>
             <element signature="e#33#54#0#PHP" expanded="true" />
-            <marker date="1510819953750" expanded="true" signature="16510:17053" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17059:18669" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17245:17300" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17330:17391" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17421:17482" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17510:17603" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17634:17821" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17752:17807" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="17852:18075" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="18006:18061" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="18103:18252" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="18283:18450" ph="..." />
-            <marker date="1510819953750" expanded="true" signature="18481:18648" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5904">
+          <caret line="165" column="9" lean-forward="false" selection-start-line="165" selection-start-column="9" selection-end-line="165" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>

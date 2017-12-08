@@ -95,8 +95,13 @@ class ShopController extends Controller {
      * @return [type] [description]
      */
     public function makeMetails(){
+        $url = C('PASE');
         $data = I('post.');
         $goods_make = M('goods_make')->where(array('id'=>$data['id']))->field('id,name,min,max,brand,market,details,show_img')->find();
+        $goods_make['show_img'] = explode(',',$goods_make['show_img']);
+        foreach($goods_make['show_img'] as $k=>$v){
+            $goods_make['show_img'][$k] = $url.$goods_make['show_img'][$k];
+        }
         $goods_make['is_collect'] = M('collect')->where(array('collect_id'=>$goods_make['id'],'type'=>7))->field('id')->find();
         if($goods_make){
             $value['goods'] = $goods_make;
@@ -189,7 +194,6 @@ class ShopController extends Controller {
             $value['state'] = 0;
             $value['error'] = "类别读取失败";
         }
-
     }
     /**
     *   商品列表
@@ -559,7 +563,7 @@ class ShopController extends Controller {
         echo json_encode($value);
         
     }
-    public function pay(){
+    public function win(){
 
     }
 }

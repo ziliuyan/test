@@ -1,0 +1,1583 @@
+[ 2017-12-07T13:06:40+08:00 ] 127.0.0.1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.007000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '我的关注' LIMIT 1   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_collect` [ RunTime:0.009000s ]
+SQL: SELECT `collect_id` FROM `yaj_share_collect` WHERE `uid` = 22 AND `type` = 3 ORDER BY addtime desc  [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 4 ORDER BY addtime desc LIMIT 20,5   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 ORDER BY addtime desc LIMIT 20,5   [ RunTime:0.008000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 135 行.
+NOTIC: [8] Undefined variable: Array D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 135 行.
+NOTIC: [2] array_filter() expects parameter 1 to be array, null given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 135 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 144 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 150 行.
+NOTIC: [8] Undefined variable:  D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 166 行.
+NOTIC: [2] array_filter() expects parameter 1 to be array, null given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 166 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023000s ]
+
+[ 2017-12-07T13:09:19+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.007000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '我的关注' LIMIT 1   [ RunTime:0.013000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_collect` [ RunTime:0.007000s ]
+SQL: SELECT `collect_id` FROM `yaj_share_collect` WHERE `uid` = 22 AND `type` = 3 ORDER BY addtime desc  [ RunTime:0.013000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.013000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 4 ORDER BY addtime desc LIMIT 20,5   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 ORDER BY addtime desc LIMIT 20,5   [ RunTime:0.009000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 135 行.
+NOTIC: [8] Undefined variable: Array D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 135 行.
+NOTIC: [2] array_filter() expects parameter 1 to be array, null given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 135 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 144 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 150 行.
+NOTIC: [8] Undefined variable:  D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 166 行.
+NOTIC: [2] array_filter() expects parameter 1 to be array, null given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 166 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-07T13:09:32+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.011000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '装修故事' LIMIT 1   [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `type` = '3' ORDER BY addtime desc LIMIT 20,5   [ RunTime:0.007000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 144 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 150 行.
+NOTIC: [8] Undefined variable:  D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 166 行.
+NOTIC: [2] array_filter() expects parameter 1 to be array, null given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 166 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-07T13:10:05+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.006000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '装修故事' LIMIT 1   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.012000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `type` = '3' ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_img` [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 6 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 6 AND `type` = 1  [ RunTime:0.008000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 6 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.013000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 5 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 5 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 5 AND `type` = 1 LIMIT 1   [ RunTime:0.009000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.016000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 2 LIMIT 1   [ RunTime:0.013000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 2 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 2 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 3 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 3 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 166 行.
+NOTIC: [8] Undefined variable: Array D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 166 行.
+NOTIC: [2] array_filter() expects parameter 1 to be array, null given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 166 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-07T13:11:32+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.006000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '我的关注' LIMIT 1   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_collect` [ RunTime:0.008000s ]
+SQL: SELECT `collect_id` FROM `yaj_share_collect` WHERE `uid` = 22 AND `type` = 3 ORDER BY addtime desc  [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.008000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 4 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.016000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.008000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 135 行.
+NOTIC: [8] Undefined variable: Array D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 135 行.
+NOTIC: [2] array_filter() expects parameter 1 to be array, null given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 135 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 144 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 150 行.
+NOTIC: [8] Undefined variable:  D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 166 行.
+NOTIC: [2] array_filter() expects parameter 1 to be array, null given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 166 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-07T13:11:50+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.010000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '我的关注' LIMIT 1   [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_collect` [ RunTime:0.013000s ]
+SQL: SELECT `collect_id` FROM `yaj_share_collect` WHERE `uid` = 22 AND `type` = 3 ORDER BY addtime desc  [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 4 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.006000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 135 行.
+NOTIC: [8] Undefined variable: Array D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 135 行.
+NOTIC: [2] array_filter() expects parameter 1 to be array, null given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 135 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 144 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 150 行.
+NOTIC: [8] Undefined variable:  D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 166 行.
+NOTIC: [2] array_filter() expects parameter 1 to be array, null given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 166 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-07T13:12:04+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.007000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '推荐' LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.006000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 22 ORDER BY num desc LIMIT 9   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.010000s ]
+NOTIC: [8] Undefined variable: map D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 89 行.
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.007000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 108 行.
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 16 LIMIT 1   [ RunTime:0.007000s ]
+NOTIC: [8] Undefined variable: value D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 118 行.
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 15 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 14 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 13 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 12 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 11 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 10 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 9 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 4 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 8 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 7 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 6 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 5 LIMIT 1   [ RunTime:0.023000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 2 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_img` [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 16 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 16 AND `type` = 1  [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 16 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 15 LIMIT 1   [ RunTime:0.010000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 15 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 15 AND `type` = 1 LIMIT 1   [ RunTime:0.012000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 14 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 14 AND `type` = 1  [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 14 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 13 LIMIT 1   [ RunTime:0.017000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 13 AND `type` = 1  [ RunTime:0.008000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 13 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 12 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 12 AND `type` = 1  [ RunTime:0.011000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 12 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 11 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 11 AND `type` = 1  [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 11 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 10 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 10 AND `type` = 1  [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 10 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 9 LIMIT 1   [ RunTime:0.013000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 9 AND `type` = 1  [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 9 AND `type` = 1 LIMIT 1   [ RunTime:0.018000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 4 LIMIT 1   [ RunTime:0.016000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 4 AND `type` = 1  [ RunTime:0.008000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 4 AND `type` = 1 LIMIT 1   [ RunTime:0.015000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.012000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 8 LIMIT 1   [ RunTime:0.018000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 8 AND `type` = 1  [ RunTime:0.015000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 8 AND `type` = 1 LIMIT 1   [ RunTime:0.011000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.010000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 7 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 7 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 7 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 6 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 6 AND `type` = 1  [ RunTime:0.010000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 6 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 5 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 5 AND `type` = 1  [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 5 AND `type` = 1 LIMIT 1   [ RunTime:0.010000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 2 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 2 AND `type` = 1  [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 2 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 3 LIMIT 1   [ RunTime:0.013000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 3 AND `type` = 1  [ RunTime:0.013000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 166 行.
+NOTIC: [8] Undefined variable: Array D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 166 行.
+NOTIC: [2] array_filter() expects parameter 1 to be array, null given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 166 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-07T13:12:14+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.007000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '问答' LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `type` = '4' ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.008000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_img` [ RunTime:0.009000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 10 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 10 AND `type` = 1  [ RunTime:0.008000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 10 AND `type` = 1 LIMIT 1   [ RunTime:0.009000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 9 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 9 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 9 AND `type` = 1 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 4 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 4 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 4 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 8 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 8 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 8 AND `type` = 1 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 7 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 7 AND `type` = 1  [ RunTime:0.009000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 7 AND `type` = 1 LIMIT 1   [ RunTime:0.008000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 166 行.
+NOTIC: [8] Undefined variable: Array D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 166 行.
+NOTIC: [2] array_filter() expects parameter 1 to be array, null given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 166 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-07T13:12:51+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.007000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '我的关注' LIMIT 1   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_collect` [ RunTime:0.019000s ]
+SQL: SELECT `collect_id` FROM `yaj_share_collect` WHERE `uid` = 22 AND `type` = 3 ORDER BY addtime desc  [ RunTime:0.103000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.008000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 4 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.013000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.023000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 135 行.
+NOTIC: [8] Undefined variable: Array D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 135 行.
+NOTIC: [2] array_filter() expects parameter 1 to be array, null given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 135 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 144 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 150 行.
+NOTIC: [8] Undefined variable:  D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 166 行.
+NOTIC: [2] array_filter() expects parameter 1 to be array, null given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 166 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-07T13:13:10+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.021000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '我的关注' LIMIT 1   [ RunTime:0.006000s ]
+
+[ 2017-12-07T13:13:49+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.007000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '我的关注' LIMIT 1   [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_collect` [ RunTime:0.007000s ]
+SQL: SELECT `collect_id` FROM `yaj_share_collect` WHERE `uid` = 22 AND `type` = 3 ORDER BY addtime desc  [ RunTime:0.009000s ]
+
+[ 2017-12-07T13:14:06+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.007000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '我的关注' LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_collect` [ RunTime:0.007000s ]
+SQL: SELECT `collect_id` FROM `yaj_share_collect` WHERE `uid` = 22 AND `type` = 3 ORDER BY addtime desc  [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 4 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.010000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 135 行.
+NOTIC: [8] Undefined variable: Array D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 135 行.
+NOTIC: [2] array_filter() expects parameter 1 to be array, null given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 135 行.
+
+[ 2017-12-07T13:14:21+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.008000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '我的关注' LIMIT 1   [ RunTime:0.025000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_collect` [ RunTime:0.010000s ]
+SQL: SELECT `collect_id` FROM `yaj_share_collect` WHERE `uid` = 22 AND `type` = 3 ORDER BY addtime desc  [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 4 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.038000s ]
+
+[ 2017-12-07T13:18:00+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.008000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '我的关注' LIMIT 1   [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_collect` [ RunTime:0.007000s ]
+SQL: SELECT `collect_id` FROM `yaj_share_collect` WHERE `uid` = 22 AND `type` = 3 ORDER BY addtime desc  [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 4 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.008000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.011000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 135 行.
+NOTIC: [8] Undefined variable: Array D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 135 行.
+NOTIC: [2] array_filter() expects parameter 1 to be array, null given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 135 行.
+
+[ 2017-12-07T13:18:32+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.008000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '我的关注' LIMIT 1   [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_collect` [ RunTime:0.007000s ]
+SQL: SELECT `collect_id` FROM `yaj_share_collect` WHERE `uid` = 22 AND `type` = 3 ORDER BY addtime desc  [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.008000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 4 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.015000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.007000s ]
+
+[ 2017-12-07T13:18:37+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.009000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '我的关注' LIMIT 1   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_collect` [ RunTime:0.007000s ]
+SQL: SELECT `collect_id` FROM `yaj_share_collect` WHERE `uid` = 22 AND `type` = 3 ORDER BY addtime desc  [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 4 ORDER BY addtime desc LIMIT 20,5   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 ORDER BY addtime desc LIMIT 20,5   [ RunTime:0.007000s ]
+
+[ 2017-12-07T13:18:59+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.007000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '我的关注' LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_collect` [ RunTime:0.007000s ]
+SQL: SELECT `collect_id` FROM `yaj_share_collect` WHERE `uid` = 22 AND `type` = 3 ORDER BY addtime desc  [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 4 ORDER BY addtime desc LIMIT 20,5   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 ORDER BY addtime desc LIMIT 20,5   [ RunTime:0.008000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 167 行.
+NOTIC: [8] Undefined variable: Array D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 167 行.
+NOTIC: [2] array_filter() expects parameter 1 to be array, null given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 167 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-07T13:19:04+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.007000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '我的关注' LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_collect` [ RunTime:0.006000s ]
+SQL: SELECT `collect_id` FROM `yaj_share_collect` WHERE `uid` = 22 AND `type` = 3 ORDER BY addtime desc  [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 4 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_img` [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 4 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 4 AND `type` = 1  [ RunTime:0.008000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 4 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 3 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 3 AND `type` = 1  [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.016000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 167 行.
+NOTIC: [8] Undefined variable: Array D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 167 行.
+NOTIC: [2] array_filter() expects parameter 1 to be array, null given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 167 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-07T13:19:20+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.009000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '我的关注' LIMIT 1   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_collect` [ RunTime:0.006000s ]
+SQL: SELECT `collect_id` FROM `yaj_share_collect` WHERE `uid` = 22 AND `type` = 3 ORDER BY addtime desc  [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 4 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.010000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.005000s ]
+
+[ 2017-12-07T13:19:49+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.009000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '我的关注' LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_collect` [ RunTime:0.012000s ]
+SQL: SELECT `collect_id` FROM `yaj_share_collect` WHERE `uid` = 22 AND `type` = 3 ORDER BY addtime desc  [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 4 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.006000s ]
+
+[ 2017-12-07T13:20:03+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.008000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '我的关注' LIMIT 1   [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_collect` [ RunTime:0.008000s ]
+SQL: SELECT `collect_id` FROM `yaj_share_collect` WHERE `uid` = 22 AND `type` = 3 ORDER BY addtime desc  [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.008000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 4 ORDER BY addtime desc LIMIT 20,5   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 ORDER BY addtime desc LIMIT 20,5   [ RunTime:0.009000s ]
+
+[ 2017-12-07T13:20:09+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.006000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '我的关注' LIMIT 1   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_collect` [ RunTime:0.018000s ]
+SQL: SELECT `collect_id` FROM `yaj_share_collect` WHERE `uid` = 22 AND `type` = 3 ORDER BY addtime desc  [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 4 ORDER BY addtime desc LIMIT 20,5   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 ORDER BY addtime desc LIMIT 20,5   [ RunTime:0.008000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 169 行.
+NOTIC: [8] Undefined variable: Array D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 169 行.
+NOTIC: [2] array_filter() expects parameter 1 to be array, null given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 169 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-07T13:20:14+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.008000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '我的关注' LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_collect` [ RunTime:0.008000s ]
+SQL: SELECT `collect_id` FROM `yaj_share_collect` WHERE `uid` = 22 AND `type` = 3 ORDER BY addtime desc  [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 4 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.008000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.008000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_img` [ RunTime:0.008000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 4 LIMIT 1   [ RunTime:0.013000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 4 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 4 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 3 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 3 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+NOTIC: [8] Array to string conversion D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 169 行.
+NOTIC: [8] Undefined variable: Array D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 169 行.
+NOTIC: [2] array_filter() expects parameter 1 to be array, null given D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 169 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-07T13:20:30+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.008000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '我的关注' LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_collect` [ RunTime:0.007000s ]
+SQL: SELECT `collect_id` FROM `yaj_share_collect` WHERE `uid` = 22 AND `type` = 3 ORDER BY addtime desc  [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.008000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 4 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.007000s ]
+
+[ 2017-12-07T13:21:02+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.006000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '我的关注' LIMIT 1   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_collect` [ RunTime:0.007000s ]
+SQL: SELECT `collect_id` FROM `yaj_share_collect` WHERE `uid` = 22 AND `type` = 3 ORDER BY addtime desc  [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 4 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.005000s ]
+
+[ 2017-12-07T13:21:39+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.006000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '我的关注' LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_collect` [ RunTime:0.007000s ]
+SQL: SELECT `collect_id` FROM `yaj_share_collect` WHERE `uid` = 22 AND `type` = 3 ORDER BY addtime desc  [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.008000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 4 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.010000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_img` [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 4 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 4 AND `type` = 1  [ RunTime:0.008000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 4 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 3 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 3 AND `type` = 1  [ RunTime:0.008000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.008000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-07T13:21:45+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.007000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '我的关注' LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_collect` [ RunTime:0.007000s ]
+SQL: SELECT `collect_id` FROM `yaj_share_collect` WHERE `uid` = 22 AND `type` = 3 ORDER BY addtime desc  [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 4 ORDER BY addtime desc LIMIT 20,5   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 ORDER BY addtime desc LIMIT 20,5   [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.008000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 151 行.
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = null LIMIT 1   [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_img` [ RunTime:0.007000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 155 行.
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = null LIMIT 1   [ RunTime:0.006000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 161 行.
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = null AND `type` = 1  [ RunTime:0.006000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 162 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = null AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+NOTIC: [8] Undefined index: uid D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 151 行.
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = null LIMIT 1   [ RunTime:0.007000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 155 行.
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = null LIMIT 1   [ RunTime:0.007000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 161 行.
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = null AND `type` = 1  [ RunTime:0.006000s ]
+NOTIC: [8] Undefined index: id D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 162 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = null AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-07T13:22:53+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.007000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '我的关注' LIMIT 1   [ RunTime:0.012000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_collect` [ RunTime:0.007000s ]
+SQL: SELECT `collect_id` FROM `yaj_share_collect` WHERE `uid` = 22 AND `type` = 3 ORDER BY addtime desc  [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.009000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 4 ORDER BY addtime desc LIMIT 20,5   [ RunTime:0.008000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 ORDER BY addtime desc LIMIT 20,5   [ RunTime:0.009000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-07T13:22:58+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.010000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '我的关注' LIMIT 1   [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_collect` [ RunTime:0.008000s ]
+SQL: SELECT `collect_id` FROM `yaj_share_collect` WHERE `uid` = 22 AND `type` = 3 ORDER BY addtime desc  [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 4 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 ORDER BY addtime desc LIMIT 0,5   [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_img` [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 4 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 4 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 4 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 3 LIMIT 1   [ RunTime:0.009000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 3 AND `type` = 1  [ RunTime:0.008000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-07T13:23:05+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.007000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '推荐' LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.006000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 22 ORDER BY num desc LIMIT 9   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.007000s ]
+NOTIC: [8] Undefined variable: map D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 89 行.
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.006000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 108 行.
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 16 LIMIT 1   [ RunTime:0.006000s ]
+NOTIC: [8] Undefined variable: value D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 118 行.
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 15 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 14 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 13 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 12 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 11 LIMIT 1   [ RunTime:0.009000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 10 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 9 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 4 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 8 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 7 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 6 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 5 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 2 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_img` [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 16 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 16 AND `type` = 1  [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 16 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.009000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 15 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 15 AND `type` = 1  [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 15 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 14 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 14 AND `type` = 1  [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 14 AND `type` = 1 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 13 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 13 AND `type` = 1  [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 13 AND `type` = 1 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 12 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 12 AND `type` = 1  [ RunTime:0.008000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 12 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.009000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 11 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 11 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 11 AND `type` = 1 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 10 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 10 AND `type` = 1  [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 10 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 9 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 9 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 9 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 4 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 4 AND `type` = 1  [ RunTime:0.008000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 4 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 8 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 8 AND `type` = 1  [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 8 AND `type` = 1 LIMIT 1   [ RunTime:0.010000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 7 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 7 AND `type` = 1  [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 7 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 6 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 6 AND `type` = 1  [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 6 AND `type` = 1 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 5 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 5 AND `type` = 1  [ RunTime:0.008000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 5 AND `type` = 1 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 2 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 2 AND `type` = 1  [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 2 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 3 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 3 AND `type` = 1  [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-12-07T13:23:11+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.008000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '推荐' LIMIT 1   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.005000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 22 ORDER BY num desc LIMIT 9   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.008000s ]
+NOTIC: [8] Undefined variable: map D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 89 行.
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.005000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 108 行.
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 16 LIMIT 1   [ RunTime:0.006000s ]
+NOTIC: [8] Undefined variable: value D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 118 行.
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 15 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 14 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 13 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 12 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 11 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 10 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 9 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 4 LIMIT 1   [ RunTime:0.009000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 8 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 7 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 6 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 5 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 2 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_img` [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 16 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 16 AND `type` = 1  [ RunTime:0.022000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 16 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 15 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 15 AND `type` = 1  [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 15 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 14 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 14 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 14 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 13 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 13 AND `type` = 1  [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 13 AND `type` = 1 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 12 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 12 AND `type` = 1  [ RunTime:0.008000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 12 AND `type` = 1 LIMIT 1   [ RunTime:0.013000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 11 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 11 AND `type` = 1  [ RunTime:0.011000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 11 AND `type` = 1 LIMIT 1   [ RunTime:0.011000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 10 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 10 AND `type` = 1  [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 10 AND `type` = 1 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 9 LIMIT 1   [ RunTime:0.009000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 9 AND `type` = 1  [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 9 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 4 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 4 AND `type` = 1  [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 4 AND `type` = 1 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 8 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 8 AND `type` = 1  [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 8 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 7 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 7 AND `type` = 1  [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 7 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 6 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 6 AND `type` = 1  [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 6 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 5 LIMIT 1   [ RunTime:0.009000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 5 AND `type` = 1  [ RunTime:0.013000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 5 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 2 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 2 AND `type` = 1  [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 2 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 3 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 3 AND `type` = 1  [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-07T13:24:07+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.008000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '推荐' LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.007000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 22 ORDER BY num desc LIMIT 9   [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.007000s ]
+NOTIC: [8] Undefined variable: map D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 89 行.
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.009000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 108 行.
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 16 LIMIT 1   [ RunTime:0.007000s ]
+NOTIC: [8] Undefined variable: value D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 118 行.
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 15 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 14 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 13 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 12 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 11 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 10 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 9 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 4 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 8 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 7 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 6 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 5 LIMIT 1   [ RunTime:0.010000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 2 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 LIMIT 1   [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.008000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_img` [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 16 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 16 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 16 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 15 LIMIT 1   [ RunTime:0.011000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 15 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 15 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 14 LIMIT 1   [ RunTime:0.010000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 14 AND `type` = 1  [ RunTime:0.011000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 14 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 13 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 13 AND `type` = 1  [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 13 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 12 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 12 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 12 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 11 LIMIT 1   [ RunTime:0.010000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 11 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 11 AND `type` = 1 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 10 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 10 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 10 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 9 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 9 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 9 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 4 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 4 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 4 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 8 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 8 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 8 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 7 LIMIT 1   [ RunTime:0.009000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 7 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 7 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 6 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 6 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 6 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 5 LIMIT 1   [ RunTime:0.010000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 5 AND `type` = 1  [ RunTime:0.010000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 5 AND `type` = 1 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.017000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 2 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 2 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 2 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 3 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 3 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-07T13:24:23+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.009000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '推荐' LIMIT 1   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.007000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 22 ORDER BY num desc LIMIT 9   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.008000s ]
+NOTIC: [8] Undefined variable: map D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 89 行.
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.006000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 108 行.
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 16 LIMIT 1   [ RunTime:0.007000s ]
+NOTIC: [8] Undefined variable: value D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 118 行.
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 15 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 14 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 13 LIMIT 1   [ RunTime:0.020000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 12 LIMIT 1   [ RunTime:0.010000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 11 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 10 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 9 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 4 LIMIT 1   [ RunTime:0.016000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 8 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 7 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 6 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 5 LIMIT 1   [ RunTime:0.015000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 2 LIMIT 1   [ RunTime:0.018000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.009000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_img` [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 16 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 16 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 16 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 15 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 15 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 15 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 14 LIMIT 1   [ RunTime:0.011000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 14 AND `type` = 1  [ RunTime:0.008000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 14 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 13 LIMIT 1   [ RunTime:0.013000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 13 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 13 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 12 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 12 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 12 AND `type` = 1 LIMIT 1   [ RunTime:0.012000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 11 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 11 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 11 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 10 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 10 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 10 AND `type` = 1 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 9 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 9 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 9 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 4 LIMIT 1   [ RunTime:0.009000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 4 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 4 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 8 LIMIT 1   [ RunTime:0.015000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 8 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 8 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 7 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 7 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 7 AND `type` = 1 LIMIT 1   [ RunTime:0.011000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.009000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 6 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 6 AND `type` = 1  [ RunTime:0.009000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 6 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.009000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 5 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 5 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 5 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.009000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 2 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 2 AND `type` = 1  [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 2 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 3 LIMIT 1   [ RunTime:0.009000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 3 AND `type` = 1  [ RunTime:0.009000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-07T13:25:02+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.006000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '推荐' LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.008000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 22 ORDER BY num desc LIMIT 9   [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.007000s ]
+NOTIC: [8] Undefined variable: map D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 89 行.
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.006000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 108 行.
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 16 LIMIT 1   [ RunTime:0.007000s ]
+NOTIC: [8] Undefined variable: value D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 118 行.
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 15 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 14 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 13 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 12 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 11 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 10 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 9 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 4 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 8 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 7 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 6 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 5 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 2 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_img` [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 16 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 16 AND `type` = 1  [ RunTime:0.009000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 16 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 15 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 15 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 15 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 14 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 14 AND `type` = 1  [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 14 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 13 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 13 AND `type` = 1  [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 13 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 12 LIMIT 1   [ RunTime:0.009000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 12 AND `type` = 1  [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 12 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 11 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 11 AND `type` = 1  [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 11 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 10 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 10 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 10 AND `type` = 1 LIMIT 1   [ RunTime:0.010000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 9 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 9 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 9 AND `type` = 1 LIMIT 1   [ RunTime:0.010000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 4 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 4 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 4 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 8 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 8 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 8 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 7 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 7 AND `type` = 1  [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 7 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 6 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 6 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 6 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.009000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 5 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 5 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 5 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 2 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 2 AND `type` = 1  [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 2 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.009000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 3 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 3 AND `type` = 1  [ RunTime:0.016000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-12-07T13:25:08+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.008000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '推荐' LIMIT 1   [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.007000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 22 ORDER BY num desc LIMIT 9   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.008000s ]
+NOTIC: [8] Undefined variable: map D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 89 行.
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.008000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 108 行.
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 16 LIMIT 1   [ RunTime:0.006000s ]
+NOTIC: [8] Undefined variable: value D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 118 行.
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 15 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 14 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 13 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 12 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 11 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 10 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 9 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 4 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 8 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 7 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 6 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 5 LIMIT 1   [ RunTime:0.009000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 2 LIMIT 1   [ RunTime:0.017000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.008000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_img` [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 16 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 16 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 16 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 15 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 15 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 15 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 14 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 14 AND `type` = 1  [ RunTime:0.008000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 14 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 13 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 13 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 13 AND `type` = 1 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 12 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 12 AND `type` = 1  [ RunTime:0.008000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 12 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 11 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 11 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 11 AND `type` = 1 LIMIT 1   [ RunTime:0.009000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 10 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 10 AND `type` = 1  [ RunTime:0.008000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 10 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 9 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 9 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 9 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 4 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 4 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 4 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 8 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 8 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 8 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 7 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 7 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 7 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.009000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 6 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 6 AND `type` = 1  [ RunTime:0.008000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 6 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 5 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 5 AND `type` = 1  [ RunTime:0.008000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 5 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 2 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 2 AND `type` = 1  [ RunTime:0.008000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 2 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 3 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 3 AND `type` = 1  [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-12-07T13:25:49+08:00 ] ::1 /Jzc/index.php/Home/share/share_show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: search D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 76 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_share_calssify` [ RunTime:0.008000s ]
+SQL: SELECT `type` FROM `yaj_share_calssify` WHERE `name` = '推荐' LIMIT 1   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_num` [ RunTime:0.008000s ]
+SQL: SELECT `label` FROM `yaj_share_num` WHERE `uid` = 22 ORDER BY num desc LIMIT 9   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_share` [ RunTime:0.007000s ]
+NOTIC: [8] Undefined variable: map D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 89 行.
+SQL: SELECT `id`,`label` FROM `yaj_share` ORDER BY addtime desc  [ RunTime:0.007000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 95 行.
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 108 行.
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 16 LIMIT 1   [ RunTime:0.007000s ]
+NOTIC: [8] Undefined variable: value D:\xampp\htdocs\Jzc\Application\Home\Controller\ShareController.class.php 第 118 行.
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 15 LIMIT 1   [ RunTime:0.009000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 14 LIMIT 1   [ RunTime:0.009000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 13 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 12 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 11 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 10 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 9 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 4 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 8 LIMIT 1   [ RunTime:0.051000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 7 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 6 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 5 LIMIT 1   [ RunTime:0.013000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 2 LIMIT 1   [ RunTime:0.017000s ]
+SQL: SELECT `id`,`uid`,`title`,`content`,`addtime`,`label`,`type`,`praise`,`help` FROM `yaj_share` WHERE `id` = 3 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `yaj_user` [ RunTime:0.009000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `yaj_share_img` [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 16 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 16 AND `type` = 1  [ RunTime:0.017000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 16 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 15 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 15 AND `type` = 1  [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 15 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 14 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 14 AND `type` = 1  [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 14 AND `type` = 1 LIMIT 1   [ RunTime:0.009000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 13 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 13 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 13 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 12 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 12 AND `type` = 1  [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 12 AND `type` = 1 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 11 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 11 AND `type` = 1  [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 11 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 10 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 10 AND `type` = 1  [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 10 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 9 LIMIT 1   [ RunTime:0.009000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 9 AND `type` = 1  [ RunTime:0.010000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 9 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 4 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 4 AND `type` = 1  [ RunTime:0.008000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 4 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 8 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 8 AND `type` = 1  [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 8 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 7 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 7 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 7 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 6 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 6 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 6 AND `type` = 1 LIMIT 1   [ RunTime:0.009000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 28 LIMIT 1   [ RunTime:0.011000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 5 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 5 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 5 AND `type` = 1 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 2 LIMIT 1   [ RunTime:0.007000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 2 AND `type` = 1  [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 2 AND `type` = 1 LIMIT 1   [ RunTime:0.005000s ]
+SQL: SELECT `username`,`userpic`,`type` FROM `yaj_user` WHERE `id` = 22 LIMIT 1   [ RunTime:0.008000s ]
+SQL: SELECT `id` FROM `yaj_share_img` WHERE `pid` = 3 LIMIT 1   [ RunTime:0.006000s ]
+SQL: SELECT `img` FROM `yaj_share_img` WHERE `pid` = 3 AND `type` = 1  [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yaj_share_img` WHERE `pid` = 3 AND `type` = 1 LIMIT 1   [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

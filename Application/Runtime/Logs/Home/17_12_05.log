@@ -1,0 +1,18 @@
+[ 2017-12-05T17:26:11+08:00 ] ::1 /Jzc/index.php/Home/shop/selected
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.029000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+NOTIC: [8] Undefined index: colorId D:\xampp\htdocs\Jzc\Application\Home\Controller\ShopController.class.php 第 442 行.
+NOTIC: [8] Undefined index: standardId D:\xampp\htdocs\Jzc\Application\Home\Controller\ShopController.class.php 第 445 行.
+NOTIC: [8] Undefined index: capacityId D:\xampp\htdocs\Jzc\Application\Home\Controller\ShopController.class.php 第 446 行.
+NOTIC: [8] Undefined index: norms D:\xampp\htdocs\Jzc\Application\Home\Controller\ShopController.class.php 第 448 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\xampp\htdocs\Jzc\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `yaj_goodsconfig` [ RunTime:0.007000s ]
+SQL: SELECT `price`,`stock`,`productimg` FROM `yaj_goodsconfig` WHERE `gid` = 2 LIMIT 1   [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.025000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.026000s ]
+

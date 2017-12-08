@@ -77,11 +77,13 @@ class UserController extends Controller {
 		echo json_encode($value);
 	}
 	/**
-	 * 添加房屋信息
+	 * 添加/修改房屋信息
 	 */
 	public function addAddress(){
 		$data = I('post.');
 		$map['uid'] = $data['uid'];
+		$map['username'] = $data['username'];
+		$map['phone'] = $data['phone'];
 		$map['province'] = $data['province'];
 		$map['city'] = $data['city'];
 		$map['area'] = $data['area'];
@@ -93,13 +95,17 @@ class UserController extends Controller {
 			$map['acreage'] = $data['acreage'];
 			$map['house_img'] = get_img($_FILES['house_img']);
 		}
-		$int = M('house')->add($map);
-		if($int){
+		if($data['id']){
+			$int = M('house')->where(array('id'=>$data['id']))->save($map);
+		}else{
+			$int = M('house')->add($map);
+		}
+		if($int !== false){
 			$value['state'] = 1;
-			$value['succeed'] = '房屋信息添加成功';
+			$value['succeed'] = '房屋信息更新成功';
 		}else{
 			$value['state'] = 0;
-			$value['error'] = '房屋信息填失败';
+			$value['error'] = '房屋信息更新失败';
 		}
 		echo json_encode($value);
 	}
@@ -217,6 +223,30 @@ class UserController extends Controller {
 		$url = C('PASE');
 		$data = I('post.');
 		$value['address'] = M('house')->where(array('uid'=>$data['uid']))->select();
-		echo json_encode($address);
+		foreach($value['address'] as $k => $v){
+			$value['address'][$k]['house_img'] = $url.$value['address'][$k]['house_img'];
+		}
+		if($value['address']){
+			$value['state'] = 1;
+		}else{
+			$value['state'] = 0;
+			$value['error'] = 1;
+		}
+		echo json_encode($value);
+	}
+	/**
+	 * 删除地址
+	 * @return [type] [description]
+	 */
+	public function delAddress(){
+		$data = I('post.');
+		$int = M('house')->where(array('id'=>$data['id']))->delete();
+		if($int){
+			$value['state'] = 1;
+			$value['succeed'] = '删除成功';
+		}else{
+			$value['state'] = 0;
+			$value['error'] = '删除失败';
+		}
 	}
 }
